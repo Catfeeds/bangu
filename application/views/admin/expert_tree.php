@@ -7,10 +7,6 @@
 
 <style type="text/css">
 
-li {list-style: circle;font-size: 12px;}
-li.title {list-style: none;}
-ul.list {margin-left: 17px;}
-ul.ztree {margin-top: 10px;border: 1px solid #617775;background: #f0f6e4;width:220px;height:360px;overflow-y:scroll;overflow-x:auto;}
 
 </style>
 
