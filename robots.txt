@@ -1,5 +1,0 @@
-﻿User-agent:*
-Disallow: /bin/ 
-Disallow: /*admin*
-
-Sitemap: http://www.1b1u.com/sitemap.xml
