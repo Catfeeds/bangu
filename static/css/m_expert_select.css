@@ -1,0 +1,26 @@
+/*================ 筛选管家 (刘)==============================*/
+* { margin:0; padding:0; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;}
+.ifem_content { margin-bottom:45px; display:none;} 
+.sx_body { background:#f2f2f2; color:#666666;}
+.service_list { height:41px; border:1px solid #e4e4e5; background: #edeef2;}
+.service_list li { width:25%; padding:0 4px; float: left; text-align: center; box-sizing:border-box;}
+.service_list li a { padding:0 5px;  height: 40px; line-height: 40px; display:block;}
+.service_list li .on { border-bottom:2px solid #03bdae; color:#03bdae;}
+.item_title { height:30px; line-height:30px; padding:0 10px;}
+.item_title span { float: right; color:#0092ff;}
+.item_title span i { width:10px; height:12px; display: inline-block; background:url(../img/page/location.png) no-repeat center; background-size:8px; vertical-align: middle; margin-right:5px;}
+.item_list { padding:0 7px;}
+.item_list li,.item_list .selectOn { float: left; border:1px solid #e1e1e1; width:24%; margin-left:0.5%; margin-right:0.5%; color:#666; text-align: center; height: 30px; line-height: 30px; background:#fff; margin-bottom:10px;}
+.item_list li.type_more{color:#FFF;background-color:#fa8621;}
+.item_list .selectOn{ background:#e1e1e1;}
+.item_list li.active { background:#03bdae; color:#fff;}
+.footer_btn { width:90%; height:40px; text-align: center; color:#fff; line-height: 40px; background:#03bdae; border-radius: 3px; margin: 0 auto; margin-bottom:45px; margin-top:30px;} 
+.tab_item_title { background:#fff;}
+.tab_item_title b { color:#888888; font-weight: normal;}
+.cm_head_title { height:40px; text-align: center; line-height: 50px; font-size:12px; font-weight: normal;}
+
+.item_type { padding-bottom:10px;}
+.item_type li { background:#e1e1e1; width:25%; margin:0;}
+.item_type li.on_white { background:#fff;}
+.item_list_product ul { background:#fff;}
+.item_list_product li { border:none;}

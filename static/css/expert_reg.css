@@ -1,0 +1,188 @@
+/* CSS Document */
+@charset "utf-8";
+/****************
+ * @description : expert register
+ * @author   : chenxinliang 
+ * @date     : 2015-12-18 
+ ****************/
+*{ box-sizing:border-box;}
+input { background:#fff;}
+/*=============注册第一页==============*/
+.resgister_header { width: 100%; height: 230px; background-color: #03bdae; position: relative; }
+.resgister_return { display: block; width: 40px; height: 40px; background: url(../img/return.png) no-repeat center; background-size: 12px; position: absolute; left: 0px; top: 0px; }
+.resgister_logo { width: 100px; height: 100px; background-color: #FFF; position: absolute; left: 50%; top: 50px; margin-left: -50px; border-radius: 50%; background: url(../img/new_app_icon.png) no-repeat center #FFF; background-size: 70%; }
+.resgister_type { position: absolute; width: 100%; bottom: 15px; color: #FFF; font-size: 16px; text-align: center; }
+.resgister_type span { width: 50%; height: 30px; line-height: 30px; display:inline-block;}
+.resgister_type_on { height: 0px; width: 0px; border-width: 10px; border-style: solid; border-color: transparent transparent #edeef2 transparent; position: absolute; margin-left: -10px; bottom: 0px; left: 25%;  }
+.reg_step input { border:none;}
+.reg_step { display:none;}
+.reg_list { padding: 30px 20px 40px 20px; }
+.reg_list .reg_input { border-radius: 5px; margin-top:10px; border: 1px solid #e9eaec; padding: 6px 10px; background-color: #FFF; }
+.reg_list label { width: 60px; color: #888; display:inline-block;}
+.reg_list .reg_input input { width: 60%; padding: 3px 0px; line-height: 20px; } 
+.reg_list .reg_verify { margin: 5px 0px; position: relative; }
+.reg_form { width: 64%; border-radius: 5px; background-color: #FFF; padding: 6px 10px; border: 1px solid #e9eaec;box-sizing: border-box; }
+.verify_btn { position: absolute; top: 0px; right: 0px;  width: 32%; }
+.verify_btn span { height: 40px; line-height: 40px; text-align: center; width: 100%; background-color: #0092ff; border-radius: 3px; color: #FFF; display:block;}
+.verify_btn span.forbid_code { background-color: #666; }
+.agree { padding: 0px 30px; color: #666; }
+.agree input { margin-right: 5px; }
+.agree i { color: #fa8621; }
+.next_btn { padding:5px 30px; text-align: center; margin-top:5px;}
+.next_btn span { width: 100%; height: 40px; line-height: 40px; border-radius: 3px; background-color: #03bdae; color: #FFF; display:block;}
+
+/*=============注册第二页  个人信息==============*/
+.header{ background: #03bdae; height: 44px; line-height: 44px; text-align: center; color: #FFF; width: 100%; font-size: 16px; position: relative; }
+.header_fixed { position: fixed; top: 0px; z-index: 999; }
+.header .return_white { display: block; width: 50px; height: 50px; background: url(../img/return.png) no-repeat center; background-size: 12px; position: absolute; }
+.ret_infor { padding-top: 50px; padding-left: 20px; padding-right: 20px; line-height: 26px; }
+.infor_list { padding: 10px; border-bottom: 1px solid #ededed; }
+.infor_list label { width: 30%; color: #8f8f8f; float: left; }
+.infor_list label i { color: red; }
+.infor_list span { width: 70%; color: #ccc; position: relative; display: block; float: left; }
+.infor_list span input { width: 100%; padding: 3px 0px; height: 20px; line-height: 20px; }
+.infor_list span .right-arrows , .photo_site .right-arrows { display: block; width: 10px; height: 10px; border-top: 2px solid #aaaaaa; border-right: 2px solid #aaaaaa; -webkit-transform: rotate(45deg); position: absolute; right: 10px; top: 50%; margin-top: -5px; }
+
+.sex { display: inline-block; width: 50px; height: 25px; position: relative; background: #3ba9fe; color: #fff; line-height: 25px; border-radius: 20px; }
+.sex em { width: 50%; text-align: center;display: inline-block; }
+.sex i { display: inline-block; width: 20px; position: absolute; height: 20px; background: #fff; border-radius: 50%; right: 27px; top: 2px; }
+.pic { height: 80px; line-height: 60px; }
+.pic span { height: 60px; }
+.pic img { height: 60px; }
+.photo_site { position: relative; color: #8f8f8f; }
+.photo_site .right-arrows { right: 20px; }
+.next_btn { padding: 20px 10px; text-align: center; }
+.next_btn span { width: 100%; border-radius: 3px; background-color: #03bdae; color: #FFF;  height: 40px; line-height: 40px; }
+
+#self_describe { padding-right: 20px; word-break: break-all;word-wrap: break-word; overflow:hidden;height:26px;width:90%; white-space:nowrap;text-overflow:ellipsis;display:block;line-height:26px;}
+
+.master_line { width:100%;}
+.master_line span { width:auto;text-align: center; color: #808080; margin: 5px 1% 0; border: 1px solid #dedede; border-radius: 25px; height: 27px; line-height:25px; padding-left: 10px; position: relative; display:inline-block;}
+.master_line span i { float: right; padding-right: 5px; color: #cccccc; font-size: 18px; }
+
+.serve_area span { width:auto;text-align: center; color: #808080; margin: 5px 1% 0; border: 1px solid #dedede; border-radius: 25px; height: 27px; line-height:25px; padding-left: 10px; position: relative; display:inline-block;}
+.serve_area span i { float: right; padding-right: 5px; color: #cccccc; font-size: 18px; }
+/*=============注册第二页  上门服务区域选择==============*/
+.serve_choice { display: inline-block; width: 50px; height: 25px; position: relative; background: #fa8621; color: #fff; line-height: 25px; border-radius: 20px; }
+.serve_choice em { width: 50%; text-align: center;display: inline-block; }
+.serve_choice i { display: inline-block; width: 20px; position: absolute; height: 20px; background: #fff; border-radius: 50%; right: 27px; top: 2px; }
+
+#serve_area { display:none;}
+.home_service { display:none;position:fixed;width:100%;height:100%;left:0;top:0;background:rgba(0,0,0,0.6);z-index:1000;}
+.home_service_content { position:absolute;width:100%;height:auto;left:0;bottom:0;background:#fff;}
+.title_txt { height:40px;line-height:40px;background:#03bdae;color:#fff;width:100%;}
+.title_txt span { display:inline-block;text-align:center;}
+.title_txt span:nth-child(1){ width:20%;float:left;}
+.title_txt span:nth-child(2) { width:60%;float:left;}
+.title_txt span:nth-child(3) { width:20%;float:left;}
+.serve_area_list li { width:100%;height:40px;line-height:40px;color:#363636;position:relative;text-align:center;border-bottom:1px solid #e1e1e1;}
+.serve_area_list li i { display:none;position:absolute;right: 20px;top: 7px;width: 26px;height: 26px; background: url(../img/page/ok_msu.png) no-repeat;background-size:26px;}
+.serve_area_list li.on { color:#ffae00;}
+.serve_area_list li.on i { display:block;}
+/*=============注册第二页  擅长线路==============*/
+.good_line_box { background:#fff !important;overflow-y: auto;}
+.line_type { position:relative;margin-top:44px;border-bottom:1px solid #e1e1e1;}
+.line_type li { float:left;width:50%;text-align:center;line-height:40px;font-size:15px;}
+.line_type li:nth-child(1) { border-right:1px solid #e1e1e1;}
+.line_type li.on { background:#f2f2f2;}
+.des_info_list { display:none;}
+.des_info_list ul { padding:15px 5px;}
+.des_info_list ul li { float: left; width: 23%; margin: 0 1% 5px 1%; border: 1px solid #e1e1e1; border-radius: 3px; height: 30px; line-height: 28px; text-align: center; color: #666666; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;}
+.des_info_list ul li.select_on { color: #03bdae; border: 1px solid #03bdae;}
+.footer_btn { width: 90%; height: 45px; text-align: center; color: #fff; line-height: 45px; background: #03bdae; border-radius: 3px; margin: 0 auto; margin-top: 40px; margin-bottom: 20px; font-size: 14px;}
+
+
+
+/*=============注册第二页  个人简历==============*/
+.add_btn { display: block; width: 44px; height: 44px; line-height:44px; color: #FFF; font-size: 30px; position: absolute; right: 0px; bottom: 0px; }
+.self_infor { margin-bottom: 10px; padding: 50px 10px 0px 10px; background-color: #FFF; }
+.work { padding: 0px 10px; background-color: #FFF; margin-bottom:15px; position:relative;border-radius:5px;}
+.work_infor .delete { position: absolute; right: 10px; color: #05beaf; }
+.work_infor { border-bottom: 1px solid #ededed; padding: 5px 0px; line-height: 25px; }
+.work_infor label { width: 30%; color: #666; float: left; line-height: 25px; padding: 5px 0;}
+.work_infor span { width: 70%; color: #ccc; position: relative; display: block; float: left; padding:5px;}
+.work_infor span input { width: 100%; padding: 3px 0px; height: 20px; line-height: 20px; }
+.work_infor textarea { border:none;height:60px;width:100%;padding:5px 5px 5px 0px;}
+.title { margin-top: 10px; }
+.title .infor_title { color: #fa8621; padding:0 20px;}
+.work_list .infor_title { color: #fa8621;}
+.work_experience { height:40px;line-height:40px;background:#fff;padding:0 10px;color:#000;margin-top:20px;position:relative;}
+.work_experience span { position:absolute;display:block;right:20px;top:5px;width:50px;height:30px;text-align:center;line-height:30px;background:#05beaf;color:#fff;border-radius:4px;}
+
+.work_list { padding:15px 20px 0 20px;display:none;}
+.work_list.has { display:block;}
+.delete { position:absolute;width:20px;height:20px;border-radius:50%;background:rgba(0,0,0,0.7);color:#fff;font-size:20px;text-align:center;line-height:18px;right:-10px;top:-10px;}
+
+.expert_photo img { width:50px;height:50px;}
+.mbsc-mobiscroll .dwbc .dwbw { width:50%;}
+.mbsc-mobiscroll .dwbc .dwbw .dwb { text-align:center;background:#4eccc4;color:#fff;width:80%;margin:0 10%;padding:0;}
+
+/*=============注册第二页  提交审核==============*/
+.con { padding: 30px 20px; margin-top: 20px; }
+.hint { padding: 5px 20px; position: relative; border-radius: 5px; color:#fa8621;margin-top:20px;}
+.hint_icon { position: absolute; width: 22%; max-width: 90px; top: -20px; left: 0px; }
+.hint_icon img { width: 100%; }
+.hint_title { text-align: center; color: #fa8621; font-size: 16px; position: relative; margin: 20px 0px; }
+.title_icon { display: inline-block; width: 20px; height: 15px; background: url(../../image/common/orange_hook.png) no-repeat center; background-size: 100%; position: absolute; left: 50%; top: 5px; margin-left: -65px; }
+.hint_con { padding: 10px 0px; color: #999; }
+
+/*================荣誉证书=================*/
+.add_certificates { float:right;margin-right:20px;font-size:14px;}
+.certificates { background-color: #FFF; margin:15px 15px 0 15px;border-radius:5px; position:relative;}
+.certificates_name { border-bottom: 1px solid #ededed; }
+.certificates_pic , .certificates_name { padding: 10px; line-height: 30px; position: relative; }
+.certificates_pic label , .certificates_name label { width: 30%; color: #666; display:inline-block; }
+.certificates_pic span , .certificates_name span { width: 70%; color: #ccc;display:inline-block; }
+.certificates_name input { width: 100%;padding: 3px 0px; line-height: 20px; border:none;}
+.certificates_pic .right-arrows { display: block; width: 10px; height: 10px; border-top: 2px solid #aaaaaa; border-right: 2px solid #aaaaaa; -webkit-transform: rotate(45deg); position: absolute; right: 10px; top: 50%; margin-top: -5px; }
+.next_btn { padding: 20px 10%; text-align: center; margin-top: 30px; }
+.next_btn span { width: 100%; border-radius: 3px; background-color: #03bdae; color: #FFF;  height: 40px; line-height: 40px; }
+#pic img { height: 50px; }
+
+/*================个人描述=================*/
+.person_describe_box,.certificates_box,.photograph_box,.good_line_box { display:none; position: fixed; width: 100%; top: 0px; height:100%; z-index: 1000; background: #edeef2;min-width:320px;}
+.describe_self { padding: 10px; }
+.self_con { background-color: #FFF; width: 100%; height: 180px; resize: none; outline: none; padding: 10px; border-radius: 5px; border:none;}
+.next_btn { padding: 20px 30px; text-align: center; }
+.next_btn span { width: 100%; border-radius: 5px; background-color: #03bdae; color: #FFF;  height: 40px; line-height: 40px; }
+
+._eject_more_product { z-index:1000 !important;}
+
+/*================免费拍照=================*/
+.main { padding: 0px 30px; text-align: center; }
+.title { margin-top: 20px; margin-bottom: 10px; color: #fa8621; }
+.code_pic img{ width: 60%; }
+.photo_infor { text-align: left; }
+.photo_infor p { margin: 10px 0px; color: #666; }
+.photo_infor p.photostudio { color: #999; }
+.photo_infor p.photostudio label input { margin-right: 5px;position:relative;top:-1px;} 
+
+
+
+/*================管家服务总则=================*/
+.cm_login_head { position:fixed;width:100%;top:0;left:0;z-index:100;}
+.rules_content { position:relative;margin-top:45px;padding:10px;}
+.biaiti { text-align: center; font-size: 20px; height: 40px; line-height: 40px;}
+.butler_list li { line-height:20px;}
+.zhuyi { line-height: 24px; text-indent: 24px;}
+.rules_content h2 { line-height: 30px; height: 30px; margin-top: 5px; font-size: 15px;}
+.qianzi { padding-top:25px;padding-bottom:30px;}
+.qianzi div ul li { line-height:20px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

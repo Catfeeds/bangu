@@ -1,0 +1,138 @@
+<html>
+<head>
+<title>下拉列表</title>
+<link href="/assets/js/jQuery-plugin/combo/css/jquery.comboBox.css" rel="stylesheet" />
+</head>
+<body>
+<input id="combobox"  />
+
+<script src="/assets/js/jquery-1.11.1.min.js"></script>
+<script src="/assets/js/jQuery-plugin/combo/jquery.comboBox.js"></script>
+<script type="text/javascript">
+jQuery(document).ready(function() {
+	var comboBox=new jQuery.comboBox({
+		id:"#combobox",
+		name:"id",//隐藏的value ID字段
+		columns:[{name:"qp"}],//展示的列  可以不填写  默认显示text
+		query:["jp","qp"],//查询列默认  可以不填写 默认查询text匹配的数据
+		selectedAfter:function(item,index){//选择后的事件
+			
+		},
+		data : [{
+				text : '北京',
+				value : '2001',
+				jp:"bj",
+				qp:"beijing"
+			}, {
+				text : '上海',
+				value : '2002',
+				jp:"sh",
+				qp:"shanghai"
+			}, {
+				text : '深圳',
+				value : '2003',
+				jp:"sz",
+				qp:"shenzhen"
+			}, {
+				text : '广州',
+				value : '2004',
+				jp:"sh",
+				qp:"shanghai"
+			}, {
+				text : '香港',
+				value : '2005',
+				jp:"sh",
+				qp:"shanghai"
+			}, {
+				text : '澳门',
+				value : '2006',
+				jp:"sh",
+				qp:"shanghai"
+			}, {
+				text : '台北',
+				value : '2007',
+				jp:"sh",
+				qp:"shanghai"
+			}, {
+				text : '武汉',
+				value : '2008',
+				jp:"sh",
+				qp:"shanghai"
+			}, {
+				text : '南京',
+				value : '2009',
+				jp:"sh",
+				qp:"shanghai"
+			}, {
+				text : '天津',
+				value : '2010',
+				jp:"sh",
+				qp:"shanghai"
+			}, {
+				text : '成都',
+				value : '2011',
+				jp:"sh",
+				qp:"shanghai"
+			}, {
+				text : '昆明',
+				value : '2012',
+				jp:"sh",
+				qp:"shanghai"
+			}, {
+				text : '台北',
+				value : '2007',
+				jp:"sh",
+				qp:"shanghai"
+			}, {
+				text : '武汉',
+				value : '2008',
+				jp:"sh",
+				qp:"shanghai"
+			}, {
+				text : '南京',
+				value : '2009',
+				jp:"sh",
+				qp:"shanghai"
+			}, {
+				text : '天津',
+				value : '2010',
+				jp:"sh",
+				qp:"shanghai"
+			}, {
+				text : '成都',
+				value : '2011',
+				jp:"sh",
+				qp:"shanghai"
+			}, {
+				text : '昆明',
+				value : '2012',
+				jp:"sh",
+				qp:"shanghai"
+			} , {
+				text : '台北',
+				value : '2007',
+				jp:"sh",
+				qp:"shanghai"
+			}, {
+				text : '武汉',
+				value : '2008',
+				jp:"sh",
+				qp:"shanghai"
+			}, {
+				text : '南京',
+				value : '2009'
+			}, {
+				text : '天津',
+				value : '2010'
+			}, {
+				text : '成都',
+				value : '2011'
+			}, {
+				text : '昆明',
+				value : '2012'
+			}  ]
+		});
+});
+</script>
+</body>
+</html>

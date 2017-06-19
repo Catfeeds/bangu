@@ -1,0 +1,149 @@
+﻿ 
+*{margin:0;padding:0;list-style-type:none;}
+a,img{border:0;}
+body{font:12px/180% Arial, Helvetica, sans-serif, "新宋体";}
+.container{width:940px;margin:0 auto;}
+
+div {
+	display: block;
+}
+
+#calendar {
+width: 500px;
+}
+
+.btn {
+	cursor: pointer;
+	vertical-align: middle;
+	margin: 0;
+	position: relative;
+	display: inline-block;
+	color: #fff;
+	-webkit-box-shadow: 0 1px 0 rgba(0,0,0,.05);
+	-moz-box-shadow: 0 1px 0 rgba(0,0,0,.05);
+	box-shadow: 0 1px 0 rgba(0,0,0,.05);
+	-webkit-transition: all .15s ease;
+	-moz-transition: all .15s ease;
+	-o-transition: all .15s ease;
+	transition: all .15s ease;
+	-webkit-border-radius: 2px;
+	-webkit-background-clip: padding-box;
+	-moz-border-radius: 2px;
+	-moz-background-clip: padding;
+	border-radius: 2px;
+	background-clip: padding-box;
+	font-size: 13px;
+}
+button, html input[type=button], input[type=reset], input[type=submit] {
+	-webkit-appearance: button;
+	cursor: pointer;
+}
+
+
+.btn {
+	display: inline-block;
+	padding: 6px 12px;
+	margin-bottom: 0;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 1.42857143;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	background-image: none;
+	border: 1px solid transparent;
+	border-radius: 4px;
+}
+
+.buttons-suit .btn, .buttons-suit .btn-group {
+	margin-bottom: 10px;
+	margin-right: 4px;
+}
+
+
+.btn-blue, .btn-blue:focus {
+	background-color: #5db2ff!important;
+	border-color: #5db2ff;
+	color: #fff;
+}
+.btn-gray, .btn-gray:focus {
+	background-color: #99b2ff!important;
+	border-color: #5db2ff;
+	color: #fff;
+}
+
+.fc-other-month {
+	background: #eaeaea;
+	width:75px;
+	height:40px; 
+	border-width: 1px 0 0 1px;
+	border:1px solid #fafafa; 
+}
+.fc-month {
+	background: #ffffff;
+	width:75px;
+	height:40px; 
+	border-width: 1px 0 0 1px;
+	border:1px solid #eaeaea;
+	text-align: center;
+}
+
+
+.td_price td :hover{
+	background: #fffceb; 
+	cursor: hand;cursor: pointer;  
+}
+ 
+.date-head-tr th{
+	text-align: center;
+	background: #80888f;
+	color: #fff;
+	border: 0 none;
+}
+  
+
+th.date-head-last, th.date-head-first {
+	background: #42b312;
+}
+
+/***表头**/
+.fc-header {
+border: 1px solid #dedede;
+border-bottom: none;
+height: 29px;
+background: #eaeaea;
+}
+.fc-header-left {
+	width: 25%;
+	text-align: left;
+}
+.fc-header-right {
+	width: 25%;
+	text-align: right;
+}
+.fc-header-center {
+text-align: center;
+}
+.fc-header-title {
+display: inline-block;
+vertical-align: top;
+padding: 2px 0 0 0;
+}
+
+
+.fc-day-number {
+float: left;
+padding: 0 2px;
+}
+ .fc-day-content {
+clear: both;
+padding: 2px 2px 1px;
+color: #f60;
+font-size: 12px;
+font-family: "Microsoft Yahei";
+}

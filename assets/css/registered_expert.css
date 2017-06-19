@@ -1,0 +1,226 @@
+.widget-body{
+         font-size: 13px;
+         }
+           .registered_head{  
+           	margin-left: 5%;
+           }
+	.expert_tishi{ 
+		color: #ff0000;
+	}
+	.fl{
+		float: left;
+	}
+	.registered_time{ 
+		margin-right: 10%;
+	}
+	input[type="checkbox"], input[type="radio"]{
+		opacity: 10;
+		height: 12px;
+	}
+	.qieh_title  input{
+		top:-3px;
+	}
+	.expert_type{ 
+		padding-right: 40px;
+	}
+	.clear{
+		clear:both;
+	}
+	.qieh_title{ 
+		margin-top: 15px;
+	}
+	.territory{
+		position:relative; 
+		margin-right: 5%;
+	}
+	.registered_title{
+		margin-top: 20px;
+		color: #666; 
+		font-size: 12px;
+		font-weight: 500;
+	}
+	.registered_title span{
+		font-size: 15px;
+		color: #333333; 
+		padding-left: 10px; 
+		padding-right: 10px; 
+		font-weight: 700;}
+	.front_col{ 
+		padding-top: 15px;
+	}
+	input{ 
+		height: 35px;
+		line-height: 35px;
+		width: 200px;}
+	.col_sq{
+		margin-right: 5%;
+	}
+	.gender_B,.gender_G{ 
+		position: relative;
+		 }
+	.gender_B{ 
+		margin-right: 40px; 
+		margin-left: 15px;
+	}
+	.col_sq input{
+		top: 7px;
+	}
+	.col_ts{
+		margin-right: 10%;
+	}
+	.widget-main  li{ 
+		list-style: none; 
+		float: left; 
+		margin-right:20px;
+	}
+	.chen_list li input{ 
+		margin-right: 2px; 
+		position: relative;
+		top: 2px;left:3px;
+	}
+	td{
+		text-align: center;
+	}
+	.stered_input{ 
+		background: rgba(0, 0, 0, 0) url("/assets/img/yanzheng_bg.png") repeat scroll 0 0;
+		height: 117px;
+		padding:30px 10px 10px;
+		position: absolute;
+		left:418px;
+		z-index:100;
+		border-bottom: 1px solid #ccc;
+	}
+
+	.add_btn{ 
+		padding:4px 12px; 
+		color: #fff;
+		background: #60af00  !important;
+		border-radius: 4px; 
+		cursor: pointer;}
+	.territory_details label{
+		width: 75px; 
+		text-align: right;
+		line-height: 35px;
+		float: left;
+	}
+	textarea{ 
+		width: 700px; 
+		height: 60px}
+	.R_city,.R_road{ 
+		height: 65px;
+	}
+	.door_service{ 
+		margin-top: 12px;
+	}
+	table{ 
+		margin-top: 20px;
+	}
+	.R_saomiao{ 
+		padding-top: 20px;
+	}
+	.personal_resume {
+		margin-top: 40px;
+	}
+	.personal_resume p,.D_honor p{ 
+		color: #ff0000;
+		margin-top: 10px; 
+		margin-left: 10px;
+	}
+	.Education{ 
+		height: 70px;
+	}
+	.yzm_tijiao,.yzm_guanbi{ 
+		background: #00b7ee ; 
+		width: 50px;
+		border-radius: 4px; 
+		color: #fff;
+		 border: none;
+		 padding:0px;
+		}
+	.Verification_div{
+		height: 90px;
+		margin-top: 20px;
+	}
+	.xieyi{ position: relative; 
+		margin-left: 40px;
+		padding-bottom:55px;
+		
+	}
+	.xieyi input{
+		left: -22px;
+	}
+	.xieyi a{ 
+		color: #0000ff;
+	}
+	.xieyi .tijiao_btn{ 
+		padding: 10px 40px;
+		background: #ffae00; 
+		color: #fff; 
+		border-radius: 4px; 
+		font-size: 20px; 
+		cursor: pointer;}
+	.resume_nav .time{ 
+		width:96px;
+	}
+	.resume_nav .time_1{
+		width:100%;
+	}
+	.Delete{ 
+		cursor: pointer;color: #0000ff;
+	}
+	.D_resume input,.Education input{ 
+		border: none;
+		border-bottom: 1px solid #e1e1e1;
+	}
+	.registered_title .Bar{ 
+		background: #ffae00 ;
+		float: left;
+		height: 15px;
+		width: 5px;
+		margin-top: 2px;
+	} 
+	    
+    
+.title_box{ padding:20px 0; padding-top:5px; padding-left:20px; padding-bottom:0;}
+.Good_at_line{  margin: 0 auto; width: 1000px;clear: both;}
+.Good_at_line ul li{float:left;}
+.goog_goin{ padding:5px 0; position: relative;}
+.goog_goin .goog_goin_title{ background:none; color:#666; width:80px; line-height:32px; text-align:right; padding-right:10px;float: left;}
+.goog_goin input{ border:1px solid #c5c5c5; padding-left: 10px; height:30px; line-height:30px;width:247px;}
+.two_layer{ height:32px; text-align:center;}
+.two_layer p{ line-height:16px; text-align:right;}
+.input_long{ width:250px; float:left;}
+.color_red{ color:#f30; padding:10px 0; padding-left:20px; clear:both;}
+.vacancy{ padding-left:20px; padding-bottom:10px;}
+.vacancy input{ height:24px !important; line-height:24px !important;}
+
+.city_mune{ font-weight:700;}
+.city_longs{ overflow: hidden; width:246px; height: 300px; position: absolute;margin-left: 75px;
+    margin-top: 30px; background: #fff; border: 1px solid #ccc; border-top: none; overflow-y: auto; z-index: 1000; display: none;}
+.city_longs li{ float: left; width:210px; padding-left: 20px; height: 30px; line-height: 30px; cursor: pointer;transition:all .1s ease-in;}
+.city_longs li:hover{ background: #f2f2f2;}
+.clixk_ok{ background:url(../../static/img/ok_msu.png) no-repeat; width: 20px; height: 20px; margin-top: 5px; float: right; margin-right: 5px;}
+
+.generated_city{ overflow: hidden;width: 600px;}
+.generated_city li{ float: left; height: 30px; line-height: 30px; background: #4c8704; border-radius: 3px; color: #fff; padding: 0 10px; margin: 0 10px;}
+.generated_city li span{ width:10px; height: 20px; line-height: 20px; margin-left: 5px; background: none !important;}
+
+.yanzheng_eject{ width:232px; height:117px; background:url(../../static/img/yanzheng_bg2.png); clear:both; position:absolute; float:right; right:35px; top:35px;}
+.yanzheng_eject2{ width:232px; height:117px; background:url(../../static/img/yanzheng_bg2.png); clear:both; position:absolute; float:right;right:180px;}
+.yanzheng_eject3{ width:232px; height:117px; background:url(../../static/img/yanzheng_bg2.png); clear:both; position:absolute; float:right; right:184px;}
+
+.titl_head{ background:none !important;}
+.button_modality{ background:none !important; border:1px solid #60af00; border-radius:3px; color:#000 !important; width:auto !important; padding:0 5px;}
+
+#destList1,#destList2{margin-left: 396px;margin-top: -31px;min-height:32px;}
+#destList1 .selectedTitle{display:none;}
+#destList1 .selectedContent{background:#60af00;color: #fff;border: 1px solid #60af00;border-radius: 3px;width:auto;padding: 3px 11px 3px 7px;margin-right:10px;}
+#destList1 .delPlugin{background: #60af00;color: #fff;width: 5px;margin-left: 5px;}
+
+#destList2 .selectedTitle{display:none;}
+#destList2 .selectedContent{background:#60af00;color: #fff  ;border: 1px solid #60af00;border-radius: 3px;width:auto;padding: 3px 11px 3px 7px;margin-right:10px;}
+#destList2 .delPlugin{background: #60af00;color: #fff;width: 5px;margin-left: 5px;}
+
+.num_info{ position: absolute; right:20px; top: 60px;}
+.num_info span{width: auto !important; background: none !important; color: #333 !important;}
+.num_info i{ color: #333 !important;}

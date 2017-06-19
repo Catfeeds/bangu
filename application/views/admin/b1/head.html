@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<!--
+BeyondAdmin - w_1200 Admin Dashboard Template build with Twitter Bootstrap 3.2.0
+Version: 1.0.0
+Purchase: http://wrapbootstrap.com
+-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<!-- Head -->
+<head>
+    <meta charset="utf-8" />
+    <title>供应商管理系统</title>
+    <meta name="description" content="Dashboard" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <!-- 声明某些双核浏览器使用webkit进行渲染 -->
+
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" >
+
+<!--     <link rel="shortcut icon" href="<?php echo base_url('assets/img/favicon.png');?>" type="image/x-icon"> -->
+    <link rel="icon" href="/bangu.ico" type="image/x-icon"/> 
+    <!--Basic Styles-->
+
+    <link id="bootstrap-rtl-link" href="" rel="stylesheet" />
+    <link href="<?php echo base_url('assets/css/font-awesome.min.css');?>" rel="stylesheet" />
+    <link href="<?php echo base_url('assets/css/weather-icons.min.css');?>" rel="stylesheet" />
+	<link href="<?php echo base_url('assets/css/hm.widget.css');?>" rel="stylesheet" />
+    
+	<link type="text/css" href="<?php echo base_url('assets/css/turn_price_form.css');?>" rel="stylesheet" />
+    <!-- 城市选择 -->
+     <link href="/assets/js/jQuery-plugin/citylist/city.css" rel="stylesheet" />
+    <!--Fonts-->
+    <link href="<?php echo base_url('assets/css/fonts.css');?>" rel="stylesheet">
+    <!-- 多图片上传 -->
+	<link href="<?php echo base_url('assets/css/diyUpload.css');?>" rel="stylesheet" />  
+    <!--Beyond styles-->
+    <link id="beyond-link" href="<?php echo base_url('assets/css/beyond.min.css');?>" rel="stylesheet" />
+    <link href="<?php echo base_url('assets/css/demo.min.css');?>" rel="stylesheet" />
+    <link href="<?php echo base_url('assets/css/typicons.min.css');?>" rel="stylesheet" />
+    <link id="skin-link" href="" rel="stylesheet" type="text/css" />
+	<link href="<?php echo base_url('assets/ht/css/base.css');?>" rel="stylesheet" />
+    <link href="<?php echo base_url('assets/css/style.css');?>" rel="stylesheet" />
+    <link href="<?php echo base_url('assets/css/common.css')?>" rel="stylesheet" />
+    <!--Skin Script: Place this script in head to load scripts for skins and rtl support-->
+    <script src="<?php echo base_url('assets/js/skins.min.js');?>"></script>
+    <!--Basic Scripts-->
+    <script src="<?php echo base_url('assets/js/jquery-1.8.1.min.js');?>"></script>
+    <script src="<?php echo base_url('assets/js/bootstrap.min.js');?>"></script>
+    <!--Beyond Scripts-->
+    <script src="<?php echo base_url('assets/js/beyond.min.js');?>"></script>
+    <script src="<?php echo base_url('assets/ht/js/layer.js');?>"></script>
+    <style type="text/css">
+    	#top { position:fixed;top:0;left:0;width:100%;z-index: 1000;}
+		.main-container { padding-top:60px;}
+		#sidebar { overflow-y:auto;overflow-x:hidden;position:fixed;left:0;top:60px;}
+		.page-sidebar:before { position:relative;}
+           .page-sidebar .menu-dropdown  {
+                background-color: #fff;
+            }
+            .page-sidebar .menu-dropdown  {
+                color: #262626;
+            }
+    </style>
+    <script type="text/javascript">
+$(function(){
+    var isIE=!!window.ActiveXObject;
+    var isIE8=isIE&&!!document.documentMode;
+if(navigator.userAgent.indexOf("MSIE")>0){   
+      if(navigator.userAgent.indexOf("MSIE 6.0")>0){   
+        location.href('/admin/update'); 
+      }   
+      if(navigator.userAgent.indexOf("MSIE 7.0")>0){  
+        location.href('/admin/update'); 
+      }   
+         
+      if(navigator.userAgent.indexOf("MSIE 9.0")>0){  
+        
+        return false;
+      } 
+      if(navigator.userAgent.indexOf("MSIE 10.0")>0){  
+        
+        return false;
+      } 
+      if(navigator.userAgent.indexOf("MSIE 11.0")>0){  
+         
+        return false;
+      } 
+      if(isIE8){//这里是重点，你懂的
+	  	return false;
+        location.href('/admin/update');
+      }  
+    } 
+})
+	function left_height(){
+		var top_h = document.getElementById('top').offsetHeight;//头部的高度
+		var h1 = $(window).height();// 获取窗口高度
+		var left_h = h1 - top_h;
+		//alert(h1);
+		document.getElementById('sidebar').style.height = left_h+"px";
+		$("body").height(h1);
+		
+		$(".main-container").height(left_h);
+		//alert(left_h);
+	}
+	//当浏览器窗口大小改变时，设置显示内容的高度  
+	window.onresize=function(){ 
+		var top_h = document.getElementById('top').offsetHeight;//头部的高度
+		var h1 = $(window).height();// 获取窗口高度
+		var left_h = h1 - top_h;
+		//alert(h1);
+		document.getElementById('sidebar').style.height = left_h+"px";
+		$("body").height(h1);
+		$(".main-container").height(left_h);
+	}
+            function openWin(settings){
+                    var idx = layer.open(settings);
+                    if(settings.full==true){
+                        layer.full(idx);
+                    }
+                }
+    </script>
+</head>
+<!-- /Head -->
+<!-- Body -->
+<body onLoad="left_height();" style="overflow-y: hidden;">
+     
+    <div class="navbar" id="top">
+        <div class="navbar-inner clear">
+            <div class="navbar-header fl">
+                <a href="http://bangu.com/admin/t33/home/index" class="navbar-brand" style="padding:0;">
+                    <!--<img src="/assets/ht/img/logo.png" /> --><span>帮游供应商管理系统</span>
+                </a>
+            </div>
+            <div class="header_right fr">
+                <!--<div class="user_photo"><img src="http://bangu.com/assets/ht/img/face.png" onclick="change_avatar();"/></div> -->
+                <div class="user_info">
+                    <p>
+                        <span style="color: #fff;vertical-align: top;" >账户名 ：<?php $arr=$this->session->userdata ( 'loginSupplier' ); echo  $arr['linkman'] ;?> </span>
+                        <span class="logout_img" onclick="supplier_loginout();" style="margin-left: 50px;"><img src="<?php echo base_url();?>assets/ht/img/logout.png" title="退出"></span>
+                    </p>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /Navbar -->
+    <!-- Main Container -->
+    <div class="main-container container-fluid" style="overflow-y:auto;overflow-x:auto;">
+        <!-- Page Container -->
+        <div class="page-container">
+            <!-- Page Sidebar -->
+            <div class="page-sidebar nui-scroll aside" id="sidebar" style="z-index:1000;">
+                <!-- Sidebar Menu -->
+                <?php
+                include_once('menu.php');
+                ?>
+            </div>
+            <!-- /Page Sidebar -->
+
+            <!-- Page Content -->
+            <div class="page-content" style="margin-left:160px;">
+
+<script type="text/javascript">
+function supplier_loginout(){
+	if(confirm('确定要退出吗?')){
+		location.href="<?php echo base_url('admin/b1/home/login_out')?>";
+	}
+}
+</script>
+

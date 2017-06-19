@@ -1,0 +1,113 @@
+@media(max-width:1240px){
+.w_1200{width:960px;margin:0 auto}
+.header{min-width:1000px}
+.footer{min-width:1000px}
+.wrap .img_banner{min-width:1000px !important}
+.bar_left_icon{margin-left:-1050px}
+.shouye_box{width:100% !important}
+.img_banner{min-width:1000px}
+.return_top{margin-left:510px}
+.wrap .img_banner #course{margin-left:-500px}
+.huodong{display:none}
+.header_logo{padding-top:16px;margin-right:20px}
+.header_search{width:455px;margin-top:43px;position:relative;border:3px solid #ffae00;height:35px;left:0}
+.header_search input{width:303px;*width:333px;border:none;height:35px;box-sizing:border-box;padding:0 5px;vertical-align:top;/* padding-top:11px\9;height:24px\9;*/ line-height:35px;font-size:12px;color:#999;outline:none}
+.header_search input.inp_srh{outline:none;width:365px}
+.header_nav a{padding:0 25px}
+.footer_img img{width:960px;}
+.experience_photo{width:62px !important;height:62px !important}
+.experience_photo img{width:60px !important;height:60px !important}
+.jike_box{width:230px;height:140px}
+#current_expert{width:320px;height:320px}
+#list-experts li{height:160px;width:160px}
+#list-experts .on{width:156px;height:156px}
+#list-experts .on img{width:156px;height:156px}
+#list-experts img{width:160px;height:160px}
+.border_yellow{width:156px;height:156px}
+.profile_left_content{width:600px}
+.w960_img{height:140px !important}
+.tiyan_content ul{width:970px}
+.tiyan_content ul li{width:230px;float:left;position:relative;margin-right:10px}
+.tiyan_link{display:block;position:relative;height:140px;width:230px}
+.tiyan_link>a>img{width:230px;height:140px;z-index:-1}
+.text_info{width:713px}
+.good_lines{width:960px}
+.experience_ription{width:150px}  
+.heise_back{height:138px}
+.magin_vag{margin-top:60px}
+.tiyan_link>img{width:100% !important;display:block}
+.tejia{width:960px}
+.tejia_img{width:0px}
+.tejia_img a img{width:0px}
+.list_item{float:left;left:0px}
+.list-lines li{margin-left:0px;margin-right:8px}
+.changxiao_img{width:0px}
+.changxiao_img a img{width:0px}
+.line_list_itme{float:left}
+.list_lines_tx{width:972px}
+.list_lines_tx li{margin-right:13px}
+.tour_details{width:960px}
+.head_img img{width:960px;height:64px}
+.bar_right{width:0px}
+.travel_costs{width:960px}
+.list_pic_right{width:750px} 
+.apply_link{font-size:17px}
+.question_line{width:960px}
+.experience_txt_info{width:230px}
+.question_line_content{margin-right:37px}
+.why_bangu{width:960px}
+.why_bangu img{width:960px;height:48px}
+.integrity_server ul{margin-left:8px}
+.integrity_server ul li{margin-right:5px}
+._float_con{width:960px}
+.shouji_float{left:0}
+._float_activity{left:180px}
+.web_links_content{width:885px}
+.place{width:960px;margin:0 auto}
+.right_content{display:none}
+.tiaoxuan_txt{display:none}
+.tiaoxuan input{width:88px}
+
+.experience_right_side{display:none}
+.travels_img_show img{width:500px;height:320px}
+.travels_show_list{height:auto;padding-bottom:20px}
+.travels_show_list ul{width:480px;height:320px}
+.current_travel .travels_line{width:320px}
+.travels_list_content .travels_line{width:380px;margin-top:12px}
+.travels_banner img{width:960px;height:auto}
+.travels_list_content .travels_img_show{width:520px;height:320px}
+.travels_list_content .travels_img_show img{width:520px;height:320px}
+.travels_text_show{width:520px}
+.travels_text_show a{width:480px}
+.travels_list_content{height:50px}
+.current_travel{height:66px !important}
+.current_travel .author_img img{width:50px;height:50px}
+.current_travel .green_line{margin-top:-31px;height:67px}
+.travels_list_info{width:960px;margin:0 auto;padding-top:10px}
+.travels_list_info ul{margin-left:20px}
+.write_travels{ margin-right:0}
+.travels_list_right{display:none}
+.custom_list_banner{overflow:hidden}
+.search_style{min-width:960px}
+.form_bxx{width:960px}
+.mudidi_directory{width:960px}
+.mudidi_directory2{width:960px}
+#tiles{width:920px;margin:0 auto}
+.stered_back{width:960px}
+.form_con{margin-left:230px}
+.login-foot{width:960px}
+.regis_box{width:960px}
+.login-foot ul{margin-left:12%}
+.login-keep{width:900px;}
+.login_content{min-width:960px}
+.login_header{width:960px}
+.wa .w_1200{width:960px}
+.con{width:960px}
+.dibu{width:960px}
+.dibu ul{padding-left:9%}
+.dibu .huizhi{width:960px}
+.Cellphone_main{width:960px}
+.Cellphone_conment{width:960px}
+}
+@media(max-width:1120px){.bar_left_icon{margin-left:-1050px}}
+@media(max-width:1400px){.return_top{right:0px}}

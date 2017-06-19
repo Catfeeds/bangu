@@ -1,0 +1,14 @@
+*{ margin:0; padding:0; list-style:none;}
+.citypicker_container { width:400px; position:absolute; font-size:12px; background:#fff;z-index:9999}
+.citypicker_container .colse { position:absolute; display:block; width:20px; height:20px; background:#dedede; text-align:center; line-height:20px; border-radius:50%; color:#999; top:5px; right:0; cursor:pointer; z-index:5;}
+.citypicker_container .colse:hover {background:#FFAE00; color:#fff;} 
+.tab_head { position:relative; z-index:2;}
+.tab_content { border:1px solid #DEDEDE; position:relative; z-index:1; top:-1px; padding:10px;}
+.tab_content li { padding:5px 10px; background:#FAFAFA; margin-right:5px; margin-bottom:5px; cursor:pointer;}
+.tab_content li:hover { background:#FFAE00; color:#fff;}
+.citypicker_container  li { float:left; cursor:pointer;}
+.tab_head  li { padding:5px 10px; margin-right:-1px; height:15px; line-height:15px;}
+.tab_head  li.on { background:#fff;border-top:2px solid #FFAE00; border-left:1px solid #DEDEDE; border-right:1px solid #DEDEDE;}
+.tab_content { }
+.clear { zoom:1; clear: both; }
+.clear:after { content:''; display:block; clear:both; }

@@ -1,0 +1,42 @@
+/* CSS Document */
+.clear { zoom:1; clear:both; }
+.clear:after { content:''; display:block; clear:both; }
+.fl { float:left; }
+.fr { float:right; }
+
+
+/*-----------------  头部  -------------------*/
+.navbar { height:40px;}
+.navbar-inner { height:40px;}
+.navbar-header div a { padding:0px !important;}
+.navbar-header div a img { /*margin-top:14px;margin-left:10px;*/ margin-top: 9px;}
+/*.navbar-brand { margin-right:35px;}*/
+.navbar-header div i { width:1px ;height:40px;margin-top:20px;background:url(../img/header_line.png) 0px 0px no-repeat;position:absolute;}
+
+.sidebar-collapse { left:300px !important; margin-top:20px;}
+
+.header_right { float:right;padding:10px 25px;min-width:300px;}
+.user_photo { width:60px;height:60px;float:left;margin-right:15px;}
+.user_photo img { width:60px;height:60px;border-radius:5px;cursor:pointer;}
+.user_info { font-size:14px; color:#fff;margin-top:12px;}
+.user_info ul { padding-left:0px;float:left;list-style:none;}
+.user_info ul li { margin-bottom:8px;}
+.hide_static { display:none;position:absolute;z-index:999;background:#fff;width:80px;border:1px solid #ccc;text-align:center;}
+.hide_static li { margin:5px;}
+.hide_static li:hover { background:#eee;}
+.choose_static { cursor:pointer;position:relative;}
+.choose_static span i { width:7px;height:4px;background:url(../img/custom_list_ico1.png) 0px 0px no-repeat;position:absolute;margin-left:10px;top:8px;}
+
+
+
+/*========================  右侧悬浮  返回顶部  ===============================*/
+ul { list-style:none;}
+.return_top { display:none;position:fixed;bottom: 60px; right:70px; width: 40px; height:85px; z-index:9999;}
+.return_top ul li { width:40px;height:40px;background:#8f9c00;margin-bottom:5px;}
+.return_top ul li a { width:40px;height:40px;position:relative;display:block;top:0px;left:0px;text-align:center;}
+.return_top i{ width:30px;height:15px;background:url(../img/return_top_ico.png) 0 0 no-repeat;position:absolute;top:12px;left:5px;}
+.kefu_link .kefu_logo { width:35px;height:30px;position:relative;left:-1px;top:5px;}
+.return_top ul li:hover { filter:alpha(opacity=70); /*IE滤镜，透明度60%*/-moz-opacity:0.7; /*Firefox私有，透明度60%*/opacity:0.7;/*其他，透明度60%*/}
+.kefu_message { position:absolute;left:40px;top:-15px;width:20px;height:16px;display:none;}
+
+.kefu_ico { display:none;}

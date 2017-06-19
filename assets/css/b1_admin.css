@@ -1,0 +1,32 @@
+/* CSS Document */
+.clear { zoom:1; }
+.clear:after { content:''; display:block; clear:both; }
+.fl { float:left; }
+.fr { float:right; }
+ul{list-style: none;}
+
+/*===============================   B2 首页 样式   =============================*/
+.widget-body{ background: #fbfbfb;}
+.tabbable label{ text-align: right;margin: 0; float: left;font-size: 13px; color: #666;}
+.view_title{ font-size: 14px; font-weight: 700px; color: #333; height:40px; background: #f3f3f3; line-height: 40px; text-indent: 1em; color: #009dd9; font-weight: bold; border-bottom: 1px solid #e4e4e4;}
+.dynamic_order{ }
+.dynamic_monitoring a:hover{text-decoration: none;}
+.enterprise_information,.statistical_information{ border: 1px solid #e4e4e4; margin-bottom: 10px; }
+.enterprise_ul{ min-width: 200px; margin: 0;}
+.enterprise_ul>li, .housekeeper_statistics>li, .dynamic_exper>li{ padding-left: 40px; width: 280px; height: 40px; line-height: 40px; color: #666; }
+.enterprise li span{color: #666; height: 40px; line-height: 40px; display: inline-block;}
+.enterprise_1 li span{ color: #009dd9;font-weight: 700;padding: 0;padding-right: 2px;padding-left: 2px;font-size: 14px;}
+.dynamic_monitoring { font-size: 12px;}
+.dynamic_order,.dynamic_custom,.dynamic_product,.housekeeper_statistics,.dynamic_exper,.application_for,.platform_announced { background: #fff; padding-bottom: 10px;}
+.dynamic_title{ font-weight: 700; height: 42px; line-height: 42px; text-indent: 1em; border-bottom: 1px solid #e4e4e4; border-top: 1px solid #e4e4e4; background: #f3f3f3;}
+.dynamic_title span{ color: #888; padding-left: 10px;font-weight: 500;}
+.dynamic_monitoring li a{ color: #666; font-size: 13px;}
+.ha_data {background: #f54; color: #fff}
+.no_data{border:1px solid #e1e1e1; color: #999;}
+.ha_data,.no_data{;border-radius:60px; padding: 0px 2px 0px 6px;font-size:11px;}
+.product_div{ margin-top: 20px; margin-left: 2.5%;}
+.exper_title span{color:#ff0000 }
+.exper_title a{color: #333;padding:0px 5px;}
+.housekeeper_statistics .col_li, .dynamic_exper .col_li{ margin-top: 10px; }
+.bordereds{ border: 1px solid #e4e4e4; border-top: none;}
+.housekeeperDynamic li{ width: 240px; padding-left: 40px; height: 40px; line-height: 40px; }

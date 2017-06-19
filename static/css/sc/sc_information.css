@@ -1,0 +1,148 @@
+/*
+**  深窗 资讯 列表
+*/
+*{ margin:0;padding:0; font-family: "微软雅黑"}
+a { text-decoration:none;}
+ul { list-style:none;}
+.col_red{ color: #f30;}
+
+.fl{ float: left;}
+.fr{ float: right;}
+.zans{ position: relative; top: -1px; left: -1px}
+.expert_console { margin-top:15px;margin-bottom:30px;}
+.expert_console ul li { width:148px;margin-right:20px;float:left;border: 1px solid #fff;}
+.expert_console ul li:hover{border: 1px solid #f69f04;}
+.expert_console ul li:hover .zanses{ color: #f69f04;}
+.expertImg { width:148px;height:148px;}
+.expertImg img { width:148px;height:148px;}
+.expertName { height:24px;line-height:24px;text-align:center;font-size:14px;}
+.expertName img { display:inline-block;position:relative;top:3px;padding-left:5px;}
+.expertLink a { display:inline-block;width:70px;height:26px;text-align:center;line-height:26px;color:#fff;font-family:"宋体";font-size:13px;border-radius:3px;}
+.consoleLink { background:#6eb92b;}
+.customLink { background:#f69f04;}
+
+.nav_bar { width:100%;background:#6eb92b;}
+.nav_bar ul li { float:left;height:50px;line-height:50px;}
+.nav_bar ul li a { display:inline-block; padding:0 35px;color:#fff;font-size:16px;transition:all .3s ease;}
+.nav_bar ul li.on a { background:#81d833;}
+.nav_bar ul li a:hover{ background: #529714;}
+
+.text_nav_title { height:40px;line-height:40px;color:#979797;font-family:"宋体";text-align:left;padding:0;width:1000px;margin:0 auto;}
+.text_nav_title i { padding:0 10px;}
+.banner_img { margin-top:0px;margin-bottom:20px;}
+.sc_con_you .tab {width: 300px; height: 342px;background: url(../../img/sc/sc_you_bgs.jpg) 100% 0 no-repeat;border: 1px solid #d2d2d2;overflow: inherit;}
+
+.man_content { border-top:0px;}
+.sc_con_you { margin-top:0;height:auto;}
+.left_content { width:672px;float:left;}
+.information_type { width:100%;height:32px;line-height:32px;color:#fff;font-size:14px;background:#6eb92b;}
+.information_type li {text-align:center;float:left;cursor:pointer;padding: 0 20px;}
+.information_type li.on { background:#81d833;}
+
+.information_list_info li { padding:10px 0;border-bottom:1px solid #dedede;height:168px;transition:all 0.2s ease;}
+.information_list_info li p{}
+.information_list_info li:hover a .information_txt h4{ color: #ef1e35;}
+.information_list_info li:hover .readtext a{ color: #fff; background: #ef1e35;border: 1px solid #ef1e35;}
+.information_list_info a { clear:both;}
+.information_img { width:260px;height:168px;}
+.information_img img { width:260px;height:168px;}
+.information_txt { width:370px;padding:0 15px;}
+.information_txt h4 { font-family:"宋体";font-size:14px;font-weight:bold;height:35px;line-height:35px;text-overflow: ellipsis; overflow: hidden; white-space: nowrap;}
+.information_txt p { font-family:"宋体";color:#666;text-indent:2em;line-height:22px;height:92px;overflow:hidden;}
+.information_txt span { font-family:"宋体";color:#666; float:right; margin-right:30px;height:14px;line-height:14px;cursor:pointer;}
+.attention {padding-left:22px;float: left; margin-top: 20px;}
+.attention span{ color: #999;}
+.spn3 i{ color: #6eb92b;}
+.readtext{ float: right; margin-top: 20px;width: 72px; text-align: center; height: 24px; line-height: 24px; }
+.readtext a{ color:#666;border: 1px solid #b5b5b5;border: 1px solid #b5b5b5;}
+.comment { margin-left:30px;padding-left:22px;background:url(../../img/sc/comment_ico.gif) 0px 2px no-repeat;}
+
+.more_info_title { height:40px;line-height:40px;color:#646464;font-size:14px;padding-left:10px;}
+.more_info_title a { color:#ff5300;}
+
+/*==========猜您喜欢游记============*/
+.title_txt { margin-top:20px;margin-bottom:15px;height:1px;background:#dd6b25;color:#dd6b25;}
+.title_txt span { display:block;height:30px;line-height:30px;background:#fff;width:110px;text-align:center;font-family:"宋体";font-size:24px;margin:0 auto;position:relative;top:-16px;}
+.line_line_list { width:690px;}
+.line_line_list li { width:210px;height:200px;margin-top:15px;margin-right:20px;float:left;}
+.line_line_list li:hover .line_name, .line_line_list li:hover .line_name span{ color:#f54;}
+
+.like_line_img { width:210px;height:132px;}
+.like_line_img img { width:210px;height:132px;}
+.line_name { color:#666;height:40px;line-height:20px;overflow:hidden;padding-top:5px;}
+.line_name span { color:#000000;}
+.current_price { color:#e83b37;}
+.current_price i { font-size:18px;padding:0 5px;}
+.original_price { font-family:"Arial";color:#c2c2c2;text-decoration:line-through;margin-left:10px;line-height: 14px; margin-top: 6px;}
+.original_price i { padding-left:5px;}
+.privilege_price {height:16px;line-height:16px;border:1px solid #e94743;background:#e94743;color:#fff;}
+.privilege_price i { background:#fff;color:#e94743; text-align:center;display:inline-block; padding: 0 3px;}
+
+/*.sc_con_you .tab { height:342px;background:url(../../img/sc/sc_you_bg3.jpg) -1px -1px no-repeat;}*/
+.tabcontent .tab_con { height:auto;}
+
+/*==========北美游记============*/
+.travel_notes { margin-top:20px;width:280px;padding:0 10px;border:1px solid #dddddd;}
+.travel_title { margin-top:25px;padding-bottom:5px;height:0;border-top:1px dashed #dd6b25;}
+.travel_title span { display:block;background:#fff;width:72px;text-align:center;height:20px;overflow: hidden;line-height:20px;color:#dd6b25;font-size:14px;margin:0 auto;position:relative;top:-10px;}
+.travel_note_list li {border-bottom:1px dashed #dfdfdf; padding-left: 10px;}
+.travel_note_img { padding-top:15px;width:280px;height:150px;}
+.travel_note_img img { width:260px;height:150px;}
+.travel_note_title { margin-top:5px; max-height: 40px;line-height:20px;overflow:hidden;}
+.travel_note_list li span {float: left;margin-top:5px;height:20px;line-height:20px;font-size:14px;cursor:pointer;}
+.cancle_num { margin-left:5px;padding-left:25px;background:url(../../img/sc/gray_start.jpg) 0 3px no-repeat;}
+.comment_num { margin-left:30px;padding-left:20px;background:url(../../img/sc/travel_comment.jpg) 0 3px no-repeat;}
+
+.bu_public_num { width:300px;height:372px;margin-top:20px;border:1px solid #dddddd;}
+.public_num { width:270px;margin-left:9px;margin-top:0;}
+.public_num p { height:40px;line-height:40px;border-bottom:1px dashed #dedede;padding:0;}
+.weixin_img { width:122px;height:122px;padding-left:3px;margin-top:5px;}
+.console_expert { margin-top:20px;}
+.console_button { margin-top:14px;}
+.like_red{background:url(../../img/sc/red_start.jpg) 0 3px no-repeat;}
+
+/*==========资讯详情============*/
+.information_detail { width:670px;padding-left:10px;overflow: hidden;}
+.information_detail img{ max-width: 650px;}
+.information_title { font-size:20px;font-weight:normal;padding-top:27px;padding-bottom:26px;text-align:center;}
+.article_info{ width: 100%; height: 38px; background: #f5f5f5;}
+.evant_box{ overflow: hidden;margin-left: 140px;}
+.evant_box li{ float: left; margin-right: 50px; text-align: center;  height: 38px; line-height: 38px; overflow: hidden;}
+
+.evant_box li span{ float: left; color: #888888;}
+.icle_title{ float: left; color: #333;}
+.article_text{ font-size: 16px; line-height: 30px;}
+.review_tel{ font-size: 16px; color: #f30; height: 30px; line-height: 30px;}
+.review_con{ font-size: 14px; line-height:24px; text-indent: 2em;}
+.review_zan{ overflow: hidden; margin: 0 auto; height: 20px; padding-top: 10px; margin-top: 20px;}
+.review_zan img, .review_zan i{ float: left;}
+.review_zan img{margin-left: 310px; cursor: pointer;}
+.review_zan i{ font-size: 16px; color: #666; padding-left: 5px;}
+.review_share{ overflow: hidden;float: right;}
+.review_enter{ overflow: hidden; float: right;width: 240px;}
+.enter_tel{ float: left; height: 30px; line-height: 30px;}
+.enter_ioc{ overflow: hidden; float: left;}
+.enter_ioc li{ float: left; margin: 0 2px; cursor: pointer;height: auto; padding: 0;}
+.enter_ioc li img{ position: relative; top: 1px;}
+.review_more{ overflow: hidden; font-size: 14px; height: 40px; line-height: 40px; width: 100%;}
+.review_more span, .review_more a{ float: left;}
+.review_more a{ color: #f54;}
+
+.jiage_list_no, .jiage_list_nos{ overflow: hidden; height: 30px; line-height: 30px !important; font-family:"微软雅黑" !important; float: left;}
+.jiage_list_no i{ float: left; margin: 0 3px; font-size: 12px; color: #f30;}
+.jiage_list_no span{ float: left; font-size: 22px !important; color: #f30;}
+.jiage_list_nos i{ float: left; margin: 0 3px; font-size: 12px; color: #666;}
+.jiage_list_nos s{ float: left;font-size: 12px; color: #666;}
+.jiage_she{ overflow: hidden; height: 20px; line-height: 20px !important; font-family:"微软雅黑" !important;float: right; background: #f30; margin-top: 5px; margin-right: 15px;}
+.jiage_she span{ float: left; line-height: 20px !important; margin-top: 0 !important; color: #fff; padding: 0 2px;}
+.jiage_she i{ background: #fff; height: 18px; padding: 0 3px; float: left; line-height:18px !important; font-size: 13px;  margin-top: 1px !important; margin-right: 1px; color: #f30}
+
+/*分页*/
+
+
+.page_box{ width: 100%; clear: both; height: 30px;position: relative; top: 15px;background: #fff; margin-bottom: 10px; overflow: hidden;}
+.ul_page{width:auto;height:24px;float:right;}
+.ul_page li{height:24px; line-height: 24px; float: left; text-align: center;}
+.ul_page li a{ padding: 0 9px; border: 1px solid #ccc}
+.ul_page li.active a{color:#ffae00; border: 1px solid #ffae00}
+.ajax_page{height: 24px; line-height: 24px; margin: 0 5px;}

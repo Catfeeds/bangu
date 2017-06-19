@@ -1,0 +1,39 @@
+/* CSS Document */
+
+
+
+/*--------------------------回复方案----------------------------*/
+.c_reply { width:80%;margin:0px auto;font-size:13px;}
+.c_reply_title { font-size:24px;height:60px;text-align:center;line-height:60px;color:#000;}
+.c_reply_content_detial { width:100%;height:100%;clear:both;}
+.c_reply_travel { margin-bottom:20px;height:100%;float:left;clear:both;}
+.c_travel_day {min-height:40px;line-height:40px;margin-bottom:10px;}
+.c_travel_title { color:#6cf;min-width:100px;text-align:right;display:inline-block; font-weight:600;}
+.c_travel_day input { height:30px; width:1000px;}
+
+.c_travel_content { position:relative;clear:both;margin-bottom:20px;}
+.c_travel_content span,.c_travel_img span { position:absolute;top:0px;float:left;}
+.c_travel_content div { width:80%;resize:none;margin-left:106px;}
+
+.c_travel_img { height:100%; position:relative;display:block;margin-bottom:50px;padding-bottom:30px;}
+.c_travel_img div { width:1000px;margin-left:30px;}
+.c_travel_img div ul {list-style:none;margin-left:70px;clear:both;width:1000px;}
+.c_travel_img ul li { width:300px;height:200px;float:left;margin-right:20px;margin-bottom:20px;}
+.c_travel_img ul li img { width:300px;height:200px;}
+
+.c_reply_botton { height:40px;margin-bottom:50px;text-align:center;margin-top:20px;float:left;width:100%;}
+.c_reply_botton input { margin-right:60px;height:30px;padding:0px 20px;cursor:pointer;}
+
+
+/*--------------------------转询价单----------------------------*/
+.c_guest_need { min-height:435px;border-bottom:1px dashed #000;}
+.c_guest_need p,.c_reply_content_detial p,.c_supplier_reply p,.house_price p{font-size:14px;font-weight:600;}
+.c_guest_need_detail tr td input {height:25px;width:200px; font-size:16px;}
+.c_bianhao { font-size:12px;color:#fff;background:#ccc;width:160px;height:33px;line-height:40px;border-radius:5px;position:relative; line-height: 33px}
+.c_bianhao span {padding:0 20px;float:left;display:inline-block;}
+.c_bianhao div { width:100px;height:33px;text-align:center;background:#fff;border:1px solid #ddd;color:#000;display:inline-block;position:absolute;float:left; line-height: 33px}
+.c_red_color { color:red;}
+.c_red_color b { color:#000;}
+.c_require_content { height:50px; width:600px;resize:none;font-size:16px;}
+.day_reply{ color: #6cf;text-align: center;}
+.c_travel_traffic,.c_travel_meals{height: 40px;line-height: 40px}

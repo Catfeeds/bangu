@@ -1,0 +1,60 @@
+/* CSS Document */
+
+/*===================游记详情=================*/
+*{ box-sizing:border-box;}
+.head { height:192px;overflow:hidden;position:relative;}
+.head .bg { position:absolute;width:100%;height:100%;left:0;top:0;background:rgba(0,0,0,0.2);z-index:1;}
+.travel_detail_return { position: absolute; width: 30px; height: 30px; background: url(../img/page/return_ico.png) 0 0 no-repeat; background-size: 30px; left: 10px;
+ top: 10px; z-index: 100;}
+.text_introduce { position:absolute;right:10px;top:10px;width:50%;padding:5px 10px;color:#fff;height:60px;overflow:hidden;z-index:10;}
+.travel_info { position:absolute;left:0;bottom:10px;width:100%;padding-left:10px;z-index:10;}
+.author_img { width:50px;height:50px;border-radius:50%;background:#fff;float:left;}
+.author_img img { width:46px;height:46px;border-radius:50%;margin-top:2px;margin-left:2px;}
+.travel_info p { float:left;width:50%;color:#fff;padding-left:8px;}
+.author_name { margin-top:8px;margin-bottom:2px;}
+.comment { padding:10px 0;box-sizing:content-box;height:20px;border-bottom:1px solid #edeef2;background:#fff;color:#666666; }
+.comment div { display:inline-block;width:50%;text-align:center;float:left;}
+.comment div:first-child { border-right:1px solid #000;}
+.zan { position:relative;padding-left:25px;}
+.zan i { position:absolute;width:14px;height:18px;left:0px;top:1px;background:url(../img/page/zan1.png) 0 0 no-repeat;background-size:16px;}
+.travel_comment { position:relative;padding-left:25px;}
+.travel_comment i { position:absolute;width:16px;height:16px;left:0px;top:2px;background:url(../img/page/pl.png) 0 0 no-repeat;background-size:16px;}
+
+.travel_impress { padding:10px;background:#fff;color:#363636;}
+.travel_impress p { margin-bottom:5px;}
+.travel_impress div { line-height:22px;}
+.travel_impress div img{ width:10px;position:relative;top:-8px;margin-right:3px;}
+
+.travel_detail_info { margin-top:5px;background:#fff;}
+.fix_travel_nav { position:fixed;width:100%;top:0;left:0;height:40px;background:#fff;z-index:99;}
+#travel_nav { border-top:1px solid #e1e1e1;border-bottom:1px solid #e1e1e1;}
+#travel_nav li { float:left;width:33.3%;height:40px;line-height:40px;text-align:center;border-right:1px solid #e1e1e1;color:#363636;}
+#travel_nav li:lase-child { border-right:none;}
+#travel_nav li a { display:block;}
+.travel_content { padding:5px 10px;}
+.travel_img_info span { display:block;padding-left:25px;height:40px;line-height:40px;}
+.travel_img_info img { width:100%;margin-bottom:5px;}
+.travel_img_info p { color:#363636;margin-bottom:5px;}
+#bzbp span { background:url(../img/page/take_picture.png) 0 9px no-repeat;background-size:18px;}
+#jdsx span { background:url(../img/page/travel_live.png) 0 9px no-repeat;background-size:18px;}
+#msxz span { background:url(../img/page/find_cate.png) 0 9px no-repeat;background-size:18px;}
+#nav1,#nav2,#nav3 { height:1px;position: relative;top: -40px;}
+/*===============游记评论==============*/
+.cm_login_head { position:fixed;width:100%;top:0;left:0;z-index:100;}
+.cm_login_head b em { padding:0 5px;}
+.comment_content { padding:0 10px;position:relative;margin-top:45px;padding-bottom:100px;}
+.comment_content li { padding:10px 0px;border-bottom:1px solid #e1e1e1;}
+.user_photo { width:40px;height:40px;}
+.user_photo img { width:40px;height:40px;border-radius:50%;}
+.comment_user_info { margin-bottom:10px;}
+.comment_user_info  span { display:block;width:70%;padding-left:10px;height:20px;line-height:20px;}
+.user_name { color:#363636;font-size:15px;}
+.comment_time { color:#aaaaaa;}
+.comment_txt { color:#4b566a;}
+
+.add_comment { position:fixed;width:100%;bottom:0;left:0;padding:20px 10px;background:#fff;z-index:10;display: -webkit-box;display: -webkit-flex;display: flex;}
+.add_comment textarea { width:100%;border-color:#e1e1e1;border-radius:5px;padding:15px;height:50px;display: block; -webkit-box-flex: 1; -webkit-flex: 1; flex: 1;margin-right:10px;}
+.add_comment button { display:block;width:60px;height:40px;text-align:center;line-height:40px;background:#03bdae;color:#fff;border-radius:5px;margin-top:5px;border: none;font-size:15px;}
+
+
+

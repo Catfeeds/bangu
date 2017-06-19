@@ -1,0 +1,23 @@
+
+@charset "utf-8";
+/****************
+ * @description : css reset
+ * @author   : Liujingen 
+ * @date     : 2015-08-03
+ ****************/
+ 
+.about_content { padding:10px;}
+.about_content .join { position:relative;}
+.about_content .join_link { position:absolute; background:rgba(0,0,0,0.5); color:#fff; width:100%; bottom:0px; left:0; padding:10px 0 10px 0; text-align:center;}
+.about_content .join_link span { font-size:1.15em; padding:0 20px; border-bottom:2px solid #fff; display:inline-block; margin-bottom:10px;}
+.about_content .join_link a { padding:5px 10px; border:1px solid #fff; display:inline-block; color:#fff; border-radius:5px;} 
+.about_content img { width:100%;}
+.about_content .last_img { margin-top:10px;}
+.about_content h1 { color:#45aba3; text-align:center; line-height:40px; margin-top:20px; font-weight:normal;}
+.about_content ul { display:-webkit-box; display:-webkit-flex; display:flex;}
+.about_content ul li { margin-left:5%; width:25%; text-align:center; padding:8px 0; background-color:#aaaaaa; color:#fff; border-radius:5px;}
+.about_content ul li.on { background-color:#03bdae}
+.about_content ul li:first-child { width:30%;}
+.position_info_list { padding:20px 0 50px 0; color:#969696;}
+.position_info_list div { display:none;}
+.position_info_list div.on { display:block;}

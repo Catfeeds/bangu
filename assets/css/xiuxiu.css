@@ -1,0 +1,61 @@
+﻿@CHARSET "UTF-8";
+
+#xiuxiuEditor,#xiuxiuEditor1,#xiuxiuEditor2,#xiuxiuEditor3,#xiuxiuEditor4 {
+	width: 800px;
+	height: 550px;
+	position: fixed;
+	z-index: 10003;
+	top: 25px;
+	left:50%;
+	margin-left:-400px;
+}
+
+.avatar_box,.opac_box {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	bottom: 0px;
+	width: 100%;
+	height: 100%;
+	background: #000;
+	z-index: 999;
+	opacity: 0.5;
+	filter: Alpha(opacity = 50);
+	display: none;
+}
+
+.close_xiu {
+	position: fixed;
+	z-index: 10001;
+	background: #f8f8f8;
+	right: 50%;
+	width: 25px;
+	height:25px;
+	font-weight:700;
+	font-size:30px;
+	font-family:"微软雅黑";
+	top: 30px;
+	line-height:20px;
+	margin-right:-395px;
+	text-align: center;
+	cursor: pointer;
+	display: none;
+	border-radius:60px;
+}
+
+#img_upload {
+	display:none;
+	position:relative;
+}
+
+.right_box {
+	position:fixed;
+	width:172px;
+	height:450px;
+	right:50%;
+	margin-right:-400px;
+	top:75px;
+	background:#fff;
+	z-index:10001;
+	display:block;
+}

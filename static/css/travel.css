@@ -1,0 +1,133 @@
+@charset "utf-8";
+/* CSS Document */
+.red{color:#F00}
+.travel_head{width:1200px;margin:0 auto;height:25px}
+.travel_head_le a{line-height:25px;color:#919191}
+.travel_head_ri ul li{float:right;margin-left:30px;height:25px;line-height:25px;color:#0a0a0a}
+.travel_nav{width:100%;height:60px;background-color:#fff}
+/*-----------------------主体内容------------------------*/
+.content{height:100%;display:block;padding-bottom:35px}
+.travel_top,.travel_main{width:1200px;margin:0 auto}
+.travel_logo{float:left;position:relative;line-height:60px}
+.travel_logo img{width:225px;height:60px;margin-left:10px}
+.travel_logo span{font-size:30px;color:#fff;float:right;margin-left:85px}
+.travel_column{float:right}
+.travel_column ul li{float:left;width:239px;text-align:center;height:40px;line-height:40px;font-family:"黑体";font-size:18px;font-weight:500}
+/*.travel_column ul li:hover{background:#5ca305;color:#fff}*/
+.travel_column ul li a:hover{color:#8f9c00}
+.travel_column ul{padding-top:10px}
+.travel_column a{color:#000}
+.travel_Position{margin-top:20px;font-size:14px;color:#999}
+.travel_Position a{color:#999}
+.travel_process{margin-top:20px}
+.travel_process_xx{text-align:center;height:32px;line-height:32px;width:300px}
+.travel_process ul{width:1200px;height:60px;background-repeat:no-repeat;background-image:url(file:///C|/Users/Administrator/Desktop/travel/images/travel_sx_03.jpg);padding-top:50px}
+.travel_process ul li{float:left;text-align:center;width:300px}	
+.travel_process ul li span{text-align:center}
+.travel_examine{width:1200px;border-top:2px solid #dbdbdb;margin-top:20px;float:left}
+.travel_notice{padding:0 25px}
+.travel_notice h2{font-size:14px;margin:12px 0}
+.travel_notice p{width:1150px;height:30px;border-bottom:1px solid #dbdbdb}
+.travel_annex{width:1150px;padding:0 25px}
+.travel_annex h2{font-weight:normal;font-size:14px;margin-top:12px;margin-bottom:6px}
+.travel_file{background-color:#066}
+.travel_file img{float:left}
+.travel_file a{color:#4e9700;float:left;text-decoration:underline;margin:0px;padding:0px}
+.travel_track{width:1150px;padding:0 25px;padding-bottom: 10px}
+.travel_track_because{border-bottom:1px solid #dbdbdb;padding-bottom:12px;padding-left:20px}
+.travel_track h2{font-size:14px;margin:12px 0}
+.travel_track_because span{width:200px;float:left}
+.travel_track_so{margin-top:12px;padding-left:20px}
+.travel_track_so span{width:200px;float:left}
+.travel_customer{width:1200px;height:auto;float:left}
+.travel_customer h3{background-color:#e7f3e7;width:1175px;height:38px;border-bottom:1px solid #c2ddc2;line-height:38px;padding-left:30px}
+.travel_customer h3 a{float:right;font-weight:normal;margin-right:30px;cursor:pointer}
+.travel_questions{float:right;background-color:#ff8800;width:100px;height:30px;text-align:center;line-height:30px;color:#FFF;margin-right:20px;margin-top:8px}
+.travel_questions a{color:#FFF;display: block;height: 30px;line-height: 30px}
+#Stop span{padding-left:20px;color:#f7830a;font-size:12px !important}
+.expert_id{padding:0 !important}
+.travel_service{padding-top:30px;padding-left:30px}
+.travel_head_photo{float:left}
+.travel_word{float:left;padding-top:6px;margin-left:22px;position: relative}
+.travel_word a img{float:left}
+.travel_information{width:1150px;padding:0 25px;margin-top:45px}
+.travel_information h4{width:1200px;font-size: 14px}
+.travel_infor_details{margin-top:20px}
+.travel_infor_details ul li{width:360px;float:left;margin-bottom:8px}
+.travel_infor_details ul li span{margin-left:3px}
+.travel_Product{width:1200px;height:auto;float:left;border:1px solid #dcdcdc;border-bottom:none}
+.travel_Product h3{background-color:#f1f1f1;width:1200px;height:38px;border-bottom:1px solid #dcdcdc;line-height:38px}
+.travel_Product ul{width:1200px;background-color:#f1f1f1;overflow:hidden;border-bottom:1px solid #dcdcdc}
+.travel_Product ul li{float:left}
+.travel_Pro_320{width:320px;text-align:center;line-height:40px}
+.travel_Pro_250{width:250px;text-align:center;line-height:40px}
+.travel_Pro_120{width:120px;text-align:center;line-height:40px}
+.travel_Pro_80{width:80px;text-align:center;line-height:40px}
+.travel_Pro_100{width:100px;text-align:center;line-height:40px}
+.travel_Pro_180{width:180px;text-align:center;line-height:40px}
+.travel_Pro_120{width:180px;text-align:center;line-height:40px}
+.travel_Pro_300{width: 300px;text-align: center;line-height: 40px}
+.travel_Pro_240{width: 240px;text-align: center;line-height: 40px}
+.travel_Pro_220{width: 220px;text-align: center;line-height: 40px}
+.travel_Product_xx{width:1198px;background-color:#e7f3e7;overflow:hidden}
+.travel_Product_xx ul{background-color:#FFF;height:auto;border:none}
+.travel_Product_xx ul li a{text-align:center;color:#090}
+.travel_Product_xx ul li a:hover{text-decoration:underline}
+.travel_Contact{float:left;width:1200px;height:90px;border-bottom:1px solid #dcdcdc;border-top:1px solid #dcdcdc;background-color:#FFF}
+.travel_Contact h4{font-size:14px;font-weight:600;margin:20px 0;margin-left:25px}
+.travel_Contact h4 a{color:#090;font-weight:normal}
+.travel_Contact ul{border-bottom:1px solid #dcdcdc;height:90px;background-color:#FFF}
+.travel_Contact ul li{float:left;width:265px;margin-left:25px}
+.travel_travel{float:left;width:1200px;border:1px solid #dcdcdc;border-top:none;border-bottom:none;overflow:hidden}
+.travel_travel h4{font-size:14px;font-weight:600;margin:20px 0;margin-left:25px}
+.travel_travel ul{background-color:#FFF}
+.travel_travel h4 a{color:#090;font-weight:normal}
+.travel_tourist{width:1200px;height:auto;float:left}
+.travel_tourist h3{background-color:#e7f3e7;width:1200px;height:38px;border-bottom:1px solid #dcdcdc;line-height:38px}
+.travel_tourist ul{width:1200px;background-color:#e7f3e7;overflow:hidden}
+.travel_tourist ul li{float:left}
+.travel_travel{width:1200px;height:auto;float:left}
+.travel_travel h3{background-color:#f1f1f1;width:1200px;height:38px;border-bottom:1px solid #dcdcdc;line-height:38px}
+.travel_travel ul{width:1200px;background-color:#f1f1f1;height:auto;overflow:hidden}
+.travel_travel ul li{float:left}
+.travel_trave_180{width:180px;text-align:center;height:40px;line-height:40px;/* background-color:#060;*/}
+.travel_trave_120{width:120px;text-align:center;height:40px;line-height:40px;/* background-color:#060;*/}
+.travel_trave_160{width:160px;text-align:center;height:40px;line-height:40px;/* background-color:#f54;*/}
+.travel_trave_80{width:80px;text-align:center;height:40px;line-height:40px;/* background-color:#f30;*/}
+.travel_trave_100{width:100px;text-align:center;height:40px;line-height:40px;/* background-color:#f30;*/}
+.travel_trave_200{width:200px;text-align:center;height:40px;line-height:40px;/* background-color:#f30;*/}
+.travel_trave_120{width:180px;text-align:center;line-height:40px}
+.travel_travel_xx{width:1200px;background-color:#e7f3e7;overflow:hidden;border-bottom:1px solid #dcdcdc}
+.travel_travel_xx ul{background-color:#fff;height:auto}
+.travel_travel_xx ul li a{text-align:center;color:#090}
+.travel_travel_xx ul li a:hover{text-decoration:underline}
+.travel_travel_r{float:left;width:1200px;height:60px;border-bottom:1px solid #dcdcdc;background-color:#FFF}
+.travel_travel_r h4{font-size:14px;font-weight:600;margin:20px 0;margin-left:25px}
+.travel_travel_r h4 a{color:#090;font-weight:normal}
+.travel_travel_r ul{border-bottom:1px solid #dcdcdc;height:60px;background-color:#FFF}
+.travel_travel_r ul li{float:left;width:265px;margin-left:25px}
+.travel_careful{padding-left:30px;margin:10px 0;border-bottom:1px solid #dcdcdc;height:50px}
+.travel_careful span{margin-left:20px margin-top:10px}
+.travel_invoice{width:1200px;height:auto;float:left;border:1px solid #dcdcdc;border-top:none}
+.travel_invoice h3{background-color:#f1f1f1;width:1200px;height:38px;border-bottom:1px solid #dcdcdc;line-height:38px}
+.travel_invoice ul{width:1200px;background-color:#f1f1f1;height:auto;overflow:hidden}
+.travel_invoice ul li{float:left}
+.travel_invo_200{width:200px;text-align:center;height:40px;line-height:40px;/* background-color:#060;*/}
+.travel_invo_120{width:120px;text-align:center;height:40px;line-height:40px;/* background-color:#060;*/}
+.travel_invo_160{width:160px;text-align:center;height:40px;line-height:40px;/* background-color:#f54;*/}
+.travel_invo_300{width:300px;text-align:center;height:40px;line-height:40px;/* background-color:#f30;*/}
+.travel_invo_100{width:100px;text-align:center;height:40px;line-height:40px;/* background-color:#f30;*/}
+.travel_invoice_xx{width:1200px;background-color:#e7f3e7;overflow:hidden;border-bottom:1px solid #dcdcdc}
+.travel_invoice_xx ul{background-color:#fff;height:auto}
+.travel_invoice_xx ul li a{text-align:center;color:#090}
+.travel_invoice_xx ul li a:hover{text-decoration:underline}
+.travel_invo_careful{padding-left:30px}
+.travel_invo_careful p{margin:5px 0}
+.kefu_mingzi{position:absolute;top:22px;left: 40px;color: #fff;font-size: 14px}
+#expert_photo{width: 100px;height: 100px;border-radius: 50px}
+/*----------------------弹出层----------------------*/
+#form1,#form2, #form3, #form23{width:380px;padding:0px 10px}
+#form1 form p,#form2 form p,#form3 form p ,#form23 form p{line-height:200%;font-size:18px;height:40px;width:320px}
+#form1 form p span, #form2 form p span, #form3 form p span ,#form23 form p span{width:130px;display:inline-block;text-align:right}
+#update,#add{padding:5px 15px;margin-top:5px;cursor:pointer}
+.active a{color:#fff}

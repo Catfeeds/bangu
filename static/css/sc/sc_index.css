@@ -1,0 +1,276 @@
+body{ font: 12px/1.5 "微软雅黑",sans-serif; line-height:150%;background: #f8f8f8; margin: 0; padding:0; color:#333;height:auto !important;}
+input{ outline: none; border: none;}
+img{ display: block; border: none;}
+a{ display: block; color: #333;}
+i{ font-style:normal;}
+.fl { float:left; }
+.fr { float:right; }
+
+.sc_1000{ width: 1000px; margin: 0 auto;}
+.relative{ position: relative; }
+.over{ overflow: hidden;}
+.fl{ float: left;}
+.fr{ float: right;}
+.text_cen{ text-align: center; border:none !important;}
+.col_333{ color: #333;}
+.col_666{ color: #666;}
+
+.margin_top{ margin-top: 20px;}
+.sc_inden{ text-indent: 2em;}
+.city_ico{ background: url(../../img/sc/ct_ico.png) no-repeat 0 2px; width:16px; height: 20px; float: left;}
+
+/*顶部*/
+.header{ width: 100%; height: 35px; border-bottom: #ebebeb; background: #fdfdfd;}
+.wind_top{ height: 35px;}
+
+/*组顶部的4个图标*/
+.logis_top{ float: left;}
+.logis_top li{ float: left; margin:0 10px; cursor: pointer; }
+.logis_top li i{ float: left; position: relative; top: 10px; padding-right:5px;}
+.logis_top li span{ height: 35px; line-height: 35px; float: left; color: #999}
+.weibo{ background: url(../../img/sc/weibo.gif ) no-repeat; width:18px; height: 15px; display: block;}
+.weixin{ background: url(../../img/sc/weixin.gif ) no-repeat; width:18px; height: 15px; display: block;}
+.shouji{ background: url(../../img/sc/shouji.gif ) no-repeat; width:18px; height: 15px; display: block;}
+.shoucang{ background: url(../../img/sc/shoucang.gif ) no-repeat; width:18px; height: 15px; display: block;}
+
+.yuming{ float: left; width:80px; height: 28px; line-height: 28px; text-align: center; background: #f69f04; color: #fff; position: relative; top: 3px; cursor: pointer; border-radius: 3px; margin-left: 10px;}
+
+/*搜索栏*/
+.sc_search{ float: right; width: 230px; background: #1a89ed; padding: 3px; margin-top: 3px; border-radius: 3px;}
+.sech_text{ float: right; padding:0 5px; width: 170px; height: 22px; line-height: 22px; background: #fff; color: #999;}
+.sech_button{ float: right; width: 50px; height: 22px; line-height: 21px; _line-height: 22px; background: #1a89ed; color: #fff; cursor: pointer;}
+
+/*banner*/
+.sc_banner_box{ width: 100%;}
+.sc_banner_img{ width: 100%;}
+.banner_close{ background: url(../../img/sc/close.gif) no-repeat; width: 38px; height: 38px; display: block; position: absolute; top: 20px; right:20px; z-index: 10; cursor: pointer;}
+
+/*logo*/
+.sc_logo{ height: 90px; background: #f8f8f8;}
+.sc_logo_a{ width: 340px; height: 61px; position: absolute; bottom: 0; left: 0;}
+.sc_logo_img{ position: absolute; bottom: 0; left: 0;}
+.sc_zhuanye { position: absolute; bottom: 0; right: 0;}
+
+/*nav导航*/
+.sc_nav{ width: 100%; height: 50px; background: #6eb92b; line-height: 50px; font-size: 16px;}
+.sc_nav ul{ overflow: hidden; width: 1000px; margin: 0 auto;}
+.sc_nav ul li{ float: left; text-align: center; color: #fff;}
+.sc_nav ul li a{ color: #fff; padding: 0 35px;transition:all .3s ease;}
+.sc_nav ul li a:hover{ background: #81d833;}
+.nav_total{ width: 200px; background: #529714;}
+
+
+
+/*下面的重要内容*/
+
+/* 分类  con  ----左面 ---------*/
+.sc_con_le{ width:198px; height: 490px; border:1px solid #d2d2d2; border-top: none; float: left;}
+.sc_con_ificat{ margin: 10px 20px; _margin: 8px 20px; margin-right: 0;}
+.ificat_title{ width: 180px; overflow: hidden; padding-bottom: 5px;}
+.ificat_title h1{ font-size: 16px; float: left; width: 80px; height: 30px; line-height: 30px;}
+.sc_destina{ height: 50px;}
+.sc_destina li{ float: left; width: 89px; height: 24px; line-height: 24px; font-size: 14px; overflow: hidden;}
+.sc_destina li a:hover{ color: #6eb92b; text-decoration: underline;}
+.sc_con_ificat span{ width: 180px; height: 1px; background: #e8e8e8; float: left; position: relative; left: -10px;}
+.cat_ico{ float: left; margin: 0 10px;}
+
+/* 分类  con  ----中间 ---------*/
+.sc_con_zh{ width:490px; _width:490px; float: left; height: 490px;}
+.sc_xinwen_list{margin-left: 18px; width: 470px; height: 300px; margin-top: 20px;  border: 1px solid #ccc;}
+.xinwen_title{ height: 50px; line-height: 50px; font-size: 18px; text-indent: 2em;}
+.xinwen_list_box{ overflow: hidden; list-style-type: disc; height: 250px;}
+.xinwen_list_box li{ float: left; height: 30px; line-height: 30px; width: 440px; font-size: 14px; overflow: hidden;}
+.xinwen_list_box li i{ background: url(../../img/sc/li_dian.jpg) no-repeat 12px 12px ; width: 30px; height: 30px; line-height: 30px; float: left;}
+.xinwen_list_box li a:hover{ color: #6eb92b; text-decoration: underline;}
+.baner{width: 472px; height: 157px; overflow: hidden;margin-top: 12px; margin-left: 18px;}
+.baner img{ width: 100%;}
+
+/* 分类  con  ----右面 ---------*/
+.sc_con_you{ width: 290px; _width: 290px; height: 490px; background: url(../../img/sc/sc_you_bg.gif) no-repeat; float: right;}
+
+
+/*选项卡插件样式*/
+.tabnav{ float: left; border-right:1px solid #ccc; margin-top: 20px; margin-left: 14px; _margin-left: 7px; overflow: hidden; background: #fff; color: #333;}
+.tabnav li{ float: left; width:86px;height:60px; line-height:60px; text-align: center; font-size: 16px; border:1px solid #ccc; border-right:none; cursor: pointer;}
+.tabcontent{float: left; margin-top: 20px;margin-left: 14px; _margin-left: 7px; width: 260px;}
+.tabcontent .tab_con{ width:260px; height:300px; display:none;}
+.cuttor{ background:#6eb92b; color: #fff;}
+
+/*sc_input_list*/
+/*选项卡和下拉框中的内容*/
+.sc_inp_title{ width: 60px; height:30px; line-height: 30px; float: left;font-size: 14px; color: #444; overflow: hidden;}
+.sc_inp_box{ float:left; width: 200px; height: 30px; line-height: 30px; float: left;}
+.sc_input_list{ width: 260px; height: 30px; padding-bottom:20px; position: relative; z-index: 10;}
+.inp_one{border:1px solid #ccc; width: 190px; padding:0 4px; height: 28px; line-height: 28px; color: #666 !important; font-family: 微软雅黑;font-size: 12px;}
+
+.inp_two{ border:1px solid #ccc; width: 90px; height: 28px; line-height: 28px; padding:0 4px;overflow: hidden; color: #666; background: #fff; cursor: pointer;}
+.inp_two_hidden{ width: 98px; border: 1px solid #ccc; overflow: hidden; position: absolute; top: 29px; display: none; z-index: 1000 !important; background: #fff;}
+.inp_two_hidden li{ height: 30px; line-height: 30px; padding: 0 4px; cursor: pointer;transition:all .3s ease;}
+.inp_two_hidden li:hover{ background: #d1d1d1;}
+.down_ico{ background: url(../../img/sc/sc_down_ico.gif) no-repeat; width: 7px; height: 4px; float: left; position: absolute; left: 145px; top: 12px;}
+.inp_chex{ position: relative; top: 2px;}
+.sc_inp_box label{ margin-right: 5px; height: 30px; line-height: 30px; _line-height: 50px; display: inline-block;color: #444;font-size: 14px;}
+.sc_button{ width: 260px; height: 40px; line-height: 40px; background: #ffae00; color: #fff; font-size: 16px; font-weight: 700;cursor: pointer; font-family: 微软雅黑; font-size: 16px;}
+
+
+/*旅游管家*/
+.sc_guanjia_box{ float: left; width: 1000px;}
+.guanji_title{ overflow: hidden; width: 1000px;}
+.guanji_title h2{ float: left; height: 30px; line-height: 30px; font-size: 24px; font-weight: normal; color: #333;}
+.guanji_title span{ float: left; height: 20px; line-height: 20px; margin-top: 10px; margin-left: 10px; color: #666;}
+.sc_more{ float: right; height: 30px; line-height: 30px; font-size: 16px;}
+.sc_more a{ color: #6eb92b;}
+.img_cuttor{ width: 196px !important; height: 196px !important; border: 2px solid #ffae00 !important;}
+
+.img_details{ width: 400px;height: 400px; float: left; position: relative;  overflow: hidden;}
+.big_img{}
+.gj_intor{width:1000px; height:110px; background: #e2e2e2; float: left; color: #333;}
+.gj_img{ width: 100%;}
+.gj_img_list{ overflow: hidden; float: left;width: 600px;}
+.gj_img_list li{ float: left; width: 200px; height: 200px;}
+.gj_img_list li img{ width: 200px; height: 200px;}
+
+.gj_name{ float: left; width: 104px; height: 60px; line-height: 60px; font-size: 20px; margin: 0 10px;  text-align: center;}
+.gj_name a{ color: #333;}
+.gj_city{ float: left; padding-top: 5px; height: 25px; margin-right:5px;}
+.gj_city i{ margin-top: 1px;}
+.gj_city span{ color: #333; font-size: 14px; margin-top: 1px;float: left;}
+.gj_level{ float: left; height: 30px; line-height: 30px; margin-right:5px; font-size: 14px; color: #333;}
+.gj_at{ float: left; height: 30px; line-height: 30px; margin-right:5px; font-size: 14px; color: #333;}
+.gj_line{ float: left; height: 30px; line-height: 30px; margin-right:5px; font-size: 14px; color: #333;}
+.gj_service{ float: left; width: 380px; height: 30px; line-height: 30px; margin:0 10px; _margin-right:0; font-size: 14px; color: #333;}
+.city_ico{ background: url(../../img/page/city_index.png) no-repeat 0px 3px; width: 17px; height: 17px; float: left;}
+.gj_intor p{  color: #808080;height: 40px;overflow: hidden;line-height: 20px;font-family: "微软雅黑";font-size: 14px; padding: 5px 10px;}
+ 
+.guanjia_xiqin{ overflow: hidden; width: 876px; _width: 800px; float: left;}
+.guanjia_xiqin li{ float: left; width: 438px; _width: 400px; height: 20px; margin: 5px 0; line-height: 20px;  overflow: hidden;}
+.guaji_til{ float: left; font-size: 14px;padding: 0 5px; height: 20px; text-align: center; line-height: 20px; background: #5d7895; color:#fff;}
+.guanjia_xiqin li span{ float: left; height: 20px; padding-left: 5px; line-height: 20px; font-size: 14px;}
+
+/*<!-- 出境游 国内游 周边游 主题游  list -->*/
+.sc_tourism{ width: 1000px; overflow: hidden;  float: left; _float: none; _margin-top:20px;  height: 470px; overflow: hidden;}
+ 
+.sc_tourism_le{ width: 220px; height: 470px; float: left; margin-right: 20px;}
+.sc_tourism_zh{ width: 450px; height: 470px; float: left; margin-right: 20px;}
+.sc_tourism_you{ width: 290px; _width: 280px; height: 470px; float: left; position: relative;}
+
+.con_img_pan{ text-align: center;}
+.con_img_pan .con_img_lix{ width: 73px; height: 100px; margin: 23px auto;}
+
+.sc_product_list{ width: 220px; height: 323px; background: #86c94a;}
+.sc_product_place{ padding: 0 10px; padding-top: 10px; overflow: hidden;}
+.sc_product_place li{ width: 90px; height: 30px; float: left;  font-size: 14px; background: #f3faed;overflow: hidden; border-radius: 3px; text-align: center; line-height: 30px;  margin: 5px;_margin-bottom: 0px;}
+
+/*tab2 选项卡样式*/
+
+.tabnav2{ height: 40px;color: #333; border-bottom:1px solid #ccc;}
+.tabnav2 li{ float: left; width:85px;height:40px; _height:42px; line-height:40px;_line-height:42px;font-size: 14px; text-align: center; border- font-size: 16px; border-right: 1px solid #ccc; cursor: pointer;}
+.tabcontent2{ clear:both; margin: 0 auto;}
+.tabcontent2 .tab_con2{ display:none; background: #fff; height: 408px; position: relative; padding-top: 20px; *padding-top: 10px;_padding-top: 20px;}
+.cuttor2{ background:#fff;color: #333; border-right:1px solid #ccc !important; border-bottom:1px solid #fff;}
+
+
+/*<!-- 出境游 国内游 周边游 主题游  list  的资讯 样式 -->*/
+
+
+
+
+.tour_chujing{ background: #6eb92b;}
+.tour_guonei{ background: #d4595e;}
+.tour_zhoubian{ background: #bf3e88;}
+.tour_zhuti{ background: #2c92c0;}
+
+.sc_product_chujing{ background: #86c94a}
+.sc_product_guonei{ background: #ef656b}
+.sc_product_zhoubian{ background: #d64c9b}
+.sc_product_zhuti{ background: #30a1d4}
+
+
+.sc_product_chujing ul li a:hover{ background: #dde3d7; color: #6eb92b;}
+.sc_product_guonei ul li a:hover{ background: #dde3d7; color: #d4595e;}
+.sc_product_zhoubian ul li a:hover{ background: #dde3d7; color: #bf3e88;}
+.sc_product_zhuti ul li a:hover{ background: #dde3d7; color: #2c92c0;}
+
+
+.chujing_li li a:hover{ color: #6eb92b;}
+.guonei_li li a:hover{ color: #d4595e;}
+.zhoubian_li li a:hover{ color: #d64c9b;}
+.zhuti_li li a:hover{ color: #2c92c0;}
+
+.list_chujing{ border-top: 1px solid #6eb92b;}
+.list_guonei{ border-top: 1px solid #d4595e;}
+.list_zhoubian{ border-top: 1px solid #d64c9b;}
+.list_zhuti{ border-top: 1px solid #2c92c0;}
+
+
+
+
+/*资讯*/
+.sc_tour_til{height: 30px; line-height: 30px; font-size: 18px; width:400px; padding: 0 20px; float: left; float: left; margin-bottom: 5px;  overflow: hidden;}
+.sc_tour_con{ line-height: 24px;  width:400px; padding: 0 20px; float: left; font-size: 14px; float: left;}
+.sc_tour_xinwen{ overflow: hidden;clear: both;  width:400px; padding: 0 20px; padding-top: 10px;  *padding-top: 0px;_padding-top: 10px; font-size: 14px;}
+.sc_tour_xinwen li{ height: 35px;  _height: 30px; line-height: 35px; _line-height: 30px;overflow: hidden;}
+.sc_tour_xinwen li i{ background: url(../../img/sc/li_dian.jpg) no-repeat 12px 15px ; width: 30px; height: 30px; line-height: 30px; float: left;}
+.sc_suse_box{  width: 100%; margin-top: 10px;overflow: hidden; position: absolute; bottom: 0;}
+.sc_suse_list{ width: 220px; height: 132px; position: relative;}
+.sc_suse{ width: 220px; height: 132px;}
+.sc_suse img{ width: 100%;}
+.sc_suse_xi{ position: absolute; width: 200px; padding: 0 10px; height:44px; line-height: 20px; bottom: 0;background: rgba(0, 0, 0, .8); color:#fff;filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)}
+.sc_suse_xi span{ position: absolute; right:10px; bottom: 5px;}
+
+/*产品*/
+.sc_duct_list{ float: left; padding: 10px 5px;}
+.sc_duct{ width: 210px; height: 125px;overflow: hidden;}
+.sc_duct img{ width: 100%;}
+.sc_duct_xi{ height: 72px; width: 210px; float: left;}
+.sc_duct_txt{line-height: 20px; padding-top: 3px; float: left;  height: 40px;  overflow: hidden;}
+.sc_price{ float: left;}
+.sc_price i{ color: #e83b37; padding-right: 3px;}
+.sc_price span{ color: #e83b37; font-size: 18px; padding-right: 3px;}
+.sc_price s{ color: #999; padding-left: 5px;}
+.sc_diff{ background: #e83b37; float: right; height: 14px; line-height: 14px; border: 1px solid #e83b37}
+.sc_diff i{ color: #fff; height: 14px; line-height: 14px; float: left;}
+.sc_diff span{ background: #fff; height: 14px; color: #e83b37; float: left; font-size: 14px;padding: 0 2px;}
+
+
+/*常见问题*/
+.sc_blem_title{ width: 100%; height: 40px; line-height: 40px;text-align: center; border-bottom: 1px solid #ccc; float: left;font-size: 16px; background: #fff;}
+.blem_list{ overflow: hidden;  width: 100%; background: #fff; border-bottom: 1px solid #ccc !important;  float: left;}
+.blem_list li{width: 240px; margin-left: 20px; _margin-left: 10px; height: 40px; line-height: 40px; float: left; font-size: 14px;border-bottom: 1px dashed #ccc; overflow: hidden;}
+.blem_list span{ float: left;}
+.sc_yao_box{ width: 100%; text-align: center; padding-top: 20px;}
+.sc_yao_box img{ margin: 0 auto; }
+.yaolvyou span{ float: left; margin-left: 90px; height: 50px; line-height: 50px; font-size: 20px; color: #fff;}
+.yaolvyou{ position: absolute; bottom:10px; left:20px;}
+
+.gj_shec_chujing{ background: #6eb92b url(../../img/sc/chujing_shec.jpg) no-repeat 65px 14px; width: 240px; height: 50px; margin: 0 auto; margin-top: 20px; cursor: pointer;}
+.gj_shec_guonei{ background: #d4595e url(../../img/sc/guonei_shec.jpg) no-repeat 65px 14px; width: 240px; height: 50px; margin: 0 auto; margin-top: 20px; cursor: pointer;}
+.gj_shec_zhoubian{ background: #bf3e88 url(../../img/sc/zhoubian_shec.jpg) no-repeat 65px 14px; width: 240px; height: 50px; margin: 0 auto; margin-top: 20px; cursor: pointer;}
+.gj_shec_zhuti{ background: #2c92c0 url(../../img/sc/zhuti_shec.jpg) no-repeat 65px 14px; width: 240px; height: 50px; margin: 0 auto; margin-top: 20px; cursor: pointer;}
+
+
+/*页脚*/
+.sc_foot{ width: 100%; height: 160px;background: #fff; padding-top: 40px; clear: both;}
+.foot_yangs{ border-top: 1px solid #f2f0f0; text-align: center;}
+.for_fooer{ overflow: hidden; margin: 0 auto; padding-left:15%; height: 30px; line-height: 30px; padding-top: 20px;}
+.sc_record{ padding-left: 24%;}
+.for_fooer a, .sc_record a{ float: left; font-size: 13px; color: #444444; margin: 5px;width: 52px;}
+.for_fooer span, .sc_record span{ float: left; color: #444444; margin: 5px; width: 400px; overflow: hidden;}
+
+.sc_record span, .sc_record a{ color: #666666 !important;}
+.sc_record span{ width:420px;}
+ .sc_record a{ width:72px;}
+.supervise{ width: 100%; display: block; clear: both; text-align: center;}
+.supervise ul{ overflow: hidden; margin: 0 auto; float: left; margin-left: 11%;}
+.supervise ul li{ float: left; text-align: center; margin:15px 5px;}
+
+
+
+
+
+
+
+
+
+
+

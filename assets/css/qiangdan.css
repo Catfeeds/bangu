@@ -1,0 +1,253 @@
+.schemes {
+	width:800px;
+	border:1px solid #bdbdbd
+}
+.scheme {
+	clear:both;
+	padding-top:20px;
+	padding-bottom:20px;
+	padding-left:10px;
+	padding-right:10px;
+	border-bottom:1px dashed #bdbdbd;
+	margin-bottom:20px;
+	margin-left:10px;
+	margin-right:10px
+}
+.supplier {
+	font-size:12px;
+	color:#686868
+}
+.supplierContext {
+	color:#505050;
+	font-size:12px;
+	margin-left:10px;
+	width:660px;
+	margin-top:5px
+}
+.operation {
+	margin-bottom:20px;
+	margin-top:10px
+}
+.accessory {
+	float:left;
+	font-size:12px;
+	color:#666695
+}
+.supplierON {
+	float:right
+}
+.schemesButton {
+	width:100%;
+	text-align:center
+}
+.schemeOff {
+	padding-left:20px;
+	padding-right:20px;
+	margin-bottom:50px
+}
+.indentLists {
+	width:971px;
+	margin:200px auto 0 auto
+}
+.indentList {
+	width:960px;
+	height:200px;
+	border:1px solid #c0c0c0;
+	padding-top:10px;
+	padding-left:20px;
+	padding-right:20px;
+	padding-bottom:20px;
+	margin-bottom:20px
+}
+.indentListDiv {
+	float:left;
+	min-width:222px
+}
+.indentListDiv * {
+	color:#333
+}
+.indentListDiv p {
+	padding-bottom:1px
+}
+.number {
+	color:#FFF;
+	background-color:#868686;
+	padding-top:5px;
+	padding-bottom:5px;
+	padding-left:15px;
+	padding-right:5px;
+	border-radius: 6px 0px 0px 6px;
+}
+.title {
+	color:#666;
+	margin-left:20px;
+}
+.order_request {
+	position:relative;
+}
+.order_request_txt {
+	position:absolute;
+	width:320px;
+	overflow:hidden;
+	height:22px;
+	text-overflow:ellipsis;
+    white-space:nowrap;
+    overflow:hidden;
+}
+.order_desc_txt{
+	
+	position:absolute;
+	width:160px;
+	overflow:hidden;
+	height:22px;
+	text-overflow:ellipsis;
+    white-space:nowrap;
+    overflow:hidden;
+
+}
+.contextcolor {
+	color:#bcbcbc
+}
+.times {
+	font-size:14px
+}
+.mashangqiangdan, .zhuanxunjiadan {
+	padding-top:15px;
+	padding-bottom:15px;
+	padding-left:30px;
+	padding-right:30px;
+	background-color:#2dc3e8;
+	color:#FFF;
+	font-size:14px;
+	margin-left:30px;
+	text-decoration:none
+}
+.mashangqiangdan:hover, .zhuanxunjiadan:hover {
+	text-decoration:none;
+	color:#FFF
+}
+.button {
+	margin-bottom:40px;
+	margin-top:20px
+}
+.buttonType {
+	font-size:16px;
+	margin-left:30px
+}
+.zhongbiao {
+	color:#f30;
+	margin-left:65px;
+	font-size:18px;
+}
+.yiquxiao{
+	background:rgba(0, 0, 0, 0) url("../img/yiquxiao_icon.png") no-repeat scroll 0 0;
+	height: 77px;
+	width: 68px;
+	position: absolute;
+	top:25px;
+}
+.huifufangan,.yitoubiao,.zhuanxunjiadan {
+	padding-top:15px;
+	padding-bottom:15px;
+	padding-left:30px;
+	padding-right:30px;
+	background-color:#2dc3e8;
+	color:#fff;
+	font-size:14px;
+	margin-left:30px;
+	text-decoration:none
+}
+.revert {
+	width:725px;
+	border:1px solid #bdbdbd
+}
+.revertTitle {
+	text-align:center;
+	font-size:14px;
+	font-weight:bold;
+	border-bottom:1px solid #bdbdbd;
+	padding-bottom:15px;
+	padding-top:15px
+}
+.revertContext {
+	padding-top:5px;
+	padding-bottom:5px;
+	padding-left:20px;
+	padding-right:20px;
+	clear:both;
+	border-bottom:1px dashed #bdbdbd;
+	/*height:200px*/
+}
+.revertContext * {
+	font-size:12px
+}
+.userDemand {
+	font-weight:bold
+}
+.revertContextLeft {
+	padding-left:10px;
+	width:350px;
+	float:left
+}
+.revertContextRight {
+	width:300px;
+	float:left
+}
+.revertContextLeft p, .revertContextRight p {
+	color:#666;
+	padding-bottom:3px
+}
+.revertContextLeft p span, .revertContextRight p span {
+	color:#323232;
+	padding-left:5px
+}
+.revertNums {
+	padding-top:5px;
+	padding-bottom:5px;
+	padding-left:15px;
+	padding-right:10px;
+	background-color:#878787;
+	color:#fff;
+	border:1px solid #878787
+}
+.revertNum {
+	padding-left:30px;
+	padding-right:35px;
+	padding-top:5px;
+	padding-bottom:5px;
+	border:1px solid #878787
+}
+.revertContextLeft .revertFont1 {
+	color:#bdbdbd
+}
+.revertContextRight .revertFont2 {
+	color:#eb3632
+}
+.revertexplain {
+	clear:both;
+	margin-left:10px;
+	margin-right:10px;
+	margin-bottom:20px
+}
+.revertexplainTitle {
+	font-size:14px;
+	font-weight:bold
+}
+.revertexplainTextarea {
+	width:95%;
+	height:100px;
+	margin-left:10px;
+	margin-right:10px
+}
+.revertexplainButton {
+	margin-top:20px;
+	text-align:center
+}
+.revertexplainButton button {
+	width:100px;
+	margin-right:30px
+}
+a {
+	cursor:pointer
+}
+

@@ -1,0 +1,63 @@
+
+@charset "utf-8";
+/****************
+ * @description : css reset
+ * @author   : Liujingen 
+ * @date     : 2015-09-25
+ * 奖品
+ ****************/
+body { background-color:#edeef2;}
+.prize_list { padding:10px 15px 10px 10px; } 
+.prize_list ul li { margin-bottom:10px;}
+.prize_list ul li a { display:-webkit-box; display:flex; height:68px;}
+.prize_list .price { width:97px; text-align:center; background-color:#c6c6c6; color:#fff; font-size:20px; line-height:20px; border-radius:5px 0 0 5px;}
+.prize_list .price p:first-child { margin-top:14px; }
+.prize_list .price p:last-child { font-size:15px;}
+.prize_list .bg { width:10px; height:68px;  background:url(../img/page/prize_list_bg_01.png) no-repeat right center; background-size:cover; }
+.prize_list .info { -webkit-box-flex:1; flex:1; background-color:#fff; font-size:12px;}
+.prize_list .info>div { position:relative; padding-left:10px;}
+.prize_list .info>div:first-child { margin-top:15px;}
+.prize_list .info i { display:block; width:5px; height:5px; background-color:#aaaaaa; border-radius:50%; position:absolute; top: 6px; left: 0; }
+.prize_list .use { width:20px; background-color:#6c6768; border-radius:0 5px 5px 0; color: #fff; text-align: center;}
+.prize_list .prize_has .price,.prize_list .prize_not .price { background-color:#ff8b8b}
+.prize_list .prize_has .bg,.prize_list .prize_not .bg { background:url(../img/page/prize_list_bg_02.png) no-repeat right center; background-size:cover;}
+.prize_list .prize_not .use { background-color:#bedefa}
+
+.prize_details_content { padding:10px 20px;}
+.prize_details_top { height:203px; background-color:#c6c6c6; color:#fff; border-radius:5px; margin-bottom:15px;}
+.prize_details_top .name { height:75px; border-bottom:1px dashed #5c5758; position:relative; display:-webkit-box; display:flex; box-sizing:border-box; padding:9px 10px;}
+.prize_details_top .name:before { content:''; position:absolute; display:block; width:10px; height:10px; background-color:#edeef2; border-radius:50%; bottom:-5px; left:-5px;}
+.prize_details_top .name:after { content:''; position:absolute; display:block; width:10px; height:10px; background-color:#edeef2; border-radius:50%; bottom:-5px; right:-5px; }
+.prize_details_top .name img { width:57px; height:57px; border-radius:50%;}
+.prize_details_top .name .date { -webkit-box-flex:1; flex:1; padding-left:5px; padding-top:10px;}
+.prize_details_top .price { padding:0 10px; background:url(../img/page/sx_bg.png) no-repeat right 20px center; background-size:90px; overflow: hidden; position:relative; height: 128px;}
+#img_code { width:44px; position:absolute; right: 25px; top: 44px;}
+.code_content { width: 100%; height: 100%; position: fixed; background: rgba(0, 0, 0, 0.5) none repeat scroll 0% 0%; top: 0px; left: 0px; z-index: 2; display:none;}
+.code_content img { width:50%; transform: translate(-50%, -50%); left: 50%; top: 50%; position: absolute;}
+.prize_details_not { background-color:#f7c294}
+.prize_details_not .price { background:none;} 
+.prize_details_top .price p:nth-child(1) { margin-top:30px;}
+.prize_details_top .price p:nth-child(2) { padding-left: 35px; line-height: 35px; font-size:45px;}
+.prize_details_top .price p:nth-child(3) { text-align:right; margin-right:60px; margin-top:18px;}
+.prize_details_top .price span { display:block; position:absolute; width:90px; height:20px; background-color:#92c8f7; line-height:20px; text-align:center; -webkit-transform:rotate(-43deg); transform:rotate(-43deg); bottom: 14px;
+right: -20px; letter-spacing: 4px;}
+
+.store_list li { height:40px; line-height:40px; margin-top:5px; border-radius:3px; padding:10px; background-color:#fff; position:relative;}
+.store_list li a { display:-webkit-box; display:flex; } 
+.store_list li img { width:40px; height:40px; border-radius:50%;}
+.store_list li p { -webkit-box-flex:1; flex:1; padding-left:10px;padding-right: 25px; overflow: hidden; height: 40px;}
+.store_list li i { top:24px; right:20px;}
+.store_more { display:block; background-color:#c6c6c6; color:#fff; height:30px; line-height:30px; text-align:center; border-radius:15px; width:60%; margin:20px auto;}
+.store_more.on { background-color:#f7c294; }
+
+.prize_details_info { display:-webkit-box; display:flex;  color:#666666;}
+.info_title span { padding:5px; background-color:#ff8b8b; color:#fff;}
+.prize_details_info p { -webkit-box-flex:1; flex:1;}
+
+
+@media only screen and (min-width: 320px) and (max-width: 360px){
+.prize_list .price { width:75px;}
+}
+@media only screen and (max-width: 320px){
+.prize_details_top .name .date { font-size:12px;}
+}

@@ -1,0 +1,66 @@
+
+            </div>
+            <!-- /Page Content -->
+        </div>
+        <!-- /Page Container -->
+        <!-- Main Container -->
+
+    </div>
+
+      <!--Basic Scripts-->
+    <script src="<?php echo base_url('assets/js/bootstrap.min.js')?>"></script>
+
+    <!--Beyond Scripts-->
+    <script src="<?php echo base_url('assets/js/beyond.min.js')?>"></script>
+    <script src="<?php echo base_url('assets/js/backend/b2backend.js')?>"></script>
+	<!--Page Related Scripts-->
+   <script src="<?php echo base_url('assets/js/bootbox/bootbox.js');?>"></script>
+    <script>
+        $("#bootbox-regular").on('click', function () {
+            bootbox.prompt("What is your name?", function (result) {
+                if (result === null) {
+                    //Example.show("Prompt dismissed");
+                } else {
+                    //Example.show("Hi <b>"+result+"</b>");
+                }
+            });
+        });
+
+        $("#bootbox-confirm").on('click', function () {
+            bootbox.confirm("Are you sure?", function (result) {
+                if (result) {
+                    //
+                }
+            });
+        });
+
+        $("#bootbox-options").on('click', function () {
+            bootbox.dialog({
+                message: $("#myModal").html(),
+                title: "New E-Mail",
+                className: "modal-darkorange",
+                buttons: {
+                    success: {
+                        label: "Send",
+                        className: "btn-blue",
+                        callback: function () { }
+                    },
+                    "Save as Draft": {
+                        className: "btn-danger",
+                        callback: function () { }
+                    }
+                }
+            });
+        });
+
+        $("#bootbox-success").on('click', function () {
+            bootbox.dialog({
+                message: $("#modal-success").html(),
+                title: "Success",
+                className: "",
+            });
+        });
+    </script>
+</body>
+<!--  /Body -->
+</html>

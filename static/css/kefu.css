@@ -1,0 +1,91 @@
+html,body{height:auto;background:#ebebeb;padding-top:100px;width:100%}
+body{position:relative}
+.kefu_box{width:851px;margin:0 auto}
+.service_main{width:701px;height:500px;background:#FFF; float:right;position:relative}
+.service_head{width:701px;height:40px;background:#03bdae}
+.service_title{padding-left:30px;width:200px;height:40px;line-height:40px;float:left;font-size:14px;color:#FFF}
+.service_State{float:right;overflow:hidden}
+.service_off{float:right;line-height:40px;color:#FFF;width:96px;height:40px;text-align:center}
+.service_on{float:right;line-height:30px;width:95px;text-align:center;height:30px;margin-top:5px;background:url(../img/stase.png)}
+.service_off a{color:#fff} 	
+.service_conment{width:701px;background:#fff;height:460px;overflow:hidden}
+.service_left{position:relative;width:462px;background:#fff;height:475px;float:left}
+.service_right{position:relative;width:250px;background:#0FC;height:475px}
+.service_playinter{background:url(../img/playinter_07.png);width:458px;height:286px;float:left;margin-top:10px;margin-left:2px}
+.service_playinter_name{line-height:36px;padding-left:15px}
+.service_Chat_form{float:left;magin-left:10px;width:456px;height:240px;overflow:auto}
+.service_Type_box{background:url(../img/service_Type_box.png);width:458px;height:153px;float:left;margin-top:10px;margin-left:2px}
+.User_Use{padding-left:20px;overflow:hidden;height:36px}
+.User_Use li{float:left;padding-top:5px}
+.User_Use li span{font-size:14px;line-height:24px;margin-right:30px}
+.User_Use li img{float:left;margin-right:5px}
+.User_History{float:right;height:20px;padding-top:5px;padding-right:20px;cursor:pointer}
+.User_History span{float:left;line-height:24px;font-size:14px}
+.User_History img{float:left;margin-right:3px;width:16px;height:16px;margin-top:5px}
+.service_Chat_le{float:left;margin-top:20px;width:100%}
+.service_Chat_le span{position:relative;background:#069;float:left;margin-left:10px;max-width:358px;line-height:24px;padding-bottom:5px;font-size:14px;padding-left:10px;padding-right:10px;padding-top:5px;background:url(../img/kuang.png);background-size:100% 100%;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://img0.bdstatic.com/img/image/6992fdda3cc7cd98d10273a6b34233fb80e7aec90cc.jpg',sizingMethod='scale')}
+.service_Chat_le img{float:left;margin-left:10px;width:24px;height:32px}
+.service_Chat_le span i{background:url(../img/jiao.png);width:12px;height:7px;position:absolute;left:-10px;float:left}
+.service_Chat_ri{float:right;margin-top:20px;width:100%}
+.service_Chat_ri span{position:relative;float:right;margin-right:10px;line-height:24px;padding-bottom:5px;padding-left:10px;padding-right:10px;max-width:358px;padding-top:5px;font-size:14px;background:url(../img/kuang.png);background-size:100% 100%}
+.service_Chat_ri img{float:right;margin-right:10px;width:24px;height:32px}
+.service_Chat_ri span i{background:url(../img/jiao2.png);width:12px;height:7px;position:absolute;right:-10px;float:right}
+.User_Use_btn{overflow:hidden}
+.User_input{width:443px;margin-left:1px;height:75px;outline:none;border:none;padding-left:10px;line-height:20px;font-size:14px}
+.User_Use_btn label{margin-right:20px;float:right;background:url(../img/Close.png);width:72px;font-size:14px;height:30px;text-align:center;line-height:30px;font-family:"微软雅黑"}
+.User_Send{margin-right:20px;float:right;background:url(../img/Send.png);width:72px;height:30px;outline:none;border:none;color:#fff;font-size:14px;font-family:"微软雅黑"}
+.tab_Switch{display:block;color:#666}
+.service_right{background:url(../img/right_back.png);overflow:hidden;width:239px;height:452px;margin-top:8px}
+.tab_Switch li{width:113px;height:43px;text-align:center;font-size:14px;line-height:36px;cursor:pointer}
+.Switch_li_back{background:url(../img/sanjiao.png) no-repeat center 35px;color:#03bdae}
+.tab_Company{width:220px;height:300px;float:left;color:#aaa;padding-left:10px;padding-right:5px}
+.tab_Company p{text-indent:2em;line-height:20px;font-size:14px;color:#666}
+.tab_card{width:225px;height:260px;display:none;float:left;color:#666;padding-top:40px;padding-left:15px}
+.tab_card img{width:100px;height:100px;float:left}
+.tab_card_mation{float:left;height:74px;float:left;margin-top:12px;margin-left:20px;font-size:14px;color:#666;line-height:25px}
+.tab_card_mation span{float:left}
+.tab_card_mation i{text-align:center;width:10px;float:left}
+.tab_card_Stars{float:left;width:230px;margin-top:30px;margin-left:20px}
+.tab_card_Stars ul{overflow:hidden}
+.tab_card_Stars ul li{width:220px;float:left;line-height:30px}
+.tab_card_Stars ul li span{float:left;width:50px}
+.tab_card_Stars ul li i{float:left;margin-right:8px}
+.tab_card_Stars ul li img{width:110px;height:16px;margin-top:7px}
+.Customer_btn{float:left;width:250px;overflow:hidden;margin-top:30px}
+.Service_Score{float:left;background:url(../img/Close_ser.png);width:80px;height:32px;text-align:center;line-height:32px;color:#666;float:left;margin-left:30px}
+.Service_door{float:left;background:url(../img/Service.png);width:80px;height:32px;text-align:center;line-height:32px;color:#fff;float:right;margin-right:30px}
+.service_Eject_biaoqing{overflow-y:scroll;display:none;position:absolute;width:300px;height:200px;float:left;margin-left:12px;top:94px;background:#fff;border:1px solid #ccc}
+.service_Eject_biaoqing ul li img{padding:5px 5px;float:left}
+/*浏览记录弹出*/
+.History_Eject{position:absolute;background:url(../img/right_back.png);overflow:hidden;width:240px;height:475px;float:right;display:none;font-size:12px}
+.History_Eject img{width:12px;height:12px;float:right;padding-right:10px;padding-top:13px}
+.History_Eject_title{padding-left:10px;height:36px;line-height:36px}
+.History_Eject_le{width:100%;float:left}
+.History_Eject_le span{float:left;margin-right:5px;color:#000;font-size:14px}
+.History_Eject_le i{float:left;color:#03bdae}
+.History_Eject_ri{width:100%;float:right}
+.History_Eject_ri i{float:right;color:#ffae00}
+.History_Eject_ri span{float:right;margin-right:5px;color:#000;font-size:14px;color:#ffae00}
+.History_Eject ul{padding-top:10px;padding-left:10px;padding-right:10px;overflow:auto;max-height:360px}
+.History_Eject ul li{float:left;margin-bottom:10px}
+.History_Eject .fenye{float:left;margin-left:55px;padding:4px 6px;border:1px solid #ccc;font-weight:bold;cursor:pointer;color:#999}
+.color_gr{color:#03bdae}
+.color_gr span{color:#03bdae}
+.color_gr i{color:#03bdae}
+.color_ye{color:#ffae00}
+.color_ye span{color:#ffae00}
+.color_ye i{color:#ffae00}
+.zhezhao{width:133px;height:20px;background:#03bdae ;position:absolute;top:0;z-index:10}
+.zhezhao_ls{width:133px;height:20px;background:#03bdae ;position:absolute;bottom:0;z-index:10}
+.guanjia_list{float:left;width:150px;height:500px;background:#03bdae;position:relative}
+.guanjia_list ul{padding-top:20px;height:480px;overflow:hidden;overflow-y:visible}
+.guanjia_list ul li{display:block;overflow:hidden;width:130px;padding:5px 0;cursor:pointer;border-radius:0px 3px 3px 0px }
+.guanjia_list ul li img{width:36px;height:36px;float:left;margin-left:10px}
+.guanjia_list ul li span{width:64px;height:36px;line-height:36px;float:left;padding-left:10px;color:#333;font-size:14px;overflow:hidden}
+.kefu_on{background:#13e7d6;color:#333}
+/*关闭时的提示css*/
+.likai_box{width:300px;position:relative;background:#fff;margin:0 auto;top:-400px;border-radius:5px;text-align:center;overflow:hidden;padding-bottom:20px;border:1px solid #ccc;display:none}
+.likai_tixing{width:100%;height:30px;line-height:30px;background:#03bdae;color:#fff;border-radius:5px 5px 0px 0px}
+.likai_con{text-align:center;height:60px;line-height:60px}
+.Confirm{width:100px;height:30px;line-height:30px;float:left;background:#03bdae;margin-left:20px;color:#fff;border-radius:5px;outline:none;border:none}
+.Cancel{width:100px;height:30px;line-height:30px;float:right;margin-right:20px;border:1px solid #ccc;background:#ccc;border-radius:5px}

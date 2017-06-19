@@ -1,0 +1,219 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="./css/base.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="js/base.js"></script>
+<script type="text/javascript" src="js/alertBox.js"></script>
+<title>后台首页</title>
+<script type="text/javascript">
+
+/*window.model_box=function(){
+	var mbox = jQuery('<div class="bg_box" id="hide_box"></div>').appendTo('body');
+	mbox.show();
+    return mbox;
+};*/
+
+
+function heightAuto(){
+	var top_h = document.getElementById('top').offsetHeight;//头部的高度
+	var left_h = document.getElementById('asideInner').offsetHeight;//左侧导航实际高度
+	var w_h = window.innerHeight;// 获取窗口高度
+	var Lh = w_h - top_h;//
+	document.getElementById('main').style.minHeight = Lh + "px";
+	if(Lh>=left_h){
+		document.getElementById('left_nav').style.height = left_h + "px";
+	}else{
+		document.getElementById('left_nav').style.height = Lh + "px";
+	}
+}
+
+window.onscroll = function() {
+	alert(11);
+	if ($(window).scrollTop() > 400) {
+		$("#fix_title").addClass("fix_title_nav");
+		$(".float_right_content ").show();
+	} else {
+		$("#fix_title").removeClass("fix_title_nav");
+		$(".float_right_content ").hide();
+	}
+}
+</script>
+
+</head>
+
+<body id="page" onload="heightAuto();">
+
+<!--  ===========  头部内容  start=============== -->
+<div class="navbar" id="top">
+    <div class="navbar-inner clear">
+        <div class="navbar-header fl">
+            <a href="#" class="navbar-brand">
+                <img src="img/logo.png" />
+            </a>
+        </div>
+        <div class="header_right fr">
+            <div class="user_photo"><img src="" onclick="change_avatar();"/></div>
+            <div class="user_info">
+                <ul>
+                    <li class="choose_static"><span><span id="online_txt">在线</span><i></i></span>
+                        <ul class="hide_static" id="hide_static">
+                            <li><a href="#" onclick="online_status(this)" data-val="2">在线</a></li>
+                            <li>
+                                <a href="javascript:void(0);" onclick="online_status(this)" data-val="1">挂牌</a>
+                            </li>
+                            <li><a href="javascript:void(0);" onclick="expert_loginout()">退出</a></li>
+                        </ul>
+                    </li>
+                    <li>账户名 ：哈哈哈</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<!--  ===========  头部内容 end =============== -->
+
+
+<div class="main_container" id="mainBody">
+	<!--  ===========  左侧导航 start =============== -->
+    <div class="aside nui-scroll" id="left_nav">
+        <div id="asideInner" class="aside_inner">
+            <div class="mc">
+                <dl id="user_nav_1">
+                    <dt class="home_link">
+                        <i class="mian_page small_ico"></i>
+                        <a class="a_url" href="main.html" target="main">主页</a>
+                    </dt>
+                    <dd></dd>
+                </dl>
+                <dl style="" class="user_nav">
+                    <dt>
+                        <i class="small_ico"></i>业务平台<b></b>
+                    </dt>
+                    <dd>
+                        <div class="item"  >
+                            <a href="order_detail.html" target="main">我的订单</a>
+                        </div>
+                        <div class="item" >
+                            <a href="table_example.html" target="main">定制线路</a>
+                        </div>
+                        <div class="item" >
+                            <a href="##" target="main">售卖级别</a>
+                        </div>
+                        <div class="item" >
+                            <a href="##" target="main">定制抢单</a>
+                        </div>
+                        <div class="item" >
+                            <a href="##" target="main">询价供应商</a>
+                        </div>
+                        <div class="item" >
+                            <a href="##" target="main">退款申请</a>
+                        </div>
+                        <div class="item" >
+                            <a href="##" target="main">我的账户</a>
+                        </div>
+                    </dd>
+                </dl>
+                <dl style="" class="user_nav">
+                    <dt>
+                        <i class="small_ico"></i>客户管理<b></b>
+                    </dt>
+                    <dd>
+                        <div class="item" >
+                            <a href="##" target="main">我的客户</a>
+                        </div>
+                        <div class="item">
+                            <a href="##" target="main">投诉维权</a>
+                        </div>
+                        <div class="item" >
+                            <a href="##" target="main">客人点评</a>
+                        </div>
+                        <div class="item" >
+                            <a href="##" target="main">客人问答</a>
+                        </div>
+                    </dd>
+                </dl>
+                <dl style="" class="user_nav">
+                    <dt>
+                        <i class="small_ico"></i>个人设置<b></b>
+                    </dt>
+                    <dd>
+                        <div class="item">
+                            <a href="##" target="main">消息通知<i class="news_num">(111)</i></a>
+                        </div>
+                        <div class="item">
+                            <a href="##" target="main">海外代购</a>
+                        </div>
+                        <div class="item">
+                            <a href="##" target="main">个人游记</a>
+                        </div>
+                        <div class="item">
+                            <a href="##" target="main">学习机会</a>
+                        </div>
+                        <div class="item">
+                            <a href="##" target="main">管家升级</a>
+                        </div>
+                        <div class="item">
+                            <a href="##" target="main">基本资料</a>
+                        </div>
+                        <div class="item">
+                            <a href="##" target="main">安全中心</a>
+                        </div>
+                        <div class="item">
+                            <a href="##" target="main">个性模板</a>
+                        </div>
+                    </dd>
+                </dl>
+
+
+            </div>
+        </div>
+    </div>
+    <!--  ===========  左侧导航 end =============== -->
+
+	<!--  ===========  右侧页面 start =============== -->
+	<iframe name="main" id="main" src="main.html" class="nui-scroll" frameBorder="0" scrolling="auto"></iframe>
+	<!--  ===========  右侧页面 end =============== -->
+
+</div>
+<script type="text/javascript">
+//当浏览器窗口大小改变时，设置显示内容的高度
+window.onresize=function(){
+	var top_h = document.getElementById('top').offsetHeight;//头部的高度
+	var left_h = document.getElementById('asideInner').offsetHeight;//左侧导航实际高度
+	var w_h = window.innerHeight;// 获取窗口高度
+	var Lh = w_h - top_h;//
+	document.getElementById('main').style.minHeight = Lh + "px";
+	if(Lh>=left_h){
+		document.getElementById('left_nav').style.height = left_h + "px";
+	}else{
+		document.getElementById('left_nav').style.height = Lh + "px";
+	}
+}
+
+$(function(){
+	//头部状态切换
+	var fo=true;
+	$(".choose_static").click(function(){
+		if(fo){
+			$(this).find('ul').show();
+			fo=false;
+		}else{
+			$(this).find('ul').hide();
+			fo=true;
+		}
+	});
+
+	$(".hide_static li").click(function(){
+		var txt = $(this).text();
+		$("#online_txt").text(txt);
+	});
+
+
+});
+
+
+</script>
+</body>
+</html>

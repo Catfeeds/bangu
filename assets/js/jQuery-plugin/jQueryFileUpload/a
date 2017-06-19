@@ -1,0 +1,18 @@
+$('#productMainFile').fileupload({
+        dataType: 'json',
+        formData:{module:"productMain"},
+        done: function (e, data) {
+        	var fileId= jQuery('#fileId').val();
+        	if(''!=fileId){
+	        	jQuery.ajax({url:"__APP__/Admin/FileUpload/delWebFileById",type: "POST",data: jQuery.param({id:fileId}),success: function(html){
+	        	    
+	        	}});
+        	}
+        	$.each(data.result, function (index, file) {
+                $("#productMainImg").attr({ src: "__APP__/"+file.path, alt: file.fileName });
+                $("#productMainPic").val(file.path);
+                $("#fileId").val(file.id);
+                $("#delMainImg").show();
+            });
+        }
+    });

@@ -1,0 +1,19 @@
+@charset "utf-8";
+*{margin:0;padding:0;list-style:none;border:0}
+html, body{width:100%;height:100%;margin:0 auto;min-height:700px}
+/* main_image */
+.main_visual{width:100%;height:90%;border-top:1px solid #d7d7d7;overflow:hidden;position:relative;background:#fff; min-width:1000px}
+.main_image{height:100%;overflow:hidden;position:relative}
+.main_image ul{width:9999px;height:100%;overflow:hidden;position:absolute;top:0;left:0}
+.main_image li{float:left;width:100%;height:100%;display:block}
+.main_image li span{display:block;width:100%;height:100%}
+.main_image li a{display:block;width:100%;height:100%}
+.main_image li .img_1{background:url(../img/shouye_ban1.jpg);height:100%;width:100%}
+.main_image li .img_2{background:url(../img/shouye_ban2.jpg);height:100%;width:100%}
+.main_image li .img_3{background:url(../img/shouye_ban3.jpg);height:100%;width:100%}
+div.flicking_con{position:absolute;bottom:50px;left:50.8%;z-index:999;width:300px;height:21px;margin:0 0 0 -50px}
+div.flicking_con a{float:left;width:16px;height:16px;margin:0;padding:0;background:#fff;margin:5px;border-radius:20px;display:block;text-indent:-1000px}
+div.flicking_con a.on{background:#5aa400}
+#btn_prev,#btn_next{z-index:11111;position:absolute;display:block;width:40px!important;height:120px!important;top:45%;margin-top:-37px;display:none}
+#btn_prev{background:url(../img/ban_pre.png) no-repeat left top;left:10px}
+#btn_next{background:url(../img/ban_next.png) no-repeat right top;right:10px}

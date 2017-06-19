@@ -1,0 +1,113 @@
+
+@charset "utf-8";
+/****************
+ * @description : css reset
+ * @author   : Liujingen 
+ * @date     : 2015-08-03
+ * 结伴
+ ****************/
+body { background-color:#edeef2; color:#363636;}
+.cm_head span { width:45px; height:45px; display:block; position:absolute; right:0; top:0; background:url(../img/page/white_search.png) no-repeat center; background-size:18px; }
+
+.companion_content{ padding:0 10px 10px 10px; position:relative;}
+.companion_item { background-color:#fff; margin-top:10px; border:1px solid #e1e1e1; border-radius:5px; padding:0 10px 10px 10px;}
+.companion_item_head { margin:10px; border-bottom:1px solid #e1e1e1; position:relative; height:40px; padding-bottom:10px;}
+.companion_item .portrait { position:relative; display:block; width:40px; height:40px; position:absolute; left:-5px;}
+.companion_item .portrait img { width:100%; border-radius:50%;}
+.companion_item .portrait i { width:14px; height:14px; background-color:#fff; border-radius:50%; border:1px solid #e1e1e1; display: block; position: absolute; bottom: 0px; right: -5px;  background-repeat:no-repeat; background-position:center;}
+.companion_item_head .portrait .male { background-image:url(../img/page/man.png); background-size:8px;}
+.companion_item_head .portrait .women { background-image:url(../img/page/women.png); background-size:8px;}
+.companion_item .name { margin-left: 45px;}
+.companion_item .name p:first-child { color:#03bdae; margin-bottom:2px;}
+.companion_item .name p:last-child { color:#969696}
+
+.companion_item_info { position:relative}
+.companion_item_info .title { color:#444444; margin-bottom:10px;}
+.companion_item_info .img_list img { max-width:33.3333%; margin-bottom:8px;}
+.browse_number { color:#fa8621}
+.companion_item_info .message,.companion_item_info .message_on { display:block; bottom:0px; right:0px; width:40px; height:20px; border:1px solid #969696; background:url(../img/msg_bg.png) no-repeat center; background-size:11px; border-radius:10px; position:absolute;}
+.companion_item_info .message_on {  background:url(../img/msg_on.png) no-repeat center; background-size:11px;}
+
+.companion_detail { padding:0;}
+.companion_detail .companion_item_head { border-bottom:none;}
+.companion_detail .portrait { left:5px;}
+.companion_detail .name { margin-left: 55px;}
+.to_signup { position:absolute; display:block; width:70px; height:25px; line-height:25px; text-align:center; color:#fff; background:#fa8621; border-radius:3px; right:0px; top:10px;}
+
+.companion_detail_info { padding:10px 0; border-top:1px solid #e1e1e1; border-bottom:1px solid #e1e1e1;}
+.info_list { position:relative; overflow:hidden; padding:0 5px;}
+.info_list_tiem { padding-left:15px; box-sizing:border-box;}
+.info_list .left { width:55%; float:left;}
+.info_list .right { width:45%; float:left;}
+.info_list_tiem span { color:#a8a8a8; padding-right: 5px;}
+.info_list_tiem b { font-weight:normal; color:#696969}
+
+.info_list .data { background:url(../img/page/info_ico_01.png) no-repeat left center; background-size:10px;}
+.info_list .address { background:url(../img/page/info_ico_02.png) no-repeat left center; background-size:10px;}
+.info_list .activity { background:url(../img/page/info_ico_03.png) no-repeat left center; background-size:10px;}
+.info_list .hope { background:url(../img/page/info_ico_04.png) no-repeat left center; background-size:10px;}
+.info_list .contact { background:url(../img/page/info_ico_05.png) no-repeat left center; background-size:10px;}
+.info_list .destination { background:url(../img/page/info_ico_06.png) no-repeat left center; background-size:10px;}
+
+.companion_detail_text { border-top:1px solid #f3f3f3; padding:10px;}
+.companion_detail_share { height:40px; line-height:40px; position:relative; padding-left: 10px; border-top:1px solid #e1e1e1; border-bottom:1px solid #e1e1e1;}
+.companion_detail_share span { display:block; position:absolute; border:1px solid #cfcfcf; padding: 5px 10px 5px 25px; line-height:12px; color:#a4a4a4; border-radius:3px;}
+.companion_detail_share .share_btn { background:url(../img/page/share_ico.png) no-repeat 5px center; background-size:15px; right: 80px; top: 10px;}
+.companion_detail_share .share_comments { background:url(../img/msg_bg.png) no-repeat 5px center; background-size:15px; right: 10px; top: 10px;}
+
+.companion_detail_signUp { padding:10px;}
+.companion_detail_signUp .head { color:#aaaaaa;}
+.portrait_list img { width:40px; height:40px; border-radius:50%; margin-top:10px;}
+
+.response h3 { font-size:14px; color:#969696; font-weight:normal; margin-top:10px;}
+.response textarea { width:100%; border-radius:5px; border:1px solid #e1e1e1; min-height:75px; padding:10px; box-sizing:border-box;}
+.response button { display:block; width:70%; height:30px; line-height:30px; color:#fff; background-color:#03bdae; border-radius:15px; margin:10px auto; border:none;}
+
+.comments_content { background-color:#fff; border:1px solid #e1e1e1; border-radius:5px;}
+.comments_content .head { height:35px; line-height:35px; color:#aaaaaa; border-bottom:1px solid #e1e1e1; padding-left:10px;}
+.comments_list li { padding:10px; color:#666666;}
+.comments_list_text { position:relative;}
+.comments_list_text .portrait { width:30px; height:30px; border:1px solid #e1e1e1; position:absolute;}
+.comments_list_text .portrait img { width:100%; height:100%;}
+.comments_list_text .right { margin-left:40px;}
+.comments_list_text .name { color:#363636;}
+.comments_list_text .name i { float:right; color:#a4a4a4;}
+.comments_list_text .data { color:#ccc;} 
+.comments_list_text .right p { color:#666;}
+.comments-item-bd a { color:#488ccb;}
+
+/***** 结伴报名 *****/
+.signup_body { background:url(../img/page/signup_bg.png) no-repeat center; background-size:cover;}
+.signup_header { background:none; text-align:left; padding-left:40px; color:#363636;}
+.signup_header i { width:45px; height:45px; background:url(../img/page/top_arrow.png) no-repeat center; background-size:10px; display: block; position: absolute;
+left: 0;}
+.signup_main { padding:5px 60px 60px 60px;}
+.signup_main h1 { color:#fa8621; font-size:16px; text-align:center; margin-bottom:20px;}
+.gender { line-height:30px;}
+.gender i { display:inline-block; margin-right:30px;}
+.gender span { display:inline-block;}
+.gender span em {  display:inline-block; width:30px; height:30px; background-color:#fff; background-repeat:no-repeat; background-position:center; border-radius:50%; vertical-align:middle; margin-right:10px;}
+.gender span .man { background-image:url(../img/page/gender_ico_man.png); background-size:contain;}
+.gender span .wumen { background-image:url(../img/page/gender_ico_wuman.png); background-size:contain;}
+.gender .on em { background-color:#3b89ff;}
+.gender .red em { background-color:red;}
+.gender .first { margin-right:10%;}
+.signup_contact { color:#696969; font-size:12px; margin-top:20px;}
+.signup_contact span { color:#363636; padding-right:15px; font-size:14px;}
+.signup_input_item { display:-webkit-box; display:flex; border-bottom:1px solid #363636; padding:5px 0; margin-top:10px;}
+.signup_input_item label { display: block; width:60px;}
+.signup_input_item label i { color:red; }
+.signup_input_item input { -webkit-box-flex:1; flex:1; background:none; border:none; font-size:12px;}
+.signup_msg p { padding-top:10px;}
+.signup_msg textarea { min-height:65px; padding:10px; width:100%; box-sizing:border-box; background:none; border:1px solid #363636; border-radius:3px;}
+.submit_signup { width:75%; padding:5px; border-radius:15px; background-color:#fa8621; color:#fff; text-align:center; margin:20px auto;} 
+
+.signup_search_body { background-color:#fff;}
+.signup_search_header { padding:8px 10px; background-color:#03bdae; display:-webkit-box; display:flex;}
+.signup_search_header input { border:none; -webkit-box-flex:1; flex:1; padding:8px 8px 8px 35px; border-radius:20px; font-size:12px; background-image:url(../img/page/search_ico.png); background-repeat:no-repeat; background-position:10px center; background-size:15px;}
+.signup_search_header span { display:block; width:40px; line-height:30px; text-align:right; color:#fff;}
+.signup_search_main { padding:15px;}
+.signup_search_main .title { color:#cccccc; padding:5px 0; border-bottom:1px solid #f1f1f1;}
+.signup_search_main li { padding:3px 18px; border:1px solid #a4a4a4; display:inline-block; margin-top:10px; border-radius:30px; margin-right: 3px;}
+.signup_search_main li.on { border:1px solid #03bdae;}
+.signup_search_main li.on a { color:#03bdae;}

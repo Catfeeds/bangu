@@ -1,0 +1,114 @@
+﻿/*media-wrapper ---start------*/
+.media-wrapper { border: solid 1px #ccc; width: 600px; }
+
+    .media-wrapper .control-panel { height: 30px; line-height: 30px; text-align: right; border-bottom: solid 1px #ccc; }
+
+        .media-wrapper .control-panel input[type=button] { margin-right: 15px;cursor:pointer; }
+
+    .media-wrapper .items-wrapper { height: 400px; overflow-y: scroll; overflow-x: hidden; }
+
+    .media-wrapper .items-wrapper, .upload-wrapper .progress-wrapper, .selector-wrapper .res-list { background-color: #eee; }
+
+    .media-wrapper .status-wrapper { height: 25px; }
+
+    .media-wrapper .items-wrapper li { list-style: none; border: solid 1px #ccc; width: 250px; margin-top: 10px; margin-right: 10px; }
+
+    .media-wrapper .items-wrapper li, .media-wrapper .item-img, .media-wrapper .item-desc { float: left; }
+
+    .media-wrapper .item-desc { padding-left: 5px; padding-top: 2px; word-break: break-all; word-wrap: break-word; width: 170px; }
+
+    .media-wrapper .item-remove { font-size: 20px; float: right; padding: 0px 2px 0px 0px; cursor: pointer; }
+
+    .media-wrapper .item-img { width: 60px; height: 60px; cursor: pointer; }
+
+    .media-wrapper .status-wrapper { padding-left: 20px; }
+
+    .media-wrapper .item-count { color: red; }
+
+    .media-wrapper .item-json, .res-list .item-json { display: none!important; }
+
+.directory-wrapper > div { height: 30px; line-height: 30px; }
+
+    .directory-wrapper > div > span { margin-right: 10px; display: inline-block; text-align: right; float: left; width: 60px; }
+
+    .directory-wrapper > div > input[type=text] { height: 20px; line-height: 20px; }
+
+    .directory-wrapper > div > lable, .directory-wrapper > div > input[type=radio] { cursor: pointer; }
+
+.upload-wrapper .progress-wrapper { width: 450px; height: 250px; overflow-y: scroll; overflow-x: hidden; }
+
+.upload-wrapper .uploaddir-list, .upload-wrapper .btn_adddir, .selector-wrapper .btn_adddir, .selector-wrapper .uploaddir-list { margin-left: 15px; }
+
+.upload-wrapper .upload-status { height: 22px; line-height: 22px; color: red; font-style: italic; }
+
+.upload-wrapper .btn_beginUpload { margin-left: 20px; }
+
+.upload-wrapper .upload-ctrl-zone { text-align: right; }
+
+.selector-wrapper .res-list { height: 250px; width: 450px; overflow-y: scroll; overflow-x: hidden; }
+
+    .selector-wrapper .res-list img, .selector-wrapper .res-list li { width: 100px; height: 100px; }
+    .selector-wrapper .res-list img, .selector-wrapper .res-list input { cursor: pointer; }
+
+    /*.selector-wrapper .res-list table { width: 100%; }*/
+    .selector-wrapper .res-list ul { padding: 0px; }
+    .selector-wrapper .res-list li { float: left; position: relative; list-style: none; margin-left: 8px; margin-bottom: 8px; }
+        .selector-wrapper .res-list li input, .selector-wrapper .res-list li .label-owner { position: absolute; }
+        .selector-wrapper .res-list li .label-owner { z-index: 2; color: #fff; background-color: gray; bottom: 0px; display: inline-block; width: 100%; text-align: center; filter: alpha(opacity=80); -moz-opacity: 0.8; -khtml-opacity: 0.8; opacity: 0.8; }
+/*media-wrapper ---end----*/
+/*广告--start-*/
+.hmSlider { /*padding: 5px;
+    background: #f8f8f8;
+    border: 1px solid #e6e6e6;*/ }
+
+    .hmSlider .sliderCon { position: relative; overflow: hidden; }
+
+    .hmSlider, .hmSlider .sliderCon, .hmSlider #BigImg img { height: 290px; width: 715px; }
+
+        .hmSlider #BigImg { position: absolute; }
+
+        .hmSlider #Num { position: absolute; right: 20px; bottom: 15px; }
+
+            .hmSlider #Num li { float: left; width: 18px; height: 18px; margin-left: 6px; display: inline; text-align: center; background: #ffa800; border: 1px solid #FF6600; line-height: 18px; color: #fff; }
+
+                .hmSlider #Num li.on { background: #FF6600; font-weight: bold; }
+/*广告--end-*/
+/*日历开始*/
+.calendar_selector { border: 3px solid #fdb962;  width: 915px; padding: 9px; overflow: hidden; background: #ffffff; overflow: hidden; z-index: 50; }
+
+
+    .calendar_selector .date_container { margin-top: 9px; width: 915px; padding: 4px 3px; overflow: hidden; }
+
+        .calendar_selector .date_container h1 {font-size:12px!important; display: block; width: 120px; height: 24px; line-height: 24px; color: #FFFFFF; background: #ff8f00; text-align: center; float: left; margin: 3px; cursor: pointer; }
+
+            .calendar_selector .date_container h1.holiday { background: #39c0ef; }
+
+        .calendar_selector .date_container h2, .calendar_selector .date_container h3 { display: block; width: 120px; height: 120px; line-height: 24px; font-size: 9pt; background: #fffcec; text-align: center; float: left; margin: 3px; border: 1px solid #ffe9b4; border-top: none; border-left: none; cursor: pointer; position: relative; overflow: hidden; }
+
+        .calendar_selector .date_container h3 { background: #f8f8f8; border-color: #ececec; }
+
+        .calendar_selector .date_container h2.holiday { background: #ffeed5; border-color: #ffccb8; }
+
+        .calendar_selector .date_container span { position: absolute; right: 3px; top: -3px; }
+
+        .calendar_selector .date_container h2 span { color: #666666; }
+
+        .calendar_selector .date_container h3 span { color: #cccccc; }
+
+        .calendar_selector .date_container i { display: block; margin-top: 18px; margin-right: 4px; line-height: 13px; font-style: normal; text-align: right; color: #3b99d9; }
+
+        .calendar_selector .date_container label { display: block; margin-right: 4px; line-height: 13px; font-style: normal; text-align: right; color: #d93b99; }
+
+    .calendar_selector .close { position: absolute; width: 21px; height: 21px; right: 7px; top: 7px; overflow: hidden; background: url(../images/icons_24px.png) 0px -432px no-repeat scroll; cursor: pointer; }
+
+    .calendar_selector .month_selector { display: block; position: relative; width: 140px; height: 24px; line-height: 24px; font-size: 14px; text-align: center; margin: auto; }
+
+        .calendar_selector .month_selector b { color: #f06500; font-size: 24px; font-weight: bold; padding: 0px 5px 0px 0px; }
+
+        .calendar_selector .month_selector div { position: absolute; width: 24px; height: 24px; overflow: hidden; background: url(/images/icons_24px.png) no-repeat scroll; cursor: pointer; top: 0px; }
+
+            .calendar_selector .month_selector div.premonth_button { left: 0px; background-position: 0px -456px; }
+
+            .calendar_selector .month_selector div.nextmonth_button { right: 0px; background-position: 0px -480px; }
+
+/*日历结束*/

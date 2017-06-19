@@ -1,0 +1,174 @@
+/*========================中部主体内容=======================*/
+.now_station{font-size:12px;color:#999;margin-top:20px;margin-bottom:25px}
+.now_station a{color:#999}
+/*------------------------------最美体验师---------------------------*/
+.beautiful_experience{margin-bottom:40px}
+.beautiful_experience_title{font-size:18px;font-family:"黑体";color:#8f9c00;margin-bottom:15px}
+.beautiful_experience_img ul{width:1220px}
+.beautiful_experience_img ul li{float:left;width:285px;height:285px;overflow:hidden;margin-right:20px;position:relative}
+.beautiful_experience_img ul li:last-child{margin-right:0px}
+.beautiful_experience_img ul li a{overflow:hidden}
+.beautiful_experience_img ul li a div{font-family:"Hiragino Sans GB","microsoft yahei","Tahoma,arial","宋体","sans-serif";font-family:"黑体";position:absolute;height:50px;width:285px;bottom:0px;left:0px;font-size:18px;color:#ffae00;text-align:center;line-height:50px;background-color:#000;filter:alpha(opacity=70);/*IE滤镜，透明度60%*/-moz-opacity:0.7;/*Firefox私有，透明度60%*/opacity:0.7;/*其他，透明度60%*/}
+.beautiful_experience_img ul li a div i{width:13px;height:24px;background:url(../img/page/footer.png) 0px 0px no-repeat;position:absolute;top:13px;right:10px}
+.beautiful_qiehuan{display:block}
+/*------------------------------          体验师列表    左侧边栏            ---------------------------*/
+.experience_list{position:relative;min-height:400px;margin-bottom:50px}
+/*------------------------------体验师搜索---------------------------*/
+.experience_left_side{width:920px}
+.experience_search{height:40px;line-height:40px;background:#8f9c00;font-size:12px;color:#fff}
+.experience_search span,.experience_search input,.experience_search select{float:left}
+.experience_search input{width:150px;height:28px;line-height:28px;text-indent:0.4em}
+.live_place,.go_place{margin:6px 0px;border:none}
+.go_place{width:125px !important}
+.experience_search .tiaoxuan{font-size:14px;padding:0px 10px} 
+.line_icon{width:1px;height:24px;background:url(../img/page/line.png) 0px 0px no-repeat;float:left;margin-top:8px}
+.experience_search span{padding-left:10px}
+.experience_search .tiaoxuan{font-family:"Hiragino Sans GB","microsoft yahei","Tahoma,arial","宋体","sans-serif"}
+.experience_search select{width:80px;margin-top:6px;height:28px;line-height:28px}
+.experience_search_box{width:120px;position:relative;margin-right:5px;margin-top:5px}
+.experience_search_box input{width:90px;height:30px;text-align:center;border:none;line-height:30px}
+.search_icon{width:30px;height:30px;background:url(../img/page/search_icon.png) 0px 0px no-repeat;position:absolute;cursor:pointer}
+/*------------------------------体验师列表详情---------------------------*/
+.experience_list_img{width:200px;height:200px}
+.experience_list_img a img{width:200px;height:200px;position:absolute;z-index:10}
+.experience_list_detail{position:relative}
+.experience_list_detail ul li{margin-top:10px;height:200px;width:920px;float:left;background:#f8f8f8;position:relative}
+.experience_info{border:3px solid #f2f2f2;width:717px;height:194px;border-radius:5px;position:absolute;top:0px;right:0px}
+.experience_info_txt{width:515px;margin-left:28px;position:relative}
+.experience_name{font-size:16px;color:#363636;margin:10px 0;position:absolute;font-weight:bold}
+.sex_img{margin-left:10px;width:14px;height:14px}
+.experience_txt{width:530px;position:absolute;height:95px;background:#FFF;top:42px;margin-bottom:20px}
+.experience_txt p{line-height:200%;font-size:12px;color:#888;margin-left:10px;margin-top:10px;margin-right:10px;height:76px;overflow:hidden}
+.position{top:132px;position:absolute;height:60px;line-height:60px;width:515px;overflow:hidden}
+.position span{font-size:12px;color:#666;margin-right:60px;position:relative}
+.live_place_icon{width:12px;height:20px;background:url(../img/page/live_place.png) 0px 0px no-repeat;position:absolute;top:20px;padding-right:14px}
+.go_place_icon{width:12px;height:20px;background:url(../img/page/go_place.png) 0px 0px no-repeat;position:absolute;top:20px;padding-right:14px}
+.live_place_txt{margin-left:20px;margin-right:60px}
+.go_place_txt{margin-left:20px}
+#person_page_link{color:#ffae00;font-size:12px;margin-right:0px;position:absolute;right:0px}
+.serve_info{width:100px;height:110px;border:1px dashed #e1e1e1;position:absolute;right:10px;top:10px;padding:8px 10px;background:#fff;color:#666;font-size:12px}
+.travel_num{text-align:center;border-bottom:1px dashed #e1e1e1;height:55px;line-height:180%}
+.travel_num span{color:#168bdf;font-size:14px;font-weight:bold}
+.cousnel_num {text-align:center;height:55px;line-height:180%;margin-top:6px}
+.cousnel_num span{color:#f16377;font-size:14px}
+.counsel_button{position:absolute;right:10px;bottom:18px}
+.counsel_button  span{padding:8px 26px 8px 26px;background:#ffae00;border-radius:3px;color:#fff;font-size:14px;text-align:center;cursor:pointer}
+.hide_code{width:200px;height:200px;position:absolute;z-index:101;display:none;left:-80px;top:29px;background:rgba(0,0,0,0.5);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)}
+.shao_erweima{position:absolute;color:#fff;font-size:14px;top:18px;left:15px}
+.hide_code img{width:120px;height:120px;margin:40px}
+.page{height:30px;position:relative}
+.searchNoExper{ width:100%;height:600px;position:relative}
+.searchNoExper img{width:400px;height:400px;margin:100px auto;display:block}
+/*------------------------------          热门体验线路    右侧边栏            ---------------------------*/
+.experience_right_side{background:#FDFDFD;position:relative}
+.right_side_content{width:260px}
+.hot_experience_line{height:40px;width:260px;line-height:40px;font-size:14px;color:#363636;text-align:center;background:#F2F2F2;font-family:"Hiragino Sans GB","microsoft yahei","Tahoma,arial","宋体","sans-serif"}
+.hot_experience_line_list li{border-bottom:1px dashed #9f9f9f;position:relative}
+.hot_experience_line_list li:last-child{border-bottom:none}
+.hot_line_num,.cover_num{width:40px;font-size:12px;line-height:30px}
+.hot_line_num{  padding:20px 10px;color:#000;font-family:"微软雅黑"}
+.hot_line_num span,.cover_num span{font-size:25px}
+.cover_num{color:#ffae00;margin-left:10px;font-family:"微软雅黑"; margin-top:3px}
+.hot_line_txt,.cover_txt{width:195px;height:40px;line-height:180%;overflow:hidden}
+.hot_line_txt{  padding:20px 0px 0px 0px;font-size:12px;color:#000}
+.cover_txt{font-size:13px;color:#fff; margin-top:3px}
+.hot_line_price,.cover_price{text-align:right;height:20px;font-size:12px;margin-bottom:10px; font-weight:bold;position:absolute;top:42px;right:5px}
+.cover_price{top:27px}
+.cover_price{margin-right:8px}
+.hot_line_price span,.cover_price span{font-size:9px; font-family:"arial"}
+.hot_line_price{color:#e83b87;float:right}
+.cover_price{font-family:"arial";float:right;color:#ffae00}
+.hot_line_cover{height:156px;width:260px;position:relative;display:none}
+.cover_info{height:60px; top:96px;background:#000000;;position:absolute;left:0px;width:260px;filter:alpha(opacity=70);/*IE滤镜，透明度60%*/-moz-opacity:0.7;/*Firefox私有，透明度60%*/opacity:0.7;/*其他，透明度60%*/}
+.cover_info .cover_txt{width:210px}
+/*===================================   体验师个人主页   =============================================*/
+/*这里是页头的图片----需要删除*/
+.customized_head{display:block;}
+.customized_head img{width:100%;display:block}
+.customized_foot{float:left;margin-top:100px}
+.Individual_main{width:1200px;margin:0 auto} 
+.Individual_position{font-size:14px;padding-top:20px;color:#999;padding-bottom:70px;width:1200px;margin:0 auto}
+.Individual_position a{font-size:14px;color:#999}
+.Individual_left{width:900px;float:left;background:#fafafa;border:1px solid #e1e1e1;position:relative}
+.Individual_right{width:280px;float:right;/* background:#f54;*/}
+/*main*/
+.Individual_Head_photo{width:190px;float:left;height:190px;position:absolute;left:40px;top:-30px}
+.Individual_Head_photo img{width:190px;height:190px}
+.Individual_Detailed{width:645px;/* background:#c48fe5;*/ float:right;height:135px;padding-top:25px;padding-left:25px}
+.Indiv_Deta_name, .Indiv_Deta_Consul, .Indiv_Deta_Experience{float:left}
+.Indiv_Deta_name{font-size:18px}
+.Indiv_Deta_name span{ padding-left:20px;width:20px}
+.Indiv_Deta_name span img{top:0px;width:18px;height:18px}
+.Indiv_Deta_Consul{font-size:15px;padding-left:48px}
+.Indiv_Deta_Consul span{color:#f54;font-size:15px}
+.Indiv_Deta_Experience{font-size:15px;padding-left:20px}
+.Indiv_Deta_Experience span{color:#f17b8b}
+.Indiv_Deta_Motto{margin-top:20px;float:left;color:#666;width:570px;line-height:24px;/* background:#F00;*/ font-size:13px;height:48px}
+.Consultant_experience{margin-top:5px;float:right;margin-right:40px;line-height:40px;font-size:16px;color:#FFF;text-align:center;width:120px;height:40px;background:#ffae00}
+.Indiv_list p{float:left;margin-top:8px;font-size:13px;padding-left:36px; width:780px;text-indent:2em}
+.After_Place{margin-top:30px;padding-left:10px;width:850px;margin-bottom:20px;height:24px;float:right;border-left:5px solid #ffae00;line-height:24px;font-size:18px;magin-left:40px}
+.After_Place span{float:right;margin-right:30px;font-size:12px;width:60px;height:24px;line-height:24px;text-align:center;background:#ccc;color:#fff;cursor:pointer}
+.Indiv_Place_list{float:left}
+.Indiv_Place_list li{margin-left:32px;width:838px;overflow:hidden;background:#fff;border:1px solid #edcdb8;margin-bottom:5px}
+.Indiv_list_Address{font-size:16px;line-height:18px;padding-top:20px;padding-left:35px;float:left}
+.cancle_experience{width:90px;height:30px;line-height:30px;text-align:center;font-family:"微软雅黑";margin-top:-5px;border-radius:4px;float:left;margin-left:25px;color:#fefefe;font-size:14px;background:#65aa10;cursor:pointer}
+.Indiv_list_Address img{float:left}
+.Indiv_list_Address a{float:left;padding-left:10px;float:left;font-size:18px;color:#363636;font-family:"微软雅黑";max-width:465px;overflow:hidden;white-space:nowrap;text-overflow:ellipsis}
+.Indiv_list_Address a i{color:#f16377;padding-left:30px}
+.zjxl_eject{width:100%;height:200px;background:#f54;float:left}
+.Indiv_list_User{float:right;padding-right:30px;margin-top:12px}
+.Indiv_list_User span{float:right;font-size:16px;line-height:24px;color:#888}
+.Indiv_list_User img{float:right;margin-left:12px;margin-right:10px;width:18px;height:18px;margin-top:3px;cursor:pointer}
+.Indiv_list_photo{width:865px;overflow:hidden;padding-left:35px;padding-top:30px;padding-bottom:30px}
+.Indiv_list_photo img{float:left;margin-right:10px;width:250px;height:150px}
+/*右面*/
+.news_latest_title{height:60px;background:#909d00;line-height:60px;text-align:center;font-size:18px;color:#FFF}
+.news_latest_list li{width:280px;position:relative;margin-bottom:20px}
+.news_latest_list li img{width:100%;height:280px;display:block}
+.news_latest_list_Explain{width:280px;font-size:14px;height:60px;background:url(../img/page/transparent_back.png);text-align:center;line-height:60px;color:#FFF;position:absolute;bottom:0px}
+.news_latest_list_Explain span{font-size:18px;color:#FFF}
+.news_latest_list_Explain i{color:#f6a802;font-size:16px;margin-left:20px}
+.Load_list{text-align:center;font-size:18px;margin-top:60px;margin-bottom:20px}
+.Load_list a{color:#ffae00}
+/*PHP分页的样式*/
+.pagination{float:right;margin-top:10px}
+.pagination li{list-style:none;float:left;border:1px solid #d3d3d3;height:25px;line-height:25px}
+.pagination .page{background-color:#EEE;margin-left:10px}
+.pagination .page a{color:#333;display:block;width:25px;text-align:center} 
+.pagination .active{background-color:#ffae00;margin-left:10px;color:#FFF;border:1px solid #fff}
+.pagination .total, .pagination .last, .pagination .next,.pagination .lastest{background-color:#EEE;margin-left:10px}
+.pagination .active a{color:#fff;display:block;width:25px;text-align:center}
+.pagination .total a, .pagination .last a, .pagination .next a, .pagination .lastest a{display:block;width:50px;text-align:center}
+.pagination li:HOVER{background-color:#ffae00}
+.total:hover{color:#FFF}
+.ajax_page:hover{color:#FFF}
+/*-----------PHP分页的样式---------------*/
+/*==========================咨询体验师弹框============================*/
+.private_letter_box{position:fixed;width:480px;height:450px;background:none repeat scroll 0 0 #fff;top:50%;left:50%;margin-left:-240px;margin-top:-225px;z-index:999;font-size:14px;display:none;border:3px solid rgba(0,0,0,0.6);color:#333;text-align:center}
+.bg_box{ background:none repeat scroll 0 0 #000;display:none;height:100%;left:0;opacity:0.6;position:fixed;top:0;width:100%;z-index:129}
+.private_letter_content{margin:10px auto;width:460px}
+.close_private_letter{position:absolute;top:3px;right:3px;width:25px;height:25px;background:#dedede;text-align:center;line-height:25px;border-radius:50%;cursor:pointer}
+.close_private_letter i{width:13px;height:13px;background:url(../img/x_ico1.png) 0 0 no-repeat;position:absolute;top:6px;left:6px}
+.hover_this{background:#ffae00}
+.hover_this i{background:url(../img/x_ico2.png) 0 0 no-repeat}
+.private_title{height:30px;line-height:30px;font-size:16px;margin-bottom:15px}
+.write_content div{margin-bottom:15px}
+.private_object{width:230px}
+.title_name{width:80px;float:left;text-align:right;margin-right:10px;font-size:13px}
+.title_name_content{float:left;text-align:left;font-size:13px}
+.private_product_info{height:32px;line-height:32px}
+.private_product_name{width:300px;overflow:hidden}
+.write_input{height:30px;line-height:30px;width:200px;text-indent:0.5em}
+.num_info{line-height:30px}
+.txt_content{width:320px;height:125px;padding:10px;color:#333}
+.font_num_title{position:absolute;top:120px;right:10px;font-size:12px;color:#666}
+.font_num_title i{color:#f60}
+.send_letter{width:70px;height:30px;line-height:30px;color:#fff;font-size:14px;margin-left:90px;margin-top:10px;background:#f60;border-radius:4px;border:none;cursor:pointer}
+.cancel{display:none}
+.cancel_button{margin-left:220px;margin-top:20px;font-size:13px;text-decoration:underline;cursor:pointer}
+#expertAge{width:340px}
+.expertAge_option{top:33px !important;width:342px !important;overflow-y:auto;overflow-x:hidden;max-height:180px;height:auto}
+.expertAge_option li{width:340px !important;border-right:none !important}
+.expertAge_option li:last-child{border-bottom:none !important}
+
+

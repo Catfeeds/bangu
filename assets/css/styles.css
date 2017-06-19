@@ -1,0 +1,126 @@
+
+i{list-style:none;}
+html{ height:100%; background:#099;}
+body{ background: #f3f3f3; height:100%; font-size: 14px;}
+input{outline: none; border:none; padding:0 5px !important; color: #fff; cursor: pointer;}
+.ht_main{ width: 80%; min-width: 1000px; height:100%; overflow: hidden; margin: 0 auto;background: #fff;}
+.ht_title{ width: 100%; float: left; text-align: center; font-size: 19px; height: 30px; line-height: 30px; margin:20px 0;}
+.score_list{ border-top:1px solid #ccc; float: left; width: 100%; overflow: hidden;}
+.php_gj_img img{ width: 80px; height: 80px; border-radius: 50%; float: left;}
+.php_gj_img{ overflow: hidden; float: left; margin: 10px;}
+.php_gj_name{ float: left;margin: 0 20px; margin-top: 20px;}
+.block{ min-width: 80%;float: left;}
+.hou_til{ float: left; font-size: 16px;}
+.hou_con{ float: left; font-size: 16px; margin-left: 10px;}
+
+.list_tilr{ height: 30px; line-height: 30px; margin:10px; font-size: 16px;}
+.zhibiao{ overflow: hidden; padding-bottom: 10px;}
+.zhibiao li{ float: left; width: 25%;}
+.zhibiao li i{ margin-left: 5px;}
+.zb_tli{ float: left; text-indent: 2em;}
+.ab_xiugai{ float: right; border-radius: 3px; background: #1a89ed; margin-right: 10px;}
+
+.list_head{ overflow: hidden; width: 100%;}
+.list_head li{ float: left; text-align: center; height: 30px; line-height: 30px;}
+
+
+.list_cons{ overflow: hidden; width: 100%; border-top: 1px solid #f8f8f8}
+.list_cons li{ float: left; text-align: center; line-height: 30px;}
+
+.xiugai{float: left; border-radius: 3px; background: #1a89ed; margin-left: 10px;}
+.pinglun{ float: right;  border-radius: 3px; background: #f30; margin-right: 10px;}
+
+.tables{ width: 100%; border: none; padding-bottom: 1px;}
+.tables thead td{ text-align: center; height:30px; border: 1px solid #ccc;}
+.tables tr td{ text-align: center;}
+.tables td{ border: 1px solid #ccc; border-top: none;}
+
+/*===============================  ÆÀÂÛµ¯¿òÑùÊ½  ==================================*/
+
+/* #evaluateButton {}
+.form-horizontal{ float: left;}
+.fancybox-skin { padding:0px !important;}
+label{ margin-right:15px;} */
+.olumn{ height:30px; line-height:30px; font-weight:bold; float: left; width: 90%; padding:0 5%; background:#f2f2f2; margin-top:20px;}
+.eject_big{ overflow:hidden;background:#fff;}
+.eject_back{ height:490px; margin:0 auto;overflow:hidden;}
+.eject_title{ border-bottom:2px solid #6eb92b; width:90%; padding:0 5%; float: left; font-family:Arial, Helvetica, sans-serif;font-weight:700; color:#333;}
+.eject_title h3 { height:40px;line-height:40px;text-align:center; font-size:15px;}
+.eject_title p { font-size:14px;}
+.comment_line { overflow:hidden;margin-bottom:4px;height:18px;margin-top:20px;}
+.eject_content{ padding:0px 40px;margin-top:5px;}
+.eject_content2{ margin:0 auto;width:100%;}
+.eject-content_left{ margin-left:40px;margin-top:10px;}
+.eject_content_right{width:600px;position:relative;}
+.eject_content2 h3 { color:#333;font-size:14px;font-weight:700;padding-bottom:3px;border-bottom:1px solid #999;}
+.eject_content_left_s { position:relative;}
+.eject_content_left_s h3{ font-size:14px; width:405px; margin-top:30px; margin-bottom:15px; font-family:"'Î¢ÈíÑÅºÚ',Tahoma,Geneva,sans-serif";}
+.Picture_upload{ width:402px; height:84px; float:left; border:1px solid #ccc;}
+.Picture_upload ul li{ float:left; padding:5px 0;}
+.Picture_upload ul li img{ width:74px; height:75px; margin-left:5px;}
+
+.eject_input_Slide { position:relative;width:440px;}
+.eject_input_Slide textarea{ width:430px;line-height: 18px; height:120px; border:1px solid #e4e4e4;resize:none; padding:5px;}
+.eject_input_Slide span { float:right;}
+.eject_input_Evaluation { margin-left:20px; position: relative;}
+.eject_input_Evaluation textarea { width:430px;line-height: 18px; height:120px; border:1px solid #e4e4e4;resize:none; padding:5px;}
+
+.eject_addphoto{ height:120px; background-color:#066; float:left;}
+.tset_2 { top:30px !important;}
+.eject_content_left-x{ width:680px; margin-left:20px; position: relative;}
+.eject_content_left-x h3{ font-size:14px; width:405px; margin-top:15px; margin-bottom:15px; font-family:"'Î¢ÈíÑÅºÚ',Tahoma,Geneva,sans-serif";+font-weight:normal;}
+.eject_Satisfied ul{ margin:10px 0;}
+.eject_Satisfied ul li{ float:left; width:80px;}
+.expert_grade { position:absolute; top:0; left:465px; margin-top:10px;margin-bottom:10px;font-size:12px;color:#666;font-weight:400;margin-left:50px;}
+.expert_grade span { color:#f00;}
+.font_num_title{ float:right; position:absolute; bottom:10px; right:10px;}
+.font_num_title span{ float:none !important;}
+.font_num_title i{ color:#666 !important;}
+.hidden_name { margin-right:25px;position:relative;padding-left:20px;}
+.hidden_name input { width:110px;height:14px;position:absolute;top:2px;left:-43px;cursor:pointer;}
+.eject_button {width: 100%;padding-left:60px;margin-top:10px;margin-bottom:20px;}
+.commit { margin-right:50px; padding:0px 30px; margin-left:250px;background:#fff;font-size:13px;font-family:Arial, Helvetica, sans-serif;height:25px;margin-top:10px;border-radius:3px;border:1px solid #999;cursor:pointer;}
+.close { padding:4px 30px;background:#eee;font-size:13px;font-family:Arial, Helvetica, sans-serif;height:25px;margin-top:10px;border-radius:5px;border:1px solid #999;cursor:pointer;}
+.title_info_txt { width:160px;position:absolute;font-size:11px;color:#666;font-weight:400;} 
+.title_info_txt1{ top:10px;right:-60px;}
+.title_info_txt2 { top:40px;right:-60px;}
+.title_info_txt3 { top:20px;right:-255px;}
+.title_info_txt3 p { color:#666 !important;font-weight:400 !important;}
+.title_info_txt span i{ color:#666;}
+.eject_Satisfied{ height:30px;}
+
+#demo { height: 115px; float: left; margin-bottom:15px;margin-top:5px;position:relative; width:630px;  border: 1px solid #e4e4e4;}
+
+.show_img { margin-top:10px;margin-left: 20px; padding-top:10px; padding-left:5px;}
+.show_img p { font-size:12px; color:#000; font-weight:700;}
+.img_num { background:#7f7f7f; width:40px;text-align:center; color:#333; margin-top:3px;}
+.img_num i { color:#333;}
+.parentFileBox { width:355px !important;}
+.parentFileBox { float:left !important;}
+.eject_right_one{ width:250px;float: left;}
+.eject_right_pj{ width:68px; background-color:#96F; font-size:11px; float:left; text-align:right; padding-right:10px;}
+.eject_righ_Other{ float:left; width:37px; height:17px; border:1px solid #ff9966; background-color:#FFF; color:#ff9966; text-align: center; line-height:17px; margin-left:8px;}
+
+.Load_photo{width:400px; height:80px;  background:#fff; float:left; margin-bottom:8px; display:block;}
+.eject_xx_box { height: 20px;width: 100%; position: relative; margin: 10px auto 0 auto;}
+.eject_xx_box span { width: auto; height: 20px; float: left; color: #797979; text-align: left; line-height: 20px; margin-right:1px; font-size:12px; font-weight:400;}
+.eject_xx_box span.c { color: #ff6600; font-family: Verdana; }
+.eject_xx_box li { width: 20px; height: 20px; float: left; cursor: pointer; display: inline; background:url(/static/img/page/star.png) no-repeat;}
+.eject_xx_box li.hove { background:url(/static/img/page/star.png) no-repeat 0 -28px; }
+.eject_xx_box i,.eject_xx_box a{ font-size:11px;color:#f93;font-weight:400;margin-left:15px;}
+
+.eject_right_SlideShow{ width:68px; background-color:#000; text-align:center; line-height:24px; margin-top:30px; background-color:#FFF;}
+
+.ejers_sc{ width:60px; height:30px; background-color:#f54;}
+
+.detail_shumu{ float:left; border-right:1px solid #ebebeb; margin-left: 15px; text-align: center;width: 137px;}
+.detail_shumu span{ color:#F00; padding-left:14px;}
+.Recommend_title{ font-size:14px; color: #333;}
+.teristic_list li{ width:100%; float:left; margin-top:20px; font-family:"ËÎÌå"; font-size: 14px; color: #666;}
+.teristic_list li img{ width:11px; height:11px; float:left; margin-top:4px; padding-right:5px;}
+.teristic_list li span{ float:left; width:340px;}
+.xiala_Recommend{ width:420px; height:56px; text-align:center;position: relative; overflow:hidden; float:left; }
+.xiala_Recommend img{ width:20px; height:10px; padding-top:20px;position: bottom:0; }
+.teristic_list{ overflow:hidden; height:220px;}
+.detailReferral_box{ overflow:hidden; position:absolute; z-index:10; right:250px;background-color: #fbfbfb;margin-top: 24px; }  
+.Recommend{ float:right; margin-top: -41px;}

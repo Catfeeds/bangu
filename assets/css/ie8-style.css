@@ -1,0 +1,8 @@
+@CHARSET "UTF-8";
+.page-content .breadcrumb{border-bottom:1px solid #ccc;}
+.form-horizontal .form-group .fg-radio{border:none;}
+.fb-content{border:1px solid #ccc;}
+.db-body{border:1px solid #ccc;}
+.detail-box .db-content textarea{width:95%;}
+.detail-box .db-row input[type=text], input[type=password]{width:95%;}
+.detail-box .db-data-row input[type=text], input[type=password]{width:88%;}

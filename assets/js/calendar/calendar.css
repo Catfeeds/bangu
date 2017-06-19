@@ -1,0 +1,90 @@
+@charset "utf-8";
+IFRAME.calendar {
+	Z-INDEX: 900; VISIBILITY: hidden; BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; POSITION: absolute; BORDER-BOTTOM-STYLE: none
+}
+#calendarDiv {
+	BORDER: #bbb 1px solid; FONT-SIZE: 11px; Z-INDEX: 1000; VISIBILITY: hidden; WIDTH: 475px;FONT-FAMILY: arial; POSITION: absolute; BACKGROUND-COLOR: #fff
+}
+#calendarDiv .calendarContent {
+	BORDER-RIGHT: #dce3c2 1px solid; FLOAT: left; WIDTH: 236px
+}
+#calendarDiv .calendarContentRight {
+	BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: none
+}
+#calendarDiv TABLE {
+	TABLE-LAYOUT: fixed; WIDTH: 100%;
+}
+#calendarDiv TD {
+	CURSOR: default;/* TEXT-ALIGN: center*/
+}
+#calendarDiv .topBar {
+	FONT-WEIGHT: bold; COLOR: #fff; HEIGHT: 25px; BACKGROUND-COLOR: #69af52; TEXT-ALIGN: center
+}
+#calendarDiv .topBar TD {
+	BORDER-TOP: #fff 1px solid;
+}
+#calendarDiv TBODY TR {
+	HEIGHT: 24px
+}
+#calendarDiv .topBar .arrowLeft {
+	BACKGROUND: url(images/iconleft.jpg) #69af52 no-repeat left center; BORDER-LEFT: #fff 1px solid; CURSOR: pointer
+}
+#calendarDiv .topBar .arrowRight {
+	BORDER-RIGHT: #fff 1px solid; BACKGROUND: url(images/iconright.jpg) #69af52 no-repeat right 50%; CURSOR: pointer
+}
+#calendarDiv .topBar .arrowLeftDisabled {
+	BACKGROUND: #69af52 no-repeat left center; BORDER-LEFT: #fff 1px solid; CURSOR: default
+}
+#calendarDiv .topBar .arrowRightDisabled {
+	BORDER-RIGHT: #fff 1px solid; BACKGROUND: #69af52 no-repeat right 50%; CURSOR: default
+}
+#calendarDiv .daysBar {
+	HEIGHT: 19px; BACKGROUND-COLOR: #f8ffd6
+}
+#calendarDiv .daysBar TH {
+	FONT-WEIGHT: normal;
+	 BORDER-top: #5d9251 1px solid
+}
+#calendarDiv .borderLeft {
+	BORDER-LEFT: #fff 1px solid;
+	text-align: center;
+vertical-align: middle;
+}
+#calendarDiv .borderRight {
+	BORDER-RIGHT: #fff 1px solid;
+	text-align: center;
+vertical-align: middle;
+}
+#calendarDiv .footer {
+	CLEAR: both; BORDER-TOP: #dce3c2 1px solid;HEIGHT: 24px; BACKGROUND-COLOR: #f8ffd6; text-align:right;
+}
+#calendarDiv .footerRight {
+	FLOAT: right; PADDING-TOP: 5px
+}
+#calendarDiv .footer a:link,#calendarDiv .footer a:visited{
+	PADDING-RIGHT: 5px; line-height:22px; color:#090; text-decoration:none;
+}
+#calendarDiv .Day {
+	CURSOR: pointer; COLOR: #444
+}
+#calendarDiv .DayOver {
+	CURSOR: pointer; COLOR: #cd3331; BACKGROUND-COLOR: #fff4d2
+}
+#calendarDiv .activeDay {
+	CURSOR: pointer; COLOR: #ff9900; BACKGROUND-COLOR: #fff4d2
+}
+#calendarDiv .activeDayOver {
+	CURSOR: pointer; COLOR: #cd3331; BACKGROUND-COLOR: #fff4d2
+}
+#calendarDiv .inActiveDay {
+	COLOR: #999999
+}
+.calendarContent input{
+	position: inherit;
+	opacity: 1;
+	left: -9999px;
+	z-index: 1112;
+	width: 14px;
+	height: 14px;
+	cursor: pointer;
+}

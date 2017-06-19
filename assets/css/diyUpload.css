@@ -1,0 +1,52 @@
+@charset "utf-8";
+/* CSS Document*/
+.parentFileBox { width: auto; height: auto; position: relative; width:400px; top:-18px; float:right; }
+.parentFileBox>.fileBoxUl { position: relative; width: 100%; padding-bottom: 5px; margin-left: -40px; top:36px;}
+.parentFileBox>.fileBoxUl>li { float: left; border: 1px solid #09F; border-radius: 5px; width: 64px; height: 64px; margin-top: -12px; margin-left: 10px; overflow: hidden; position: relative; background-color: #099; }
+.parentFileBox>.fileBoxUl>li>.viewThumb { position: absolute; top: 0; left: 0; width: 64px; height: 64px; overflow: hidden; }
+.parentFileBox>.fileBoxUl>li>.viewThumb>img { width: 64px; height: 64px; }
+.parentFileBox>.fileBoxUl>li>.diyCancel, .parentFileBox>.fileBoxUl>li>.diySuccess { position: absolute; width: 32px; height: 32px; top: 2px; right: 2px; cursor: pointer; display: none; }
+.parentFileBox>.fileBoxUl>li>.diyCancel { background:url(../img/x_alt.png) no-repeat; float:right; width:16px; height:16px; }
+.parentFileBox>.fileBoxUl>li>.diySuccess { background: url(../img/check_alt.png) no-repeat; cursor: default; }
+.parentFileBox>.fileBoxUl>li>.diyFileName { position: absolute; bottom: 0px; left: 0px; width: 100%; height: 20px; line-height: 20px; text-align: center; color: #fff; font-size: 12px; display: none; background: url(../img/bgblack.png); }
+.parentFileBox>.fileBoxUl>li>.diyBar { top: 0; left: 0; position: absolute; width: 64px; height: 64px; line-height: 64px; background: url(../img/bgblack.png); display: none; }
+.parentFileBox>.fileBoxUl>li>.diyBar>.diyProgressText { font-size: 14px; text-align: center; color: #FFF; position: relative; z-index:101; }
+.parentFileBox>.fileBoxUl>li>.diyBar>.diyProgress { position: absolute; left: 0; top: 0%; height: 24px; width: 100%; background-color: #09F; filter: alpha(opacity=70); -moz-opacity: 0.7; opacity: 0.7; z-index: 97; }
+.parentFileBox>.diyButton { width: 100%; margin-top: 5px; margin-bottom: 5px; height: 20px; line-height: 20px; text-align: center; }
+.parentFileBox>.diyButton>a {  padding: 5px 10px 5px 10px;
+  background-color: #fff;
+  border: 1px solid #09C;
+  color: #09C;
+  font-size: 12px;
+  text-decoration: none;
+  border-radius: 3px;}
+.parentFileBox>.diyButton>a:hover { background-color: #0CC; color: #F30; }
+.parentFileBox>.fileBoxUl>li:hover { -moz-box-shadow: 3px 3px 4px #FF0; -webkit-box-shadow: 3px 3px 4px #FF0; box-shadow: 3px 3px 4px #FF0; }
+.parentFileBox>.fileBoxUl>.diyUploadHover:hover .diyCancel { display: block; }
+.parentFileBox>.fileBoxUl>li:hover .diyFileName { display: block; }
+.avi_diy_bg, .txt_diy_bg, .doc_diy_bg, .zip_diy_bg, .csv_diy_bg, .xls_diy_bg, .mp3_diy_bg, .pdf_diy_bg, .rar_diy_bg { background-position: center; background-repeat: no-repeat; }
+.avi_diy_bg { background-image: url(file:///E|/images/filebg/avi.png); }
+.txt_diy_bg { background-image: url(file:///E|/images/filebg/txt.png); }
+.doc_diy_bg { background-image: url(file:///E|/images/filebg/doc.png); }
+.zip_diy_bg { background-image: url(file:///E|/images/filebg/zip.png); }
+.csv_diy_bg { background-image: url(file:///E|/images/filebg/csv.png); }
+.xls_diy_bg { background-image: url(file:///E|/images/filebg/xls.png); }
+.mp3_diy_bg { background-image: url(file:///E|/images/filebg/mp3.png); }
+.pdf_diy_bg { background-image: url(file:///E|/images/filebg/pdf.png); }
+.rar_diy_bg { background-image: url(file:///E|/images/filebg/rar.png); }
+
+.webuploader-container { position: relative;height:0px; }
+.webuploader-element-invisible { position: absolute !important; clip: rect(1px 1px 1px 1px); /* IE6, IE7 */ clip: rect(1px,1px,1px,1px); }
+.webuploader-pick { position: relative; left:610px; display: inline-block; cursor: pointer; background: #00b7ee; padding: 10px 15px; color: #fff; text-align: center; border-radius: 3px; overflow: hidden; }
+.webuploader-pick-hover { background: #00a2d4; }
+.webuploader-pick-disable { opacity: 0.6; pointer-events: none; }
+.diyStart{position: absolute;
+  z-index: 100;
+  right: -90px;
+  top: 85px;}
+.diyCancelAll{position: absolute;
+  z-index: 100;
+  right: -90px;
+  top: 120px;}
+.viewThumb img{ width:100px; height:50px;}
+

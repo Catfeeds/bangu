@@ -1,0 +1,202 @@
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Open Sans Light'), local('OpenSans-Light'), url(fonts/DXI1ORHCpsQm3Vp6mXoaTegdm0LZdjqr5-oayXSOefg.woff2) format('woff2'), url(fonts/DXI1ORHCpsQm3Vp6mXoaTXhCUOGz7vYGh680lGh-uXM.woff) format('woff');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans'), local('OpenSans'), url(fonts/cJZKeOuBrn4kERxqtaUH3VtXRa8TVwTICgirnJhmVJw.woff2) format('woff2'), url(fonts/cJZKeOuBrn4kERxqtaUH3T8E0i7KZn-EPnyo3HZu7kw.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Open Sans Bold'), local('OpenSans-Bold'), url(fonts/k3k702ZOKiLJc3WVjuplzOgdm0LZdjqr5-oayXSOefg.woff2) format('woff2'), url(fonts/k3k702ZOKiLJc3WVjuplzHhCUOGz7vYGh680lGh-uXM.woff) format('woff');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 300;
+  src: local('Open Sans Light Italic'), local('OpenSansLight-Italic'), url(http://fontstatic.useso.com/s/opensans/v10/PRmiXeptR36kaC0GEAetxko2lTMeWA_kmIyWrkNCwPc.woff2) format('woff2'), url(http://fontstatic.useso.com/s/opensans/v10/PRmiXeptR36kaC0GEAetxh_xHqYgAV9Bl_ZQbYUxnQU.woff) format('woff');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Open Sans Italic'), local('OpenSans-Italic'), url(http://fontstatic.useso.com/s/opensans/v10/xjAJXh38I15wypJXxuGMBo4P5ICox8Kq3LLUNMylGO4.woff2) format('woff2'), url(http://fontstatic.useso.com/s/opensans/v10/xjAJXh38I15wypJXxuGMBobN6UDyHWBl620a-IRfuBk.woff) format('woff');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 600;
+  src: local('Open Sans Semibold Italic'), local('OpenSans-SemiboldItalic'), url(http://fontstatic.useso.com/s/opensans/v10/PRmiXeptR36kaC0GEAetxl2umOyRU7PgRiv8DXcgJjk.woff2) format('woff2'), url(http://fontstatic.useso.com/s/opensans/v10/PRmiXeptR36kaC0GEAetxn5HxGBcBvicCpTp6spHfNo.woff) format('woff');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 700;
+  src: local('Open Sans Bold Italic'), local('OpenSans-BoldItalic'), url(http://fontstatic.useso.com/s/opensans/v10/PRmiXeptR36kaC0GEAetxolIZu-HDpmDIZMigmsroc4.woff2) format('woff2'), url(http://fontstatic.useso.com/s/opensans/v10/PRmiXeptR36kaC0GEAetxjqR_3kx9_hJXbbyU8S6IN0.woff) format('woff');
+}
+/********
+ * 艾瑞可
+ **登录
+ **2015-3-26
+ ****/
+.login_div{
+	margin:200px auto 0;width:500px;height:300px;padding-top:100px;
+}
+.page_left{
+	margin-left:100px;
+}
+.apply_label{
+	width:100px;margin:0 auto;padding-top:8px;
+}
+.apply_input{
+	width:750px;
+}
+.apply_div {
+    margin:0 auto;
+	margin-top:20px;
+	margin-bottom:20px;
+    width: 900px;
+}
+.apply_text{
+	width:750px;height:200px;
+}
+.user_data_input{
+	width:500px;margin:-20px 0px 0px 27%;
+}
+ .user_data_label{
+ 	padding:8px 0px 0px 25px;
+ }
+ .user_data_label4{
+ 	padding:8px 0px 0px 15px;
+ }
+  .user_data_label5{
+ 	padding:8px 0px 0px 0px;
+ }
+ .user_aq_list_button{
+ 	margin:-34px 0px 0px 27% ;
+ }
+.account_money_width{
+	width: 80px;
+}
+.account_money_width_time{
+	width: 300px;
+}
+ .account_money_width_times{
+ 	width: 150px;
+ }
+ /****
+  * 结算弹出框
+  * 
+  * **/
+     .tbtsd{
+position:fixed;width:70%;height:70%;background: none repeat scroll 0 0 #fff;top:15%;left:15%;z-index: 131;margin:auto;
+margin-right:20px;
+}
+ .bgsd{background: none repeat scroll 0 0 #000;
+    display: none;
+    height: 100%;
+    left: 0;
+    opacity: 0.6;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 129
+	}
+    .closetd{
+    background: url(/images/close.png) no-repeat scroll center center #ccc;
+    cursor: pointer;
+    height: 25px;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    width: 25px;
+    z-index: 130;
+    }
+/****
+ * 平台公告弹出框 
+ * ***/
+	  .messages_letter{
+position:fixed;width:70%;height:70%;background: none repeat scroll 0 0 #fff;top:15%;left:20%;z-index: 131;margin:auto;
+margin-right:20px;
+}
+ .messages_color{background: none repeat scroll 0 0 #fff;
+    display: none;
+    height: 100%;
+    left: 0;
+    opacity: 0.6;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 129
+	}
+    .messages_close{
+    background: url(/images/close.png) no-repeat scroll center center #ccc;
+    cursor: pointer;
+    height: 25px;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    width: 25px;
+    z-index: 130;
+    }
+/**
+ * 目的地弹出框
+ */
+     .user_shop_class{
+position:fixed;width:70%;height:70%;background: none repeat scroll 0 0 #fff;top:15%;left:20%;z-index: 131;margin:auto;
+margin-right:20px;
+}
+ .user_shop_to{background: none repeat scroll 0 0 #000;
+    display: none;
+    height: 100%;
+    left: 0;
+    opacity: 0.6;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 129
+	}
+    .user_shop_close{
+    background: url(/images/close.png) no-repeat scroll center center #ccc;
+    cursor: pointer;
+    height: 25px;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    width: 25px;
+    z-index: 130;
+    }
+/***
+ * 线路属性弹出框
+ */
+  .user_shop_attrdiv{
+position:fixed;width:70%;height:70%;background: none repeat scroll 0 0 #fff;top:15%;left:20%;z-index: 131;margin:auto;
+margin-right:20px;
+}
+ .user_shop_attrcolor{background: none repeat scroll 0 0 #000;
+    display: none;
+    height: 100%;
+    left: 0;
+    opacity: 0.6;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 129
+	}
+    .user_shop_attrclose{
+    background: url(/images/close.png) no-repeat scroll center center #ccc;
+    cursor: pointer;
+    height: 25px;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    width: 25px;
+    z-index: 130;
+    }

@@ -1,0 +1,45 @@
+/* CSS Document */
+/*===============================================关于我们头部==========================================*/
+.aboutus_header{width:100%;height:78px;border-bottom:2px solid #2e9900;background:#fff}
+.aboutus_logo{width:225px;height:60px;margin-top:9px}
+.aboutus_logo img{width:225px;height:60px}
+.aboutus_tel{height:30px;position:relative;margin-bottom:15px;color:#2e9900;font-size:18px;margin-top:32px}
+.aboutus_tel i{width:26px;height:26px;background:url(../img/aboutus_tel_06.png) 0px 0px no-repeat;position:absolute;margin-top:2px}
+.aboutus_tel span{padding-left:32px;line-height:36px}
+.aboutus_txt{margin-right:20px;margin-top:40px}
+.aboutus_txt ul li{display:inline-block;height:20px;padding:0px 35px;border-left:1px solid #eee}
+.aboutus_txt ul li a{color:#2e9900;font-size:18px}
+.border_left{border-left:none !important}
+.container{background:#fff}
+/*===============================================关于我们左侧==========================================*/
+.now_station{height:36px;line-height:36px;font-size:14px;color:#565656;margin:10px 0;background:#f7f7f7;text-indent:1em}
+.now_station a:hover{color:#2e9900;text-decoration:underline}
+.aboutus_left_aside a{display:block;text-align:center}
+.aboutus_left_aside{width:220px;background:#f7f7f7;float:left;padding-top:15px;padding-bottom:15px;position:relative;display:inline-block}
+.aboutus_left_aside dl dt{height:40px;line-height:40px;color:#4d4d4d;font-size:16px;cursor:pointer}
+.aboutus_left_aside dl dt a span{ margin-right:50px;width:1px;height:1px;display:none}
+.aboutus_left_aside dl dd div a:hover{color:#2e9900}
+.item{height:40px;line-height:40px;color:#4d4d4d;font-size:16px;cursor:pointer;text-align:center}
+.this_url{width:220px;color:#2e9900}
+.this_url a{color:#2e9900 !important;display:block}
+.privacy_prompt p{line-height:24px;letter-spacing:1px;font-size:14px}
+.aboutus_right_aside{width:866px;padding:25px 50px;background:#f7f7f7;position:relative;margin-left:10px;display:inline-block;padding-bottom:15px;min-height:700px}
+.eidAside{padding-bottom:30px}
+/*===============================================关于我们底部==========================================*/
+.aboutus_foot_content{height:120px;font-size:16px;color:#000;text-align:center}
+.aboutus_foot_link{text-align:center;line-height:20px;padding-top:40px;font-size:12px;color:#333}
+.aboutus_foot_link a{color:#000;font-size:14px;padding:0 15px;color:#333}
+.aboutus_foot_info{text-align:center;margin-top:30px}
+.aboutus_foot_link a:hover{color:#2e9900}
+/*===============================================企业文化==========================================*/
+.siteinfo{font-size:14px;color:#333;margin-top:15px}
+.cultureBox{width:100%;height:60px;margin-bottom:10px;position:relative}
+.cultureXian{width:100%;height:30px;border-bottom:1px solid #2e9900}
+.culture_titile{width:100px;height:50px;line-height:50px;font-size:16px;color:#2e9900;position:absolute;top:3px;left:50px;background:#f7f7f7;text-align:center}
+.culture_foots{width:100px;height:50px;line-height:50px;font-size:16px;color:#2e9900;position:absolute;top:3px;right:50px;background:#f7f7f7;text-align:center}
+.bangu_yuanjing{border-bottom:1px solid #e1e1e1;padding-bottom:6px}
+.culture_title_detail{color:#4c8704;font-size:16px;height:45px;line-height:45px}
+.culture_content li{position:relative;margin-bottom:8px;font-size:14px;color:#444}
+.dian{width:6px;height:6px;background:url(../img/dian_15.png) 0px 0px no-repeat;position:absolute;top:5px}
+.bangu_value_content{width:50%;float:left;position:relative}
+.bangu_value_title{height:35px;line-height:35px;color:#4c8704;font-size:16px;margin-bottom:10px;border-bottom:1px solid #e1e1e1}

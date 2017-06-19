@@ -1,0 +1,46 @@
+
+        *{ margin: 0; padding: 0;}
+        ul,li{ list-style: none;}
+        img{ border: none;}
+        body{ background: #f3f3f3;}
+        .zhaomMain
+        .zhaomuBanner{ background: url(../img/zhaomBanner.jpg) no-repeat center center; width: 100%; height: 577px;}
+        .zhaomuLogo{ width: 100%; text-align: center; padding-bottom: 120px; background: #fff;}
+        .zhaomuLogo .logo{ margin: 35px 0 75px 0; width: 260px;}
+        .zhaomuLogo .fontSize{ color: #595758;}
+        .zhaomuLogo .fontSize.size1{ font-size: 46px;}
+        .zhaomuLogo .fontSize.size2{ font-size: 46px;}
+        .zhaomuLogo .fontSize.size3{ font-size: 36px;}
+        .zhaomuLogo .fontSizeCenter{ margin: 55px 0;}
+        .zhaomuLogo .fontSizeCenter i{ font-style: normal; width: 60px; height: 60px; line-height: 60px; text-align: center; display: inline-block; background: #cc6698; border-radius: 30px; color: #fff; position: relative; top: -5px;}
+   
+        .zhaomMain.mainBack1{ background: #f3f3f3; text-align: center; padding-top: 200px; padding-bottom: 100px;}
+            
+        .zhaomMain.mainBack2{ background: #fff; text-align: center; padding-top: 200px; padding-bottom: 100px;}
+        .zhaomMain.mainBack1 .mainComentTitle{ width: 900px; height: 120px;font-size: 60px; border: 2px solid #cc6698; border-radius: 60px; text-align: center; margin: 0 auto;}
+        .zhaomMain.mainBack1 .mainComentTitle .titlrCenter{ border: 10px solid #F3F3F3; height: 100px; line-height: 100px;  display: block;background: #CC6698; border-radius:60px; color: #FFFFFF;}
+        .zhaomMain.mainBack1 .mainComentTextereat{font-size: 42px; width: 823px; margin: 0 auto; margin-top: 20px;  text-align: left; color: #595758; line-height: 72px;}
+        .zhaomMain.mainBack1 .mainComentPivi{ width: 1000px; margin: 0 auto;}
+        
+        .zhaomMain.mainBack1 .mainComentPivi { padding-top: 65px;}
+        .zhaomMain.mainBack1 .mainComentPivi ul li{ height: 85px; line-break: 85px; margin-bottom: 50px; position: relative;}
+        .zhaomMain.mainBack1 .mainComentPivi ul li.pivileft{ background: url(../img/zhaomPiviLeft.jpg) no-repeat;}
+        .zhaomMain.mainBack1 .mainComentPivi ul li.pivileft .pivilTitle{ float: left; width: 160px; height: 70px; background: #CC6698; border-radius: 35px; text-align: center; line-height: 70px; color: #FFFFFF; position: absolute; left: 10px; top: 7px; font-size: 38px;}
+        .zhaomMain.mainBack1 .mainComentPivi ul li.pivileft .pivilCon{ height: 85px; line-height: 85px; font-size: 29px; width: 800px; float: right; text-align: left;color: #595758;}
+        .zhaomMain.mainBack1 .mainComentPivi ul li.piviright{ background: url(../img/zhaomPiviRight.jpg) no-repeat;}
+        .zhaomMain.mainBack1 .mainComentPivi ul li.piviright .pivilTitle{ float: right; width: 160px; height: 70px; background: #CC6698; border-radius: 35px; text-align: center; line-height: 70px; color: #FFFFFF; position: absolute; right: 22px; top: 8px; font-size: 38px;}
+        .zhaomMain.mainBack1 .mainComentPivi ul li.piviright .pivilCon{ height: 85px; line-height: 85px; font-size: 29px; width: 800px; float: left; text-align: left; color: #595758;}
+        
+        .zhaomFenge{ width: 100%; height: 318px; background: url(../img/zhaomFenge.jpg) no-repeat center center;}
+        
+        .zhaomMain.mainBack2{ background: #fff; text-align: center; padding-top: 200px; padding-bottom: 100px;}
+        .zhaomMain.mainBack2 .mainComentTitle{ width: 900px; height: 120px;font-size: 60px; border: 2px solid #cc6698; border-radius: 60px; text-align: center; margin: 0 auto;}
+        .zhaomMain.mainBack2 .mainComentTitle .titlrCenter{ border: 10px solid #F3F3F3; height: 100px; line-height: 100px;  display: block;background: #CC6698; border-radius:60px; color: #FFFFFF;}
+   
+        .zhaomMain.mainBack2 .mainComentList{ width: 900px; margin: 0 auto; padding-top: 70px;}
+        .zhaomMain.mainBack2 .mainComentList ul li{ width: 900px; position: relative; overflow: hidden; margin-bottom: 30px;}
+        .zhaomMain.mainBack2 .mainComentList ul li .mainComentList_lo{ position: absolute; left: 0; top: 0; width: 70px; height: 70px; line-height: 70px; border-radius: 50%; border: 2px solid #CC6698;}
+        .zhaomMain.mainBack2 .mainComentList ul li .mainComentList_lo span{ border: 3px solid #fff; display: block; border-radius: 50%; width: 64px; height: 64px; font-size: 42px; color: #fff; background: #CC6698;}
+        .zhaomMain.mainBack2 .mainComentList ul li .mainComentList_con{ font-size: 28px; float: right; text-align: left; line-height: 74px; width: 800px; color: #595758;}
+        .zhaomMain.mainBack3{ background: url(../img/zhaomRweima.jpg) no-repeat center center; width: 100%;height: 906px;}
+  

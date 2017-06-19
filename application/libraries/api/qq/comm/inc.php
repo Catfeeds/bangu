@@ -1,0 +1,2 @@
+<?php die('forbidden'); ?>
+{"appid":"101022054","appkey":"e53d339b1082bfd860a6cea65ed4f2c6","callback":"http://passport.ccmall.cn/thirdpartyconnect/qqcallback","scope":"get_user_info","errorReport":true,"storageType":"file","host":"localhost","user":"root","password":"root","database":"test"}

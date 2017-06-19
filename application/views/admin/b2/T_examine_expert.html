@@ -1,0 +1,558 @@
+
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+  <title>无标题</title>
+  <link href="../assets/css/registered_expert.css" type="text/css" rel="stylesheet">
+  <!-- <link type="text/css" rel="stylesheet" href="../assets/css/registerb-1.css"> -->
+    <!-- <link type="text/css" rel="stylesheet" href="../assets/css/registerb-2.css"> -->
+    <link type="text/css" rel="stylesheet" href="../assets/css/common.css">
+    <script src="../assets/js/jquery-1.11.1.min.js" type="text/javascript"></script>
+  <style type="text/css">
+      body{margin:0;font-family:"Microsoft YaHei";color:#333;background:white;font-size: 13px;}
+      textarea{height: 90px}
+      td input{width: 100%}
+      input, textarea, select{font-size: 12px}
+      input{text-align: center;padding-left: 0px}
+      table{ background: #fff;border: 1px solid #ddd;min-width: 100%;border-collapse:collapse;border-spacing:0;font-size: 13px;}
+      td{border: 1px solid #ddd;padding:8px;}
+      th{padding:8px;}
+      .D_honor{ margin-top: 10px;}
+      .expert_tishi {display: inline;}
+      .tips_2{margin-right: 10px;}
+      .audit_tips{margin-left: 4%;color: red;}
+      .wrap_top_cl{background:#60af00;height: 35px;line-height: 35px;margin-bottom: 20px;text-align: center;}
+      .wrap_top_cl span{ color: #fff; font-size: 22px;}
+      .add_btn{line-height: 30px;}
+      .col_sq{margin-right: 3%;}
+      .wrap{width: auto; margin: 0px auto;padding-bottom:50px;background:#fff;position:relative;}
+      .abroad input,.territory input,.gender_B input,.gender_G input,.chen_list input{width: 0px}
+      .chen_list{ margin-top: 2px;width: 700px}
+      .add_btn{padding: 5px 12px;}
+      .honor_nav{width: 800px;}
+      .territory_details{margin: 0px auto;width: 905px}
+      .wrap_top_cl,.audit_tips,.qieh_title{
+            width: 1000px;
+            margin:10px auto;
+             text-align: center;
+          }
+      .xieyi input{width: 18px;}
+      .resume_nav .time{width: 85px;}
+      .stered_input{background: rgba(0, 0, 0, 0) url("../assets/img/yanzheng_bg.png") repeat scroll 0 0;width: 212px;display:none;left:745px;border-bottom:1px solid #999;height: 90px}
+</style>
+
+</head>
+<body>
+
+ <div class="wrap">
+
+      <div class="widget-main ">
+            <div class="tabbable">
+                    <div class="wrap_top_cl"><span>管家注册-审核</span></div>
+                    <div class="audit_tips">拒绝原因：
+                          <p class="expert_tishi tips_2"><span>1、</span>拒绝</p>
+                          <p class="expert_tishi "><span>2、</span>审核未通过</p>
+                   </div>
+                     
+                                      
+                      <div class="qieh_title" >
+                                                <!-- <span class="expert_type fl"><span style="color: red;">*</span>管家类型</span> -->
+                                <div class="territory" style="display:inline">
+                                     <input style="left:-20px;" name="title" type="radio"  value=""  checked="checked" id="family_in">
+                                     <label for="family_in" style="float:none;">境内</label>
+                                </div>
+                                <div class="abroad " style="position:relative;display:inline">
+                                     <input style="left:50px;" name="title" type="radio" value=""  id="family_out" >
+                                     <label for="family_out" style="float:none;">境外</label>
+                                </div>
+                    </div>
+                     
+ <!--境内管家审核 -->                                   
+                    <div class="territory_details territory_on" style="">
+  <!--账号申请 -->                                     
+                           <div class="account_application" style="">
+                                <div class="registered_title"><div class="Bar"></div><span>申请账号</span></div>
+                                <div class="clear"> 
+                                      <div class=" front_col col_sq fl">
+                                               <label><span style="color: red;">*</span>手机号：</label>
+                                               <input type="text" placeholder="登录账号">
+                                        </div>
+                                        <div class=" front_col col_sq fl" style="display:none">
+                                                 <label><span style="color: red;">*</span>电子邮箱：</label>
+                                                 <input type="text" placeholder="登录账号">
+                                        </div>
+                                        <div class="front_col col_sq fl">
+                                               <label><span style="color: red;">*</span>设置密码：</label>
+                                                <input type="text" placeholder="6-20位,区分大小写">
+                                        </div>
+                                         <div class="front_col ">
+                                               <label style=""><span style="color: red;">*</span>确认密码：</label>
+                                                <input type="text" placeholder="请再次输入">
+                                          </div>
+                                </div>
+                          </div>
+  <!--个人信息 -->                                            
+                          <div class="personal_information" style="">
+                                 <div class="registered_title"><div class="Bar"></div><span>个人信息</span>您的隐秘信息将被得到保护</div>
+                                          <div class="clear">
+                                                      <div class=" front_col col_sq fl">
+                                                              <label><span style="color: red;">*</span>昵称：</label>
+                                                              <input type="text" placeholder="登录账号">
+                                                      </div>
+                                                      <div class="front_col col_sq fl" style="line-height:35px;padding-right:9%">
+                                                              <label class="fl"><span style="color: red;">*</span>设置密码：</label>
+                                                              <div class="gender_B fl">
+                                                                   <input style="left:-18px;" type="radio" name="gender" id="male" checked="checked">
+                                                                  <label for="male" style="float:none;">男</label>
+                                                              </div>
+                                                               <div class="gender_G fl">
+                                                                   <input style="left:-18px;" type="radio"  name="gender" id="female">
+                                                                   <label for="female" style="float:none;">女</label>
+                                                              </div>
+                                                      </div>
+                                                      <div class="front_col ">
+                                                              <label style=""><span style="color: red;">*</span>电子邮件：</label>
+                                                              <input type="text" placeholder="">
+                                                      </div>
+                                          </div>
+                                         <div class="clear">
+                                                      <div class=" front_col col_sq fl">
+                                                              <label><span style="color: red;">*</span>真实姓名：</label>
+                                                              <input type="text" placeholder="">
+                                                      </div>
+                                                      <div class="front_col col_sq fl">
+                                                              <label><span style="color: red;">*</span>身份证号：</label>
+                                                              <input type="text" placeholder="">
+                                                      </div>
+                                                      <div class="front_col ">
+                                                              <label style=""><span style="color: red;">*</span>微信号：</label>
+                                                              <input type="text" placeholder="">
+                                                      </div>
+                                          </div>
+                                          <div class="clear">
+                                                      <div class=" front_col col_ts fl" style="margin-top:20px;">
+                                                              <div class="fl"><span style="color: red;">*</span>上传头像：</div>
+                                                              <img class="" src="#" style="width:120px; height:120px; " id="imghead">
+                                                              <span class="add_btn">上传</span>
+                                                      </div>
+                                                      <div class=" front_col  fl"style="margin-top:10px;">
+                                                              <div class="fl"><span style="color: red;">*</span>证件扫描件：</div >
+                                                              <img class="form-control date-picker" src="#" style="  width:350px; height:200px;display:inline; " id="">
+                                                              <span  class="add_btn">上传</span>
+                                                      </div>
+                                          </div> 
+                                         <div class="R_city clear">
+                                                      <div class=" front_col col_ts fl">
+                                                              <div class="front_col  fl">
+                                                              <label><span style="color: red;">*</span>所属城市：</label>
+                                                              <select style="width:100px;height:30px;line-height:30px" type="text" placeholder="选择省份">
+                                                                        <option value="0">请选择</option>
+                                                              </select> 
+                                                              <!-- <input style="width:100px" type="text" placeholder="选择城市"> -->
+                                                      </div>
+                                                      </div>
+                                                      <div class=" front_col door_service  fl">
+                                                              <label class="fl"><span style="color: red;">*</span>上门服务：</label>
+                                                              <ul class="chen_list visit_service_list fl" style="margin-left:-30px;">
+                                                                        <li>
+                                                                              <input type="checkbox" onclick="" value="" name="" autocomplete="" id="all_city">
+                                                                              <label for="all_city" style="float:none;">全部</label>
+                                                                        </li>
+                                                                        <li>
+                                                                               <input type="checkbox" value="" name="" autocomplete="" id="slc_01" >
+                                                                               <label for="slc_01" style="float:none;">罗湖区</label>
+                                                                        </li>
+                                                                        <li>
+                                                                               <input type="checkbox" value="" name="" autocomplete=""  id="slc_02" > 
+                                                                               <label for="slc_02" style="float:none;">龙岗区</label>
+                                                                        </li>
+                                                                        <li>
+                                                                                <input type="checkbox" value="" name="" autocomplete=""  id="slc_03">
+                                                                                 <label for="slc_03" style="float:none;">宝安区</label>
+                                                                        </li>
+                                                                        <li> 
+                                                                                <input type="checkbox" value="" name="" autocomplete=""  id="slc_04"> 
+                                                                                <label for="slc_04" style="float:none;">南山区</label>
+                                                                        </li>
+                                                                        <li>    
+                                                                                 <input type="checkbox" value="" name="" autocomplete="" id="slc_05"> 
+                                                                                 <label for="slc_05" style="float:none;">福田区</label>
+                                                                        </li>
+                                                                        <li>
+                                                                                 <input type="checkbox" value="" name="" autocomplete="" id="slc_06"> 
+                                                                                 <label for="slc_06" style="float:none;">罗湖区</label>
+                                                                          </li> 
+                                                                        <li>
+                                                                                 <input type="checkbox" value="" name="" autocomplete="" id="slc_07"> 
+                                                                                 <label for="slc_07" style="float:none;">坪山</label>
+                                                                          </li>
+                                                                        <li>
+                                                                                 <input type="checkbox" value="" name="" autocomplete="" id="slc_08"> 
+                                                                                 <label for="slc_08" style="float:none;">光明区</label>
+                                                                          </li>                       
+                                                               </ul> 
+                                                                <div class="fl" style="display:none;"> 
+                                                                      <div class="gender_B fl">
+                                                                             <input style="left:-18px;" type="radio" name="gender" checked="checked" id="yes">
+                                                                             <label for="yes" style="float:none;" >是</label>
+                                                                       </div>
+                                                                      <div class="gender_G fl">
+                                                                             <input style="left:-18px;" type="radio"  name="gender" id="no">
+                                                                             <label for="no" style="float:none;" >否</label>
+                                                                     </div>
+                                                               </div>
+                                                      </div> 
+                                     </div> 
+                                    <div class="R_road clear">
+                                                      <div class=" front_col col_sq ">
+                                                              <label><span style="color: red;">*</span>擅长线路：</label>
+                                                              <input type="text" placeholder="选择目的地">
+                                                      </div>
+                                                      
+                                                      
+                                    </div>
+                                    <div class="'clear" style="margin-bottom:30px;">
+                                                       <div class="fl"><span style="color: red;">*</span>个人描述：&nbsp;</div>
+                                                        <textarea placeholder="用于管家页面 个人介绍展示,150字以内"></textarea>
+                                    </div>
+                          </div>
+<!--荣誉证书  -->
+                         <div class="D_honor">
+                               <div>
+                                      <div class=" data_title # fl">荣誉证书：</div>
+                                      <span class="add_btn">添加</span>
+                                      <p>注：外旅局授予证书、省市级优秀导游、旅游顾问证、导游资格证、领队资格证、旅行社部门经理资格证、旅行社总经理资格证</p>
+                                </div>
+                            <div class="honor_nav">
+                                    <table aria-describedby="editabledatatable_info" class="table table-bordered dataTable no-footer col_tbtj" style="width:100%;position: relative;">
+                                            <thead>
+                                                  <tr role="row">
+                                                      <th style="width: 100px;text-align:center;">证书名称 </th>
+                                                     <th style="width: 150px;text-align:center;font-weight:500">扫描件</th>
+                                                     <th style="width: 150px;text-align:center;font-weight:500">操作</th>
+                                               </tr>
+                                            </thead>
+                                            <tbody class="train_table">
+                                               <tr class="train_len">
+                                                      <td style="text-align:center">导游证</td>
+                                                      <td style="text-align:center; ">
+                                                            <span class="add_btn">上传</span>
+                                                      </td>
+                                                      <td><span class="Delete">删除</span></td>
+                                                  </tr>
+                                               <tr role='row' class='tianjia' style="">
+                                                         <td style="text-align:center">
+                                                            <input class=" nm_zhengshu" placeholder="请填写证书名称"> 
+                                                          </td>          
+
+                                                        <td style="text-align:center">
+                                                                      <span  class="add_btn">上传</span>
+                                                        </td>
+                                                         <td><span class="Delete">删除</span></td>
+                                              </tr> 
+                                                                         
+                                            </tbody>            
+                             
+                            
+                                  </table>
+                              </div>
+                         
+                                                    <!--  <div class="clear">
+                                                      <div class=" front_col col_sq fl">
+                                                              <p class="fl" style="color:#333;"><span style="color: red;">*</span>外旅局授予证书：</p>
+                                                              <input type="text" placeholder="证书名称">
+                                                      </div>
+                                                      <div class=" front_col  R_saomiao">扫描件<span  class="add_btn">上传</span></div>
+                                                      
+                                                     </div> -->
+                           </div> 
+<!-- 个人简历 -->
+                          <div class="personal_resume clear">
+                                     <div class="registered_title"><div class="Bar"></div><span>个人简历</span>专业的简历是您通过管家资质审核的关键</div>
+                                     <p>以下现实与管家页面(旅游从行业年限可累加并详述如下)</p>
+                                     <div class="Education clear">
+                                                      <div class=" front_col  fl">
+                                                              <label>毕业院校</label>
+                                                              <input type="text" placeholder="学校名称">，
+                                                              
+                                                      </div>
+                                                      <div class="front_col  fl">
+                                                              <label>从业于</label>
+                                                              <input type="text" placeholder="岗位名称">，
+                                                      </div>
+                                                      <div class="front_col fl">
+                                                             
+                                                              <input type="text" placeholder="工作年限">
+                                                              <span style="margin-top:5px">年</span>
+                                                      </div>
+                                     </div>
+                                     <div class="D_resume clear">
+                                              <div class=" data_title #">
+                                                  <span  class="add_btn">添加从业经历</span>
+                                                   <span style=" color:#ff0000; padding-left:10px;">以下不公平显示,仅做管家资质审核用(非旅游从业不可填)</span>
+                                             </div>
+                                              <div class="resume_nav">
+                                                      <table aria-describedby="editabledatatable_info" class="table table-bordered dataTable no-footer" style="width:100%">
+                                                                  <thead>
+                                                                             <tr role="row">
+                                                                                     <th style="width: 200px;text-align:center">起止时间 </th>
+                                                                                     <th style="width: 150px;text-align:center">所在企业</th>
+                                                                                     <th style="width: 150px;text-align:center">职务 </th>
+                                                                                     <th style="width: 300px;text-align:center">工作描述</th>
+                                                                               </tr>
+                                                                  </thead>
+                                                                  <tbody class="train_table">
+                                                                             <tr class="train_len">
+                                                                                    <td style="text-align:center">2015-05-15<span>&nbsp;&nbsp;至&nbsp;&nbsp;</span>2015-05-22</td>
+                                                                                    <td style="text-align:center">深圳海外</td>
+                                                                                    <td style="text-align:center">导游</td>
+                                                                                    <td style="text-align:center">本人具有和独角兽的环境撒大环境啊哈大家</td>
+                                                                            </tr>
+                                                                            <tr class="train_len">
+                                                                                    <td style="text-align:center"><input class="time" type="text">&nbsp;&nbsp;至&nbsp;&nbsp;<input class="time" type="text"></td>
+                                                                                    <td style="text-align:center"><input class="time_1"  type="text"></td>
+                                                                                    <td style="text-align:center"><input class="time_1"  type="text"></td>
+                                                                                    <td style="text-align:center"><input class="time_1"  type="text"></td>
+                                                                            </tr>                          
+                                                                  </tbody>
+                                                   </table>
+                                              </div>
+                                    </div>
+                          </div>
+                          <div class="Verification_div">
+                                      <p class="fl" style="line-height:8px"><span style="color: red;">*</span>验证码：</p>
+                                        <input style-="position:relative;" type="text" >
+                                        <span  class="add_btn" >获取验证码</span>
+                                        <div class="stered_input" id="yzm" style="">
+                        
+                                                <input style="width:90px;" type="text" class="stered_five fl" placeholder="验证码" name="code" id="input5" maxlength="4">
+                                                  <div class="stered_yanzheng ">
+                                                           <img style="-webkit-user-select: none; width:88px; height:34px; margin-left:8px" src="#" id="verifycode">
+                                                  </div>
+                                                  <div style="margin-top:10px; text-align:center">
+                                                      <input type="button" value="发送" class="yzm_tijiao">
+                                                      <input type="button" value="关闭" class="yzm_guanbi"> 
+                                                  </div>   
+                                          </div>
+                           </div>
+                          <div class="xieyi" style="margin-left:0px">
+                                    <div class="fl"><input type="checkbox" name="isAgree" value="1" autocomplete="off">
+                                    同意<a target="_blank" href="/service/expert_agreement">&lt;&lt;帮游管家服务总则及合作协议&gt;&gt;</a></div>
+                                    <div class="fl" style="margin-left:15%"><span class="tijiao_btn">提交审核</span></div>
+                        </div>
+             </div>
+ <!--境外管家  -->
+        <div class="territory_details territory_wai" style="display:none;">
+  <!--账号申请 -->                                     
+                           <div class="account_application" style="">
+                                <div class="registered_title"><div class="Bar"></div><span>申请账号</span></div>
+                                <div class="clear">
+                                     
+                                        <div class=" front_col col_sq fl" style="">
+                                                 <label><span style="color: red;">*</span>电子邮箱：</label>
+                                                 <input type="text" placeholder="登录账号">
+                                        </div>
+                                        <div class="front_col col_sq fl">
+                                               <label><span style="color: red;">*</span>设置密码：</label>
+                                                <input type="text" placeholder="6-20位,区分大小写">
+                                        </div>
+                                         <div class="front_col ">
+                                               <label style=""><span style="color: red;">*</span>确认密码：</label>
+                                                <input type="text" placeholder="请再次输入">
+                                          </div>
+                                </div>
+                          </div>
+  <!--个人信息 -->                                            
+                          <div class="personal_information" style="">
+                                 <div class="registered_title"><div class="Bar"></div><span>个人信息</span>您的隐秘信息将被得到保护</div>
+                                          <div class="clear">
+                                                      <div class=" front_col col_sq fl">
+                                                              <label><span style="color: red;">*</span>昵称：</label>
+                                                              <input type="text" placeholder="登录账号">
+                                                      </div>
+                                                      <div class="front_col col_sq fl" style="line-height:35px;padding-right:9%">
+                                                              <label class="fl"><span style="color: red;">*</span>设置密码：</label>
+                                                              <div class="gender_B fl">
+                                                                   <input style="left:-18px;" type="radio" name="gender" id="male" checked="checked">
+                                                                  <label for="male" style="float:none;">男</label>
+                                                              </div>
+                                                               <div class="gender_G fl">
+                                                                   <input style="left:-18px;" type="radio"  name="gender" id="female">
+                                                                   <label for="female" style="float:none;">女</label>
+                                                              </div>
+                                                      </div>
+                                                      <div class="front_col ">
+                                                              <label style=""><span style="color: red;">*</span>电子邮件：</label>
+                                                              <input type="text" placeholder="">
+                                                      </div>
+                                          </div>
+                                         <div class="clear">
+                                                      <div class=" front_col col_sq fl">
+                                                              <label><span style="color: red;">*</span>真实姓名：</label>
+                                                              <input type="text" placeholder="">
+                                                      </div>
+                                                      <div class="front_col col_sq fl">
+                                                              <label><span style="color: red;">*</span>证件类型：</label>
+                                                              <input type="text" placeholder="">
+                                                      </div>
+                                                      <div class="front_col ">
+                                                              <label style=""><span style="color: red;">*</span>证件号码：</label>
+                                                              <input type="text" placeholder="">
+                                                      </div>
+                                          </div>
+                                            <div class="front_col ">
+                                                              <label style=""><span style="color: red;">*</span>微信号：</label>
+                                                              <input type="text" placeholder="">
+                                                      </div>
+                                          <div class="clear">
+                                                      <div class=" front_col col_ts fl" style="margin-top:8px;">
+                                                              <div class="fl"><span style="color: red;">*</span>上传头像：</div>
+                                                              <img class="" src="#" style="width:120px; height:120px; " id="imghead">
+                                                              <span class="add_btn">上传</span>
+                                                      </div>
+                                                      <div class=" front_col  fl"style="margin-top:10px;">
+                                                              <div class="fl"><span style="color: red;">*</span>证件扫描件：</div >
+                                                              <img class="form-control date-picker" src="#" style="  width:350px; height:200px;display:inline; " id="">
+                                                              <span  class="add_btn">上传</span>
+                                                      </div>
+                                          </div> 
+                                         <div class="R_city clear">
+                                                      <div class=" front_col col_ts fl">
+                                                              <div class="front_col  fl">
+                                                              <label><span style="color: red;">*</span>所属城市：</label>
+                                                              <select style="width:100px;height:30px;line-height:30px" type="text" placeholder="选择省份">
+                                                                        <option value="0">请选择</option>
+                                                              </select> 
+                                                              <!-- <input style="width:100px" type="text" placeholder="选择城市"> -->
+                                                      </div>
+                                                      </div>
+                                                      <div class=" front_col door_service  fl" style="line-height:35px;margin-top:13px;">
+                                                              <label class="fl"><span style="color: red;">*</span>上门服务：</label>
+                                                             
+                                                                <div class="fl" > 
+                                                                      <div class="gender_B fl">
+                                                                             <input style="left:-18px;" type="radio" name="gender">是
+                                                                       </div>
+                                                                      <div class="gender_G fl">
+                                                                             <input style="left:-18px;" type="radio"  name="gender">否
+                                                                     </div>
+                                                               </div>
+                                                      </div>
+                                     </div> 
+                                    <div class="R_road clear">
+                                                      <div class=" front_col col_sq ">
+                                                              <label><span style="color: red;">*</span>擅长线路：</label>
+                                                              <input type="text" placeholder="选择目的地">
+                                                      </div>
+                                                      
+                                                      
+                                    </div>
+                                    <div class="'clear" style="margin-bottom:30px;">
+                                                       <div class="fl"><span style="color: red;">*</span>个人描述： &nbsp;</div>
+                                                       <textarea placeholder="用于管家页面 个人介绍展示,150字以内"></textarea>
+                                    </div>
+                          </div>
+
+<!-- 个人简历 -->
+                          <div class="personal_resume clear">
+                                     <div class="registered_title"><div class="Bar"></div><span>个人简历</span>专业的简历是您通过管家资质审核的关键</div>
+                                     <p>以下现实与管家页面(旅游从行业年限可累加并详述如下)</p>
+                                     <div class="Education clear">
+                                                      <div class=" front_col  fl">
+                                                              <label>毕业院校</label>
+                                                              <input type="text" placeholder="学校名称">，
+                                                      </div>
+                                                      <div class="front_col  fl">
+                                                              <label>从业于</label>
+                                                              <input type="text" placeholder="岗位名称">，
+                                                      </div>
+                                                      <div class="front_col fl">
+                                                             
+                                                              <input type="text" placeholder="工作年限">
+                                                              <span style="margin-top:5px">年</span>
+                                                      </div>
+                                     </div>
+                                     <div class="D_resume clear">
+                                              <div class=" data_title #">
+                                                  <span  class="add_btn">添加从业经历</span>
+                                                   <span style=" color:#ff0000; padding-left:10px;">以下不公平显示,仅做管家资质审核用(非旅游从业不可填)</span>
+                                             </div>
+                                              <div class="resume_nav">
+                                                      <table aria-describedby="editabledatatable_info" class="table table-bordered dataTable no-footer" style="width:100%">
+                                                                  <thead>
+                                                                             <tr role="row">
+                                                                                   <th style="width: 200px;text-align:center">起止时间 </th>
+                                                                                   <th style="width: 150px;text-align:center">所在企业</th>
+                                                                                   <th style="width: 150px;text-align:center">职务 </th>
+                                                                                   <th style="width: 300px;text-align:center">工作描述</th>
+                                                                           </tr>
+                                                                  </thead>
+                                                                  <tbody class="train_table">
+                                                                         <tr class="train_len">
+                                                                                  <td style="text-align:center">2015-05-15<span>&nbsp;&nbsp;至&nbsp;&nbsp;</span>2015-05-22</td>
+                                                                                  <td style="text-align:center">深圳海外</td>
+                                                                                  <td style="text-align:center">导游</td>
+                                                                                  <td style="text-align:center">本人具有和独角兽的环境撒大环境啊哈大家</td>
+                                                                        </tr>
+                                                                        <tr class="train_len">
+                                                                                <td style="text-align:center"><input class="time" type="text">&nbsp;&nbsp;至&nbsp;&nbsp;<input class="time" type="text"></td>
+                                                                                <td style="text-align:center"><input class="time_1"  type="text"></td>
+                                                                                <td style="text-align:center"><input class="time_1"  type="text"></td>
+                                                                                <td style="text-align:center"><input class="time_1"  type="text"></td>
+                                                                        </tr>                          
+                                                                  </tbody>
+                                                   </table>
+                                              </div>
+                                    </div>
+                          </div>
+                          <div class="Verification_div">
+                                      <p class="fl" style="line-height:8px"><span style="color: red;">*</span>验证码：</p>
+                                        <input style-="position:relative;" type="text" >
+                                        <span  class="add_btn" >获取验证码</span>
+                                        <div class="stered_input" id="yzm" style="">
+                        
+                                                <input style="width:90px;" type="text" class="stered_five fl" placeholder="验证码" name="code" id="input5" maxlength="4">
+                                                  <div class="stered_yanzheng ">
+                                                           <img style="-webkit-user-select: none; width:88px; height:34px; margin-left:8px" src="#" id="verifycode">
+                                                  </div>
+                                                  <div style="margin-top:10px; text-align:center">
+                                                      <input type="button" value="发送" class="yzm_tijiao">
+                                                      <input type="button" value="关闭" class="yzm_guanbi"> 
+                                                  </div>   
+                                          </div>
+                           </div>
+                          <div class="xieyi" style="margin-left:0px">
+                                    <div class="fl"><input type="checkbox" name="isAgree" value="1" autocomplete="off">
+                                    同意<a target="_blank" href="/service/expert_agreement">&lt;&lt;帮游管家服务总则及合作协议&gt;&gt;</a></div>
+                                    <div class="fl" style="margin-left:15%"><span class="tijiao_btn">提交审核</span></div>
+                        </div>
+             </div>
+   </div>
+  </div>
+</div>
+<script type="text/javascript">
+  $(function  () {
+    //验证码弹框
+    $('.Verification_div .add_btn').click(function(){
+                      $(this).siblings('div').show();
+    });
+    $('.yzm_guanbi').click(function(){
+                      $('#yzm').hide()
+    });
+    //境内外切换
+     $('.territory').click(function(){
+                      $('.territory_on').show()
+                      $('.territory_wai').hide()
+                       
+    });
+      $('.abroad ').click(function(){
+                      $('.territory_on').hide()
+                      $('.territory_wai').show()
+                     
+    });
+    
+  })
+</script>
+
+</body>
+</html>

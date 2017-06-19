@@ -1,0 +1,50 @@
+.reg_body {background:url(../../img/user/reg_bg.jpg) 0 0 no-repeat;background-size:100%}
+.register_header {border-bottom:6px solid #4c8704;height:75px;background:#fff}
+.register_header>div {width:1200px;height:75px;margin:0px auto;padding-top:6px;position:relative}
+.reg_header_img {height:56px;border-right:2px solid #ececec;padding-right:30px;margin-top:3px}
+.reg_header_img a img {width:228px;height:56px}
+.stered_member{width:300px;height:60px;padding-top:15px;padding-left:30px}
+.reg_title {font-size:24px;font-family:"黑体";line-height:70px;color:#000;margin-left:30px;width:150px}
+.reg_header_txt {font-family:"黑体";font-size:14px;color:#343434;height:20px;width:250px;right:0px;bottom:5px;position:absolute}
+.reg_header_txt a {color:#1e28a8;padding:0px 10px}
+.stered_member h2{font-weight:normal;font-size:28px;line-height:40px}
+.stered_member2 h2{font-weight:normal;font-size:16px;line-height:40px;margin-top:60px}
+.stered_member2 h2 a{color:#4c8704;text-decoration:underline}
+.stered_content{width:100%;height:100%;background:rgba(0,0,0,.6);position:fixed;top:0;z-index:9999;display:none}
+.stered_content_too{ width:100%;height:100%;position:fixed;top:0}
+.stered_back{width:1200px;background:#fff;position:absolute;top:50%;left:50%;margin-top:-255px;margin-left:-600px;border:5px solid #a6a6a6;border-radius:5px;}
+.stered_back .stered_title{position:relative;width:1200px;height:60px;background-color:#60af00;text-align:center;color:#FFF;font-family:"黑体";font-size:36px;line-height:60px}
+.stered_title{position:relative}
+.stered_back .stered_main{position:relative; width:320px;margin:0 auto}
+.stered_back .stered_input{position:relative; width:320px;margin-bottom:30px;height:44px;padding-right:2px}
+#pw2{margin-bottom:20px}
+#yzm {height:78px;position:absolute;top:115px;z-index:100;background:url(../img/yanzheng_bg.png);overflow:hidden;left:160px;padding:10px;padding-top:30px}
+.yzm_tijiao{width:101px;height:32px;background:#f7830a;border:none;color:#fff;font-family:"微软雅黑";float:left;margin-top:5px}
+.yzm_guanbi{width:92px;height:32px;background:#f7830a;border:none;color:#fff;font-family:"微软雅黑";float:right;margin-top:5px;margin-right:4px}
+/*stered input*/
+.input_html{display:block;height:40px;line-height:40px;text-align:center;color:#f30;font-size:14px}
+.stered_one, .stered_two, .stered_three, .stered_four, .stered_five{color:#000;font-size:16px;line-height:40px;padding-left:10px;color:#666}
+.stered_one{width:54px;height:40px;border:1px solid #999;background:#fff;font-size:22px;font-family:"黑体"}
+.stered_two{width:226px;height:40px;border:1px solid #999}
+.stered_three{width:140px;+width:140px;height:40px;border:1px solid #999}
+.stered_four{width:308px;+width:306px;height:40px;border:1px solid #999}
+.stered_phone{width:160px;height:40px;position:relative}
+.stered_phone span{border:none;background-color:#3377dd;border-radius:3px;width:160px;height:42px;line-height:42px;text-align:center;cursor:pointer;color:#FFF;font-size:18px;font-family:"黑体";font-weight:normal;position:absolute}
+.stered_five{width:90px;height:32px;line-height:32px;border:1px solid #999;background-color:#fff}
+.stered_yanzheng{width:90px;height:36px;border:1px solid #999;background-color:#FFF;margin-left:15px}
+.stered_Prompt{height:40px;line-height:30px;margin-left:5px}
+.stered_Prompt a{color:#49a0df;font-size:14px;font-family:"黑体"}
+.stered_agreement{width:320px;font-size:13px;height:20px;margin-bottom:20px}
+.stered_agreement_one{margin-left:10px;font-family:"新宋体";color:#000}
+.stered_agreement_two a{margin-left:15px;color:#4c8704;font-family:"黑体"}
+.stered_botton input{border:none;background-color:#f7830a;border-radius:3px;width:320px	;height:45px;color:#FFF;margin-top:10px;font-size:24px;font-family:"黑体";cursor:pointer;margin-bottom:30px}
+.reg_info{position:absolute;left:330px;width:300px;color:#f00;font-size:16px}
+.stered_keep{text-align:center;margin-top:12px;width:800px;margin:0 auto;font-size:14px;color:#535050;font-family:"微软雅黑";color:#000}
+.container {width:400px;height:400px;position:absolute;top:100px;left:775px;top:82px}
+.container ol li {height:44px;line-height:44px;width:400px;overflow:hidden;font-szie:18px;color:#f00;margin-bottom:30px}
+.container ol li label{display:none;background:url(../../img/user/order_four_ico_06.png) no-repeat 0px 15px}
+.container ol li span{padding-left:16px;font-weight:600;color:#EA5200}
+/*注册css结束*/
+.close_retrieve_box1{position:absolute;top:-10px;right:-10px;color:#999;font-size:20px !important;cursor:pointer;line-height:normal !important;width:22px;height:22px;line-height:22px;background:#fff;border-radius:20px}
+.xieyi{width:800px;height:600px;overflow:hidden;background:#f54;position:absolute;top:0;margin:0 auto;z-index:100}
+.dongtai{display:none}

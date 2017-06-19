@@ -1,0 +1,83 @@
+body{ font: 12px/1.5 'Hiragino Sans GB',"微软雅黑",sans-serif; line-height:150%; margin: 0; padding:0; color:#333;}
+div{ padding:0; margin:0;}
+ h1,h2,h3,h4,h5,h6,ul,li,dl,dt,dd,form,img,ol,p{margin:0; padding:0; border:none; list-style-type:none;}
+ a{ color:#000; text-decoration:none}
+ IMG {BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; BORDER-TOP: 0px; BORDER-RIGHT: 0px; margin:0;}
+ EM {FONT-STYLE: normal; FONT-WEIGHT: normal;font-family: Arial,Helvetica,sans-serif;}
+ A {COLOR: #333; TEXT-DECORATION: none}
+ A:hover{ text-decoration:none}
+img { border:none; }
+ i,em { font-style:normal;}
+ input:-webkit-autofill {-webkit-box-shadow: 0 0 0px 1000px white inset;}
+ input { outline:none;}
+/* public */
+.clear { zoom:1; clear:both; }
+.clear:after { content:''; display:block; clear:both; }
+.fl { float:left; }
+.fr { float:right; }
+textarea { font-size:12px;outline:none;resize:none;}
+.money_ico { font-family:"arial";font-size:12px !important;}
+/*轮播图css*/
+.slides{width:100%; height:90%;overflow:hidden;}
+.slideInner{ height:100%;position:relative;left:0;margin-left:0;}
+.slideInner a{display:block; height:100%; width: 100%; background-size:cover;background-position:center center;position:relative;text-align:center;z-index:1;}
+.slideInner a div.img1{width:1070px;position:absolute;left:50%;margin-left:-535px;}
+.slideInner a div.img2{width:1070px;position:absolute;top:557px;left:50%;margin-left:-535px;}
+.slideInner .slide3 .img2{top:200px;}
+.slideInner .slide3 .img3{width:181px;height:286px;position:absolute;left:50%;margin-left:330px;top:330px;}
+.nav{position:relative; margin: 0 auto;}
+.nav a{display:block;width:41px;height:119px;opacity:.2;z-index:9;}
+.nav a.prev{position:absolute;left:0;top:-480px;margin-top:-58px;background:url(../../../static/img/ban_pre.png) no-repeat;}
+.nav a.next{position:absolute;right:0;top:-480px;margin-top:-58px;background:url(../../../static/img/ban_next.png) no-repeat;}
+.navListBox{position:absolute;left:50%;bottom:100px;z-index:99;}
+.navListBox li{width:12px;height:12px;float:left;margin-left:5px;border-radius:50%;overflow:hidden;}
+.navListBox li:first-child{margin-left:0;}
+.navListBox li a{display:block;width:100%;height:100%;border-radius:50%;background-color:#fff;box-shadow:0 0 5px #666 inset;}
+.navListBox li a.active{background-color:#5aa400;}
+/*头部*/
+.header{ width: 100%; height:10%; background: #fff;}
+.wid_1200{ width: 1000px; height:100%; margin: 0 auto; background: #ffffff;}
+.head_right{ float: right;}
+.shouye_nav ul li{ float: left; width: 96px; font-size: 14px; text-align:center;}
+.shouye_nav ul{}
+.shouye_logo{ float: left; margin-top:15px;}
+.shouye_nav{ margin-top: 20px;}
+.shoye_yelhead img{ margin-top: 10px; margin-left: 130px; float: left;}
+.shoye_yelhead{ height: 30px; line-height: 30px;}
+.shoye_yelhead span{ float: right; margin-right: 20px;}
+.shoye_yelhead span a{ color: #666; margin: 10px;}
+.photo_con{ position: relative; width:1000px; margin: 0 auto; clear:both; top:100px;}
+.shouye_til{ font-size: 20px; font-family:"微软雅黑"; position: relative; left:-100px; top:36px;}
+/*版面内容 banner 1 2 3张*/
+.xiala{ position: relative; top: -20px; right: -80px;}
+.zhengji{ background:rgba(0,0,0,0.5); padding: 20px 0; text-align: center;border-radius: 5px; color: #fff; margin: 0 auto; font-size:30px; font-weight: bold; margin-top: 30px; width: 360px;}
+.huodong_box{ clear: both; padding-top: 50px; text-align:center; overflow:hidden;}
+.huodong_box img{ text-align:center;}
+.banner_onetext{ margin: 0 auto; width: 600px;}
+.zhaoji_banlv{ float: left; margin-left: 350px;}
+.xunzhao_team{ float: right; margin-right: 350px;}
+.input_box{ position:relative; background: #fff; background:rgba(255,255,255,0.2); filter:alpha(opacity=20); position:static; zoom:1; width: 630px; height: 60px; margin: 0 auto; border-radius: 5px;z-index: 1000000;}
+.input_con{ background: #fff; height: 40px; border-radius: 4px; width: 600px; margin-left: 15px; position: relative; top:9px;}
+.textku{ height: 24px; line-height: 24px; margin-top:8px; width: 448px; float: left; padding-left: 10px; border: none;outline: none;}
+.select{ float: left; font-size: 18px; position: relative;}
+.default{ background: #fff; width: 100px; height: 40px; line-height: 40px; text-align: center; border-right:1px solid #ccc;cursor:pointer}
+.input_hidden{ overflow: hidden; width: 100px; position: absolute; background: #fff; display:none;}
+.input_hidden li{ display: block; height: 40px; line-height: 40px;cursor:pointer}
+.select i{ background:url(../images/xila.png); width: 7px; height: 4px; position: absolute; z-index: 100; display: inline-block; right:10px; top:20px;}
+.seash_btn{ width: 40px; height: 40px; float: right; border: none;outline: none;border-top-right-radius:4px;border-bottom-right-radius:4px;color: #fff;cursor:pointer; background: #acd476 url(../../../static/img/seach.png)  no-repeat center center; position: relative; top:-40px;}
+.text_box{ background: #fff; height: 40px; border-radius: 5px;}
+.text_box input{ color: #666; font-size: 14px; position: absolute; z-index: 9999; left:101px;}
+.fication{ display: inline-block; margin: 0 auto;}
+.fication li{ width: 120px; height: 54px; line-height: 54px; float: left; margin: 0 20px; border-radius:5px; border: 1px solid #fff; color: #fff; font-size: 18px; }
+.fication_on{ background: #5aa400; border: 1px solid #5aa400;}
+.xaiy{width: 600px; margin: 0 auto; text-align: left; color: #fff;}
+.fication div{ cursor: pointer;}
+.seach{ position:absolute; top: 0; background:none; filter:alpha(opacity=0); opacity: 0;}
+.input_hidden li:hover{ background: #e5e5e5;}
+.fication li a{ width:120px; height: auto; }
+.selected{}
+.shouye_nav li a:hover{ color: #F60;}
+.hover_fenx a:hover{ color: #F60;}
+.chanp, .guanj, .tiya{ text-align:center;}
+#gj, #cp, #sr{ float:left; margin:0 30px; width:120px; height:54px; border: 1px solid #fff; font-size:16px; text-align:center; line-height:54px; border-radius:5px; color:#fff;}
+

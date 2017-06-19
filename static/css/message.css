@@ -1,0 +1,15 @@
+.os1000{width:1000px;margin:25px auto}
+.order_sc, .notice{width:700px;margin:0 auto;line-height:20px;padding-bottom:30px}
+.conn_sm{margin:30px 20px}
+.cdyellow{color:rgba(255, 97, 0, 0.85)}
+.order_btn{width:700px;margin:0 auto;text-align:center}
+.yellow_btn{display:inline-block;width:120px;height:36px;border:0 none;text-align:center;vertical-align:middle;font:bold 14px/36px '宋体';color:#fff;cursor:pointer;background:url(http://img1.tuniucdn.com/u/user/order/img/quick_btn_bg.png) no-repeat}
+.sm-xixin{font-size:22px; color:blueviolet; padding-left:8px; letter-spacing:2px}
+.sm-p{padding-top:17px; font-size:17px; color:black}
+.sm-youke{font-size:21px; color:blueviolet; margin-top:15px}
+.sm-youke span{font-size:19px;  color:forestgreen; padding-left:50px; cursor:pointer}
+.tab{width:500px}
+.tab ul li{padding:10px}
+.tab span{text-align:right}
+.miss{margin-top:10px}
+.miss a{font-size:17px; padding-left:31px} 

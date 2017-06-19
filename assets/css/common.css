@@ -1,0 +1,75 @@
+@CHARSET "UTF-8";
+.w80{
+	width:80px;
+	padding-right: 0px;
+    padding-left: 0px;
+}
+
+.search .col-lg-4{
+   padding-right: 0px;
+   padding-left: 0px;
+}
+
+.col-lg-4.control-label { width:auto !important;padding-right:0 !important;}
+
+.layui-layer-page { margin-left:0 !important;}
+
+.form-horizontal .form-group input { width:auto;}
+input[value='搜索'] { margin-left:30px;}
+input,select,textarea { border: 1px solid #bbb !important;}
+
+.form-horizontal .form-group { width:auto;margin:0;padding-bottom: 10px;}
+.form-group label { margin-bottom:0;}
+.search_group select { height:25px;line-height:23px;}
+.fg_div select { height:34px;line-height:34px;}
+
+#profile17 .form-horizontal .form-group input { line-height:21px;height:25px;padding:2px 3px;} 
+#profile12 .form-horizontal .form-group input { line-height:21px;height:25px;padding:2px 3px;} 
+#profile13 { min-height:600px !important;}
+.page-body { background:#fff !important}
+
+#calendarDiv input[type="checkbox"] { margin-right:0;}
+
+/*.nui-scroll::-webkit-scrollbar {
+	width:10px;
+	height:10px
+}*/
+#sidebar { z-index:10000;}
+.page-content { min-width:1040px !important;overflow-x:auto;}
+.main-container { padding-top:0 !important;margin-top:40px;background:#eaedf1;}
+
+.search_box .widget-body { padding-top:0;}
+.search_box .tab-content { padding:0 !important;}
+.search_box .form-horizontal .form-group { margin:0px 10px !important;}
+#myTab11 { margin-top:0px !important;}
+
+.pagination { margin-top:15px !important;}
+
+.table_form_content .form_group select,.table_form_content .form_group .form_input,.table_form_content .form_group input { padding:2px 3px;height:25px;line-height:21px;box-sizing:border-box;} 
+.table_form_content .form_group .form_textarea { padding:2px 3px;}
+
+#theme_arr { display:inline-block;margin-left:0;width:100%;font-size:12px;}
+#theme-list { position: relative; padding-right: 20px;}
+#theme-list a { position: absolute; right: 4px;}
+
+.nav-tabs>li{ background:#eaedf1;border-right:1px solid #fff;}
+.tab-content .widget-body { padding:0;}
+.search_box .widget-body { padding-top:10px !important;}
+#registration-form { padding-top:0 !important;}
+.tab-pane>form>.widget-body { padding-top:10px;}
+
+.table tr td.order_info_title {     padding-left: 0;  text-align: right; width: 80px; background: #f8f8f8; font-family: "微软雅黑"; padding-right: 5px;}
+.table>tbody>tr>td { border: 1px solid #e0e0e0 !important;}
+textarea.noresize { resize:none;}
+
+.lineDayDiv .checkbox label input { opacity:1;width:18px;height:18px;top:-7px;}
+
+.div_bt_i { margin-bottom:20px !important;margin-top:20px;}
+
+#profile13 .widget-body { margin-top:20px;}
+#registration-form .form-group .control-label { padding-left:0;}
+#registration-form .form-group div.col-lg-4 { padding-left:0;}
+#registration-form form .form-group { width:1000px;}
+.search_form_box { width:1000px;}
+
+.page-content { margin-left:160px;}

@@ -1,0 +1,84 @@
+/* public */
+.clear{zoom:1;clear:both;}
+.clear:after{content:'';display:block;clear:both;}
+.fl{float:left;}
+.fr{float:right;}
+textarea{font-size:12px;outline:none;resize:none}
+.w_1200{width:1200px;margin:0 auto}
+.money_ico{font-family:"arial";font-size:12px !important} 
+/* ========================== hearer ================================= */
+.header_content{height:115px}
+.header_logo{padding-top:38px;margin-right:100px}
+.logo_img{padding:0 11px 0 0;height:56px}
+.city_box{padding-top:8px}
+.header_logo .city{height:41px;padding-left:9px;border-left:1px solid #eeeeee;line-height:21px}
+.city_name{color:#686868;font-size:14px;position:relative;cursor:pointer}
+.city_name i{position:absolute;top:9px;right:-9px}
+.triangle-down{width:0;height:0;border-left:5px solid transparent;border-right:5px solid transparent;border-top:5px solid #000}
+.change_city{color:#bcbcbc;cursor:pointer;position:relative}
+.change_city span{position:relative}
+.change_city span i{position:absolute;top:20px;left:535px;width:25px;height:25px;display:none;font-size:14px;background:#dedede;text-align:center;line-height:25px;border-radius:50%;color:#999;cursor:pointer;z-index:10000}
+.change_city span i em{width:13px;height:13px;background:url(../img/x_ico1.png) 0 0 no-repeat;position:absolute;top:6px;left:6px}
+.hover_this{background:#ffae00 !important}
+.hover_this em{background:url(../img/x_ico2.png) 0 0 no-repeat !important}
+.search_line_form{position:relative}
+.header_search{width:470px;margin-top:43px;position:relative;border:1px solid #ffae00;height:35px}
+.header_search input{width:343px;*width:333px;border:none;height:35px;box-sizing:border-box;padding:0 5px;vertical-align:top;/* padding-top:11px\9;height:24px\9;*/ line-height:35px;font-size:12px;color:#999;outline:none}
+.search_submit_ico{display:inline-block;width:35px;height:35px;background:#ffae00 url(../img/bangu_ico.png) no-repeat 8px -41px;cursor:pointer}
+.header_search select{display:none}
+.header_search .select_box{font-size:12px;color:#666;width:92px;line-height:35px;float:left}
+.header_search .select_showbox{height:35px;background:url(../img/search_ico_hide.png) no-repeat 74px 17px;text-indent:1.5em;line-height:37px;border-right:1px solid #ffae00}
+.header_search .select_showbox.active{background:url(../img/search_ico_show.png) no-repeat 74px 17px}
+.header_search .select_option{border:1px solid #FFAE00;border-top:none;display:none;left:-1px;top:36px;position:absolute;z-index:99;background:#fff}
+.header_search .select_option li{text-indent:1.5em;width:91px;cursor:pointer}
+.header_search .select_option li.selected{background-color:#F3F3F3;color:#999}
+.header_search .select_option li.hover{background:#BEBEBE;color:#fff}
+.header_search input.inp_srh,.header_search input.btn_srh{border:none;background:none;height:35px;line-height:35px;float:left}
+.header_search input.inp_srh{outline:none;width:365px}
+.header_search input.btn_srh{background:#f58400;color:#FFF;font-family:"微软雅黑";font-size:15px;width:60px}
+.header_tel{width:144px;height:51px;color:#fff;background:#8f9c00;font-size:16px;margin-top:31px;text-align:center;line-height:26px;padding:5px 0px}
+.tel_ico{display:inline-block;width:22px;height:26px;background:url(../img/bangu_ico.png) no-repeat -39px 0;vertical-align:bottom;margin-right:5px}
+.tel_num{font-size:18px}
+.header_nav{height:40px;line-height:40px;background:#8f9c00}
+.header_nav li{float:left;height:40px}
+.index_nav li:hover{background:#a9b900}
+.header_nav .on{background:#a9b900}
+.header_nav a{display:inline-block;padding:0 30px;font-size:16px;color:#fff;font-family:"Hiragino Sans GB","microsoft yahei","Tahoma,arial","宋体","sans-serif"}
+.header_nav .f_12{font-size:12px;padding:0 15px}
+.header_user_nav  ul li:hover{background:#a9b900}
+/* ========================== footer ================================= */
+.footer{min-width:1200px}
+.footer_content{height:232px}
+.footer_img{height:137px}
+.footer_img img{width:1200px;height:137px}
+.footer_links{text-align:center;height:73px;background:#8f9c00;color:#fff;line-height:30px;padding-top:22px;margin-top:-1px}
+.footer_links a{color:#fff;display:inline-block;padding:0 15px}
+/*========================  右侧悬浮  返回顶部  ===============================*/
+.return_top{display:block;position:fixed;bottom:30px;right:25px;width:40px;height:85px;z-index:9999}
+.return_top ul li{width:40px;height:40px;background:#8f9c00;margin-bottom:5px;display:none}
+.return_top ul li a{width:40px;height:40px;position:relative;display:block;top:0px;left:0px;text-align:center}
+.return_top i{width:30px;height:15px;background:url(../img/return_top_ico.png) 0 0 no-repeat;position:absolute;top:12px;left:5px}
+.kefu_link .kefu_logo{width:35px;height:30px;position:relative;left:-1px;top:5px}
+.return_top ul li:hover{filter:alpha(opacity=70);/*IE滤镜，透明度60%*/-moz-opacity:0.7;/*Firefox私有，透明度60%*/opacity:0.7;/*其他，透明度60%*/}
+.kefu_message{position:absolute;left:40px;top:-15px;width:20px;height:16px;display:none}
+/*========================  下拉框效果  ===============================*/
+#expertAge{width:100px;height:30px;display:inline-block;margin-right:10px}
+#expertAge select{display:none}
+#expertAge .expertAge_box{font-size:12px;width:100px;position:relative;margin-top:1px;border:1px solid #ccc;background:#fff;cursor:pointer}
+#expertAge .expertAge_showbox{height:30px;background:url(../img/search_ico_hide.png) no-repeat 74px 13px;text-indent:0.5em;line-height:30px}
+#expertAge .expertAge_option{border-top:none;display:none;left:-1px;top:31px;position:absolute;z-index:999;border-bottom:1px solid #ccc;height:200px}
+#expertAge .expertAge_option li{text-indent:0.5em;width:100px;height:30px;line-height:30px;border-radius:0px;cursor:pointer;background:#fff;text-align:left;border-left:1px solid #ccc;border-right:1px solid #ccc;filter:alpha(opacity=100);-moz-opacity:1;opacity:1}
+#expertAge .expertAge_option li.selected{background-color:#F3F3F3;color:#999}
+#expertAge .expertAge_option li:hover{background:#BEBEBE;color:#fff}
+#expertAge .expertAge_option li:last-child{border-bottom:1px solid #ccc}
+.expertSex{position:relative;padding-left:30px;cursor:pointer}
+.expertSex input{width:50px;position:absolute;left:-5px;top:0px;*top:15px;cursor:pointer}
+.star_expert{margin-left:30px;position:relative;cursor:pointer}
+.star_expert input{width:130px;height:13px;position:absolute;left:-5px;top:0px;*top:19px;cursor:pointer}
+.right_jiantou{color:#ccc;padding:0px 5px;font-family:"icomoon";display:inline-block;font-size:10px;line-height:14px}
+.tuidanborder{width:50%;height:600px;margin:auto;margin-top:200px;border:1px solid #000}
+.tuidantitle{width:100%;height:80px;border-bottom:1px solid #000;text-align:center;line-height:80px;font-size:35px}
+.tuidanliyou{width:100%;height:430px;text-align:left;overflow:auto;border:1px solid #000;font-size:20px;}
+.submitbutton{line-height:30px;text-align:center;height:30px;width:10%;border:1px solid #000;display:block;margin-top:20px;position:relative;left:10%;background:#e0e0e0}
+.quxiaobutton{line-height:30px;text-align:center;height:30px;width:10%;border:1px solid #000;display:block;bottom:30px;position:relative;left:80%;background:#e0e0e0}
+.all_order{background-color:#309000;height:50px;width:10%;line-height:50px;color:#fff;text-align:center}

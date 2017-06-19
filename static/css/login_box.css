@@ -1,0 +1,52 @@
+/* CSS Document */
+.login_box{background:rgba(0,0,0,.6);border:5px solid #a6a6a6;text-align:center;z-index:9999;width:100%;height:100%;position:fixed;display:none;border-radius:5px;cursor:auto;top:0}
+.login_box2{background:#ffffff;border:5px solid #a6a6a6;text-align:center;z-index:999;width:370px;height:450px;left:50%;top:50%;margin-left:-190px;margin-top:-230px;position:fixed;border-radius:5px;cursor:auto}
+.login_title{height:31px;background:#f5f5f5;line-height:31px;position:relative}
+.login_title span{font-size:14px;color:#626262;padding-left:10px;float:left}
+.login_title i{width:11px;height:11px;background:url(../img/user/close_login.png) 0px 0px no-repeat;position:absolute;top:10px;right:10px;cursor:pointer}
+.login_content{width:300px;margin:0px auto}
+.big_title{font-size:30px;color:#4c8704;text-align:center;height:65px;line-height:65px;border-bottom:1px solid #4c8704}
+.form_box{width:280px;margin:10px auto}
+.info{height:20px;color:#f00;text-align:center;margin-bottom:10px;position:relative}
+.info span{display:none;position:relative;height:20px;overflow:hidden}
+.info span i{width:14px;height:14px;background:url(../img/user/order_four_ico_06.png) 0px 0px no-repeat;position:absolute;top:-1px;*top:4px}
+.info span a{margin-left:18px;color:#fc4007;font-size:16px}
+.input1,.input2,.input3{text-indent:0.5em}
+.input_div{height:30px;margin-bottom:15px}
+.input_title{font-size:16px;color:#6c6c6c;line-height:30px;width:65px;font-family:"微软雅黑"}
+.login_form_box div input{height:28px;border:1px solid #e0e0e0;margin-left:10px;line-height:28px}
+.input1,.input2{width:200px}
+.input3{width:128px}
+.yzm_img{width:60px;height:32px;margin-left:10px;cursor:pointer;margin-top:0px !important;border:1px solid #ccc;position:relative !important}
+#button_div input{width:280px;height:40px;background:#ff8800;font-size:24px;color:#fff;border-radius:3px;margin-left:0px;font-family:"微软雅黑";cursor:pointer;*border:none}
+.reg_link{color:#3e99dc;margin-bottom:20px}
+.reg_link a{color:#3e99dc;font-size:12px;text-align:center}
+.login_type_txt{border-top:1px solid #adadad;text-align:center;height:10px}
+.login_type_txt span{position:relative;top:-10px;color:#ababab;font-size:12px;font-family:"新宋体";background:#fff;padding:0 5px}
+.login_type_logo{margin-top:15px;height:30px}
+.login_type_logo a img{width:120px;height:30px}
+.zhanwei1{display:inline-block;width:32px}
+.zhanwei2{display:inline-block;width:10px}
+.login_botton{width:275px;height:40px;margin:0 auto;text-align:center;line-height:40px;color:#FFF;font-size:22px}
+.login_botton input{border:none;background-color:#f7830a;border-radius:3px;width:275px;height:40px;color:#FFF;cursor:pointer}
+.login_shu{height:13px;margin-top:13px;margin-bottom:18px;text-align:center;padding-bottom:9px}
+.login_shu a{color:#3e99dc;margin-left:7px}
+.login_yxfs{width:300px;height:12px;margin:0 auto;border-top:1px solid #ccc;color:#ababab;text-align:center}
+.otherlogin img{margin-top:-7px;float:left;padding-left:10px}
+.otherlogin span{float:left;padding:5px;padding-top:5px;font-size:14px;color:#999}
+.login_yxfs span{padding:5px 10px;background:#fff;display:inline-block;margin-top:-16px;height:25px}
+.otherlogin{width:300px;margin:0 auto;padding-top:20px;overflow:hidden}
+.logn_daoying{height:30px;overflow:hidden;;position:relative;width:352px;float:right;;right:-353px;top:433px;display:none}
+.logn_daoying_1{background-color:#fff;border-radius:15px;height:30px;transform:scaleY(-1);width:352px;opacity:0.2}
+.login_left{font-size:14px;height:28px;line-height:28px}
+.login-foot{width:1200px;margin:0 auto;font-size:14px; margin-top:61px;color:#000}
+.login-foot ul{margin:0 auto;overflow:hidden;margin-left:17%}
+.login-foot ul li{float:left}
+.login-foot ul li a{color:#000}
+.login-foot ul span{margin:0 13px}
+.login-keep{text-align:center;margin-top:15px}
+.zhanwei1{display:inline-block;width:32px}
+.zhanwei2{display:inline-block;width:10px}
+.hydl{float:left;border-top-left-radius:8px;}
+.dtmm{float:right;background:#f5f5f5;border-top-right-radius:8px;position:relative;left:1px;border-bottom:1px solid #ccc;border-left:1px solid #ccc}
+.shade_box{width:100%;height:100%;background:#f54}
