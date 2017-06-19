@@ -1,12 +1,7 @@
 
 <?php
 
-echo "hello world";
-//1
-
-//s
-
-//new branch
+echo "hello world"; //放在wwb我自己的仓库
 
 
 
