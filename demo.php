@@ -2,7 +2,7 @@
 <?php
 
 
-echo "hello world"; //centos
+echo "hello world"; //centos2.0
 
 
 
