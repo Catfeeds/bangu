@@ -1,7 +1,9 @@
 
 <?php
 
-echo "hello world"; //window
+
+echo "hello world"; //centos
+
 
 
 
